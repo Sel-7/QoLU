@@ -1,0 +1,20 @@
+l_english:
+
+#Provincial Investment
+echo_provincial_investment_title:0 "Issue Provincial Investment"
+echo_provincial_investment_desc:0 ""
+echo_provincial_investment_tt:0 "Creates a Production Hub in a province which meets the prerequisites."
+
+
+##CoT's 
+
+regional_port:0 "Regional Port"
+regional_port_desc:0 ""
+regional_hub:0 "Regional Hub"
+regional_hub_desc:0 ""
+world_port_2:0 "Trade Center Cap"
+world_port_2_desc:0 ""
+world_trade_center_2:0 "Trade Center Cap"
+world_trade_center_2_desc:0 "
+
+

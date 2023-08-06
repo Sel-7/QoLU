@@ -1,0 +1,89 @@
+######################
+#Quality Universalis MP Merc Stacks#
+######################
+
+##Quick note
+# These numbers arent perfect
+# 0.5 Artillery Weight just makes its so artillery follows combat width and everything else goes to inf.
+#I wanted to make it so you had 10 arty at tech 9 for the mercs, 
+#but you only end up with 10 at only a certain tech on the correct combat width so i just decided to save time with this method.
+
+
+merc_qolu_60_company = {
+	regiments_per_development = 0.04
+	cost_modifier = 0.5
+
+	min_size = 60
+	max_size = 60
+
+	artillery_weight = 0.5
+	cavalry_weight = 0
+	cavalry_cap = 0
+
+	trigger = {
+		mil_tech = 9
+	}
+}
+
+merc_qolu_80_company = {
+	regiments_per_development = 0.04
+	cost_modifier = 0.5
+
+	min_size = 80
+	max_size = 80
+
+	artillery_weight = 0.5
+	cavalry_weight = 0
+	cavalry_cap = 0`
+
+	trigger = {
+		mil_tech = 14
+	}
+}
+
+merc_qolu_100_company = {
+	regiments_per_development = 0.04
+	cost_modifier = 0.5
+
+	min_size = 100
+	max_size = 100
+
+	artillery_weight = 0.5
+	cavalry_weight = 0
+	cavalry_cap = 0
+
+	trigger = {
+		mil_tech = 18
+	}
+}
+
+merc_qolu_120_company = {
+	regiments_per_development = 0.04
+	cost_modifier = 0.5
+
+	min_size = 120
+	max_size = 120
+
+	artillery_weight = 0.5
+	cavalry_cap = 0
+
+	trigger = {
+		mil_tech = 26
+	}
+}
+
+merc_qolu_120_company_2 = {
+	regiments_per_development = 0.04
+	cost_modifier = 0.75
+
+	min_size = 120
+	max_size = 120
+
+	artillery_weight = 0.5
+	cavalry_cap = 0
+	cavalry_weight = 0
+
+	trigger = {
+		mil_tech = 26
+	}
+}

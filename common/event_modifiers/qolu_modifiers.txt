@@ -1,0 +1,22 @@
+economic_golden_age = {
+	all_power_cost = -0.1
+	global_trade_goods_size_modifier = 0.1
+}
+
+qolu_2colonists = {
+	colonists = 2
+}
+
+por_exploration = {
+	colonists = 1
+}
+
+adm_advisor_cd = {
+
+}
+dip_advisor_cd = {
+
+}
+mil_advisor_cd = {
+
+}
