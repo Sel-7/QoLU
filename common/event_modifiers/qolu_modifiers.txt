@@ -20,3 +20,10 @@ dip_advisor_cd = {
 mil_advisor_cd = {
 
 }
+
+disc_event_cd = {
+
+}
+morale_event_cd = {
+	
+}

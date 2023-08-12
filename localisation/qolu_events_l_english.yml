@@ -42,3 +42,7 @@ qolu.3.h:0 "£no£ Don't Recruit Anyone"
  echo.4.t:0 "A New Center of Trade!"
  echo.4.d:0 "After some deliberations, our merchants have successfully made $PROVINCE$ a center of trade."
  echo.4.a:0 "Good."
+
+#
+morale_cooldown:0 "Maybe Next Time"
+disc_cooldown:0 "Maybe Next Time"

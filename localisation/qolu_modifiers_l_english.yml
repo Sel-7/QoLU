@@ -6,3 +6,6 @@ war_chest:0 "War Chest"
 ahead_of_time:0 "Ahead of Time"
 
 economic_golden_age:0 "Economic Golden Age"
+
+disc_event_cd:0 "Commandant Cooldown"
+morale_event_cd:0 "Grand Captain Cooldown"
