@@ -6,7 +6,7 @@ country_event = {
     picture = COURT_eventPicture
 
     trigger = {
-            has_country_modifier = We_stand_alone
+            has_country_modifier = imperial_ambition
 			NOT = {
 				has_country_modifier = burnt_development
 			}

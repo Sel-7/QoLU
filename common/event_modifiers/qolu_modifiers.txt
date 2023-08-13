@@ -5,10 +5,18 @@ economic_golden_age = {
 
 qolu_2colonists = {
 	colonists = 2
+	range = 0.5
+	global_colonial_growth = 15
 }
 
 por_exploration = {
 	colonists = 1
+	range = 0.5
+	global_colonial_growth = 15
+}
+
+echo_development = {
+	development_cost = -0.125
 }
 
 adm_advisor_cd = {
