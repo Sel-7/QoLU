@@ -25,22 +25,6 @@ merc_qolu_60_company = {
 	}
 }
 
-merc_qolu_80_company = {
-	regiments_per_development = 0.04
-	cost_modifier = 0.5
-
-	min_size = 80
-	max_size = 80
-
-	artillery_weight = 0.5
-	cavalry_weight = 0
-	cavalry_cap = 0`
-
-	trigger = {
-		mil_tech = 14
-	}
-}
-
 merc_qolu_100_company = {
 	regiments_per_development = 0.04
 	cost_modifier = 0.5
