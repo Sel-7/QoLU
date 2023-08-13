@@ -1110,43 +1110,47 @@ exploration_ideas = {
 maritime_ideas = {
 	category = DIP
 
-	trigger = { always = no }
+	trigger = {
+		primitives = no
+		NOT = { has_idea_group = naval_ideas }
+	}
 
 	bonus = {
 		sea_repair = yes
-		movement_speed_in_fleet_modifier = 1 
+		allowed_marine_fraction = 0.15
 	}
 
-	merchant_traditions = {
-		naval_tradition_from_trade = 1.0
-		trade_range_modifier = 0.25
+	excellent_shipwrights = {
+		leader_naval_manuever = 1
+		disengagement_chance = 0.05
 	}
 	merchant_marine = {
-		global_sailors_modifier = 0.5
-		allowed_marine_fraction = 0.25
+		global_sailors_modifier = 0.33
+		sailors_recovery_speed = 0.20
 	}
 	sheltered_ports = {
-		global_ship_repair = 0.1
+		global_ship_repair = 0.2
 		sailor_maintenance_modifer = -0.1
 	}
 	grand_navy = {
-		naval_forcelimit_modifier = 0.5
-		ship_power_propagation = 0.25
+		naval_forcelimit_modifier = 0.35
+		naval_tradition_from_trade = 1
 	}
 	ships_penny = {
 		global_ship_cost = -0.1
+		global_ship_recruit_speed = -0.2
 	}
 	sea_hawks = {
-		global_naval_engagement_modifier = 0.1
-		admiral_cost = -0.25
+		admiral_cost = -0.2
+		free_leader_pool = 1
 	}
 	naval_fighting_instruction = {
-		blockade_efficiency = 0.5
-		privateer_efficiency = 0.25
+		global_ship_trade_power = 0.25
+		trade_efficiency = 0.10
 	}
 
 	ai_will_do = {
-		factor = 0.55
+		factor = 0.41
 		modifier = {
 			factor = 0
 			is_tribal = yes
@@ -1158,51 +1162,25 @@ maritime_ideas = {
 		modifier = {
 			factor = 0
 			NOT = { num_of_ports = 1 }
+			NOT = { is_colonial_nation = yes }
 		}
 		modifier = {
-			factor = 0.25
+			factor = 0.41
 			NOT = { num_of_ports = 10 }
-			current_age = age_of_discovery 
 		}
 		modifier = {
-			factor = 0.25
-			NOT = { num_of_ports = 20 }
-			current_age = age_of_reformation 
+			factor = 0.41
+			num_of_cities = 50
 		}
+
 		modifier = {
-			factor = 0.25
-			NOT = { num_of_ports = 30 }
-			current_age = age_of_absolutism 
-		}
-		modifier = {
-			factor = 0.25
-			NOT = { num_of_ports = 40 }
-			current_age = age_of_revolutions 
-		}
-		modifier = {
-			factor = 0.35
-			NOT = { num_of_ports = 15 }
-		}
-		modifier = {
-			factor = 1.5 
-			capital_scope = {
-				is_island = yes 
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
 			}
-		}
-		modifier = {
-			factor = 1.5
-			has_global_modifier_value = {
-				which = naval_forcelimit_modifier 
-				value = 0.25
-			}
-		}
-		modifier = {
-			factor = 1.15
-			light_ship_fraction = 0.25
-		}
-		modifier = {
-			factor = 2.5
-			has_government_attribute = is_pirate_republic_reform
 		}
 	}
 }
