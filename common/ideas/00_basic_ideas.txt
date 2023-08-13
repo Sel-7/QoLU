@@ -1223,7 +1223,7 @@ quality_ideas = {
 		max_general_fire = 1
 	}
 	finest_of_horses = {
-		army_tradition = 0.05
+		army_tradition = 0.5
 	}
 	escort_ships = {
 		drill_gain_modifier = 0.33
@@ -1631,7 +1631,7 @@ influence_ideas = {
 		diplomatic_reputation = 2
 	}
 	diplomatic_influence = {
-		liberty_desire = -30
+		reduced_liberty_desire = 30
 		diplomatic_annexation_cost = -0.2
 	}
 	postal_service = {
