@@ -63,6 +63,7 @@ feudalism = {
 					area = jilin_area
 					culture_group = byzantine
 					culture = kongolese
+					culture = shona
 					culture = mbundu
 					culture = songhai
 					culture = mali
