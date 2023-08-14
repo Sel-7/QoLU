@@ -1045,10 +1045,10 @@ merc_bukhara_band = {
 # Mesopotamian Mamluks
 merc_mesopotamian_mamluks = {
     regiments_per_development = 0.05
-    cavalry_weight = 0.4
+    cavalry_weight = 1
 	max_size = 40
-    artillery_weight = 0.2
-	cavalry_cap = 6
+    artillery_weight = 0
+	#cavalry_cap = 6
 	home_province = 410
 	cost_modifier = 1.1
 	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
@@ -1069,6 +1069,7 @@ merc_mesopotamian_mamluks = {
 	}
     modifier = {
         cavalry_shock = 1.0
+		cav_to_inf_ratio = 1
     }
 }
 
