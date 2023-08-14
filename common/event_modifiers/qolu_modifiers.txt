@@ -35,3 +35,11 @@ disc_event_cd = {
 morale_event_cd = {
 	
 }
+
+qolu_explo_cd = {
+
+}
+
+qolu_conqui_cd = {
+
+}
