@@ -35,3 +35,34 @@ mercantilism = {
 	burghers_loyalty_modifier = 0.1
 	vaisyas_loyalty_modifier = 0.1
 }
+
+tropical = {
+	local_colonial_growth = -10
+	supply_limit_modifier = -0.3
+	local_hostile_attrition = 2
+
+	#local_development_cost = 0.05
+
+	picture = "climate_tropical"
+}
+
+arctic = {
+	local_colonial_growth = -10
+	supply_limit_modifier = -0.4
+	local_hostile_attrition = 1
+
+	allowed_num_of_buildings = -1
+	#local_development_cost = 0.5
+
+	picture = "climate_arctic"
+}
+
+arid = {
+	local_colonial_growth = -10
+	supply_limit_modifier = -0.2
+	local_hostile_attrition = 1
+
+	#local_development_cost = 0.1
+
+	picture = "climate_arid"
+}
