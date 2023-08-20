@@ -2778,7 +2778,7 @@ ITA_ideas = {
 		prestige = 1
 	}
 	path_to_citizenship = {
-		core_creation = -0.25
+		land_morale = 0.15
 	}
 }
 
