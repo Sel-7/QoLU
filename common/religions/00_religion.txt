@@ -859,8 +859,6 @@ christian = {
 }
 
 muslim = {
-	allow_female_defenders_of_the_faith = yes
-	declare_war_in_regency = yes
 	defender_of_faith = yes
 	
 	center_of_religion = 385 # Mecca
