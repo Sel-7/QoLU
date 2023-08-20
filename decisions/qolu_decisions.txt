@@ -115,7 +115,7 @@ country_decisions = {
 		effect = {
 			add_country_modifier = {
 				name = por_exploration
-				duration = -1
+				duration = 18250
 			}
 			create_explorer = { tradition = 10 }
 		}

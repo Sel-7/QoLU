@@ -1578,7 +1578,8 @@ BRA_ideas = {
 
 POR_ideas = {
 	start = {
-		movement_speed_in_fleet_modifier = 1
+		colonists = 1
+		may_explore = yes
 		infantry_power = 0.1
 	}
 	
