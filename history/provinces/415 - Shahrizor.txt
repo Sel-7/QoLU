@@ -15,6 +15,7 @@ add_core = IRQ
 #add_core = TIM
 add_core = BHT
 add_core = ARD
+add_core = QAR
 
 
 discovered_by = east_african
