@@ -153,9 +153,9 @@ horde_gov_ideas = {
 		nomadic_tribes_loyalty_modifier = 0.1
 	}
 	
-	trigger = {
-		has_government_attribute = enables_horde_idea_group
-	}
+	#trigger = {
+	#	has_government_attribute = enables_horde_idea_group
+	#}
 	
 	horse_lords = {
 		cavalry_cost = -0.33
@@ -202,9 +202,9 @@ theocracy_gov_ideas = {
 		brahmins_muslim_loyalty_modifier = 0.1
 	}
 	
-	trigger = {
-		has_government_attribute = enables_divine_idea_group
-	}
+	#trigger = {
+	#	has_government_attribute = enables_divine_idea_group
+	#}
 	servants_of_god = {
 		devotion = 1
 		legitimacy = 0.5
