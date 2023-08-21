@@ -754,7 +754,7 @@ vassal_obligations_act = {
 		full_idea_group = economic_ideas
 	}	
 	
-	trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.1
 	vassal_forcelimit_bonus = 1
 	
 	effect = {}
@@ -2037,7 +2037,7 @@ plutocratic_rule_act = {
 		full_idea_group = plutocracy_ideas 
 	}
 	
-	trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.1
 	infantry_cost = -0.1
 
 	effect = {}

@@ -1154,7 +1154,7 @@ the_foreign_support_act = {
 		full_idea_group = economic_ideas
 	}
 
-	trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.1
 	spy_offence = 0.25
 	
 	effect = {}

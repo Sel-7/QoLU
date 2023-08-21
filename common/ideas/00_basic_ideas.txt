@@ -879,7 +879,7 @@ economic_ideas = {
 		great_project_upgrade_cost = -0.1
 	}
 	merchant_passes = {
-		trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 
 	ai_will_do = {
