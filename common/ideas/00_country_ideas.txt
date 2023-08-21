@@ -15046,7 +15046,7 @@ SYN_ideas = {
 
 MOR_ideas = {
 	start = {
-		naval_attrition = -0.25
+		galley_power = 0.2
 		naval_forcelimit_modifier = 0.25
 	}
 	bonus = {
@@ -15068,7 +15068,8 @@ MOR_ideas = {
 		caravan_power = 0.2
 	}
 	mor_fleet = {
-		galley_power = 0.2
+		naval_attrition = -0.25
+		
 	}
 	mor_pirate_republics = {
 		privateer_efficiency = 0.15
