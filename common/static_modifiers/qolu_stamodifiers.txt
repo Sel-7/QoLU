@@ -66,3 +66,26 @@ arid = {
 
 	picture = "climate_arid"
 }
+
+interest = 3
+land_morale = -0.75
+naval_morale = -0.75
+reinforce_speed = -1				#Slower reinforce
+bureaucrats_influence = 0.25
+mr_guilds_influence = 0.25
+manpower_recovery_speed = -1.0
+sailors_recovery_speed = -1.0
+#	advisor_cost = 0.5
+monthly_fervor_increase = -1
+#	global_institution_spread = -0.50
+monthly_militarized_society = -0.5
+monthly_prussian_militarized_society_1 = 0.02
+monthly_prussian_militarized_society_2 = 0.05
+monthly_prussian_militarized_society_3 = 0.075
+yearly_absolutism = -2.0
+#technology_cost = 0.5
+#idea_cost = 0.5
+imperial_mandate = -0.1
+defensiveness = -1
+great_project_upgrade_cost = 0.5
+monthly_russian_modernization = -1
