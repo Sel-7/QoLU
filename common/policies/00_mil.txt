@@ -250,7 +250,7 @@ modern_siege_weapons = {
 	}
 	
 	max_general_shock = 1
-	shock_damage_received = -0.1
+	shock_damage_received = -0.075
 
 	effect = {}
 	removed_effect = {}
@@ -791,7 +791,7 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	shock_damage_received = -0.15
+	shock_damage_received = -0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -1493,7 +1493,7 @@ bolstered_defence_act = {
 		full_idea_group = defensive_ideas 
 	}
 	
-	morale_damage_received = -0.15
+	morale_damage_received = -0.1
 
 	effect = {}
 	removed_effect = {}
@@ -1674,7 +1674,7 @@ sturdy_argument_act = {
 		full_idea_group = defensive_ideas 
 	}
 	
-	fire_damage_received = -0.15
+	fire_damage_received = -0.1
 	
 
 	effect = {}
