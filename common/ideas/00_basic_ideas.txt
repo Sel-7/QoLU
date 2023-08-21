@@ -675,14 +675,14 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		shock_damage_received = -0.15
+		shock_damage_received = -0.125
 	}
 
 	battlefield_commisions = {
 		army_tradition_from_battle = 1.0
 	}
 	military_drill = {
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 	improved_manuever = {
 		leader_land_manuever = 1
