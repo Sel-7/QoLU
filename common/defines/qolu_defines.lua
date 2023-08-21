@@ -137,6 +137,7 @@ NDefines.NMilitary.LIGHT_SHIP_SAILORS_COST = 50					-- 1 = 1 men in cost.
 NDefines.NMilitary.GALLEY_SHIP_SAILORS_COST = 50
 NDefines.NMilitary.GALLEY_TIME = 90							-- _MDEF_GALLEY_TIME = 10,
 NDefines.NMilitary.TRANSPORT_TIME = 30	
+NDefines.NMilitary.MERCENARY_COMPANY_ARMY_TRADITION = 10.0
 
 NDefines.NAI.BIGSHIP_FRACTION = 0.1
 NDefines.NAI.TRANSPORT_FRACTION = -1 -- Max fraction of naval forcelimit that should be transports
