@@ -1716,6 +1716,8 @@ court_ideas = {
 
 	bonus = {
 		free_policy = 1
+		imperial_mandate = 0.05
+		imperial_authority = 0.05
 	}
 	
 	long_echo = {
