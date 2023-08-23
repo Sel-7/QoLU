@@ -125,3 +125,8 @@ imperial_mandate = -0.1
 defensiveness = -1
 great_project_upgrade_cost = 0.5
 monthly_russian_modernization = -1
+
+marine_regiment = {
+    regiment_disembark_speed = 2
+	shock_damage_received = -0.1
+}
