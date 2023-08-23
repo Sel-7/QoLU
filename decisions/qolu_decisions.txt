@@ -28,6 +28,10 @@ country_decisions = {
 			adm_tech = 5
 			dip_tech = 5
 			NOT = { has_country_modifier = qolu_explo_cd }
+			NOT = { tag = OIR }
+			NOT = { tag = MJZ }
+			NOT = { tag = MCH }
+			NOT = { has_government_reform = steppe_horde }
 		}
 
 		trigger = {
@@ -55,6 +59,10 @@ country_decisions = {
 			adm_tech = 5
 			dip_tech = 5
 			NOT = { has_country_modifier = qolu_conqui_cd }
+			NOT = { tag = OIR }
+			NOT = { tag = MJZ }
+			NOT = { tag = MCH }
+			NOT = { has_government_reform = steppe_horde }
 		}
 
 		trigger = {
@@ -82,6 +90,10 @@ country_decisions = {
 			adm_tech = 5
 			dip_tech = 5
 			NOT = { has_country_modifier = qolu_2colonists }
+			NOT = { tag = OIR }
+			NOT = { tag = MJZ }
+			NOT = { tag = MCH }
+			NOT = { has_government_reform = steppe_horde }
 		}
 
 		trigger = {
