@@ -89,7 +89,7 @@ age_of_discovery = {
 			allow = {
 				NOT = { religion_group = christian }
 			}
-			vassal = 5
+			vassal = 3
 		}		
 	
 		obj_two_continents = {
