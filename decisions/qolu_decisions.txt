@@ -356,4 +356,35 @@ country_decisions = {
 			}
 		}
 	}
+
+	qolu_aragon_autonomy_reduction = { ## CBA'd to figure out the correct way to reduce autonomy for these provs lol
+		potential = {
+			tag  = ARA
+			ai = no
+			NOT = { has_country_flag = qolu_ara_aut_reduction }
+		}
+
+		allow = {
+			2988 = { owned_by = ARA }
+			2987 = { owned_by = ARA }
+			212 = { owned_by = ARA }
+			197 = { owned_by = ARA }
+		}
+
+		effect = {
+			2988 = {
+				set_local_autonomy = 0
+			}
+			2987 = {
+				set_local_autonomy = 0
+			}
+			212 = {
+				set_local_autonomy = 0
+			}
+			197 = {
+				set_local_autonomy = 0
+			}
+			set_country_flag = qolu_ara_aut_reduction
+		}
+	}
 }
