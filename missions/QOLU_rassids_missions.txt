@@ -1,0 +1,144 @@
+qolu_ras_s1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = RAS
+			tag = ARB
+		}
+	}
+	has_country_shield = yes
+}
+qolu_ras_s2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = RAS
+			tag = ARB
+		}
+	}
+	has_country_shield = yes
+}
+qolu_ras_s3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = RAS
+			tag = ARB
+		}
+	}
+	has_country_shield = yes
+
+	qolu_ras_s3_1 = {
+
+		required_missions = { }
+
+		trigger = {
+			has_adm_advisor = yes
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+			is_rival = YEM
+		}
+
+		effect = {
+			4280 = {
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+			4279 = {
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+			387 = {
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+		}
+
+	}
+
+	qolu_ras_s3_2 = {
+		
+		required_missions = { qolu_ras_s3_1 }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4280
+				province_id = 4279
+				province_id = 387
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			4280 = {
+				owned_by = ROOT
+			}
+			4279 = {
+				owned_by = ROOT
+			}
+			387 = {
+				owned_by = ROOT
+			}
+			NOT = { exists = YEM }
+		}
+
+		effect = {
+			hadramut_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+			asir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			2346 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	} 
+}
+qolu_ras_s4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = RAS
+			tag = ARB
+		}
+	}
+	has_country_shield = yes
+}
+qolu_ras_s5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = RAS
+			tag = ARB
+		}
+	}
+	has_country_shield = yes
+}
