@@ -20,68 +20,6 @@ country_decisions = {
 		}
 	}
 
-	qolu_explorer = {
-		color = { 66 245 242 }
-
-		potential = {
-			ai =  no
-			adm_tech = 5
-			dip_tech = 5
-			NOT = { has_country_modifier = qolu_explo_cd }
-			NOT = { tag = OIR }
-			NOT = { tag = MJZ }
-			NOT = { tag = MCH }
-			NOT = { has_government_reform = steppe_horde }
-		}
-
-		trigger = {
-			adm_tech = 5
-			dip_tech = 5
-			dip_power = 25
-		}
-
-		effect = {
-			add_dip_power = -25
-			add_country_modifier = {
-				name = qolu_explo_cd
-				duration = 180
-				hidden = yes
-			}
-			create_explorer = { tradition = 10 }
-		}
-	}
-
-	qolu_conquistador = {
-		color = { 66 245 242 }
-
-		potential = {
-			ai =  no
-			adm_tech = 5
-			dip_tech = 5
-			NOT = { has_country_modifier = qolu_conqui_cd }
-			NOT = { tag = OIR }
-			NOT = { tag = MJZ }
-			NOT = { tag = MCH }
-			NOT = { has_government_reform = steppe_horde }
-		}
-
-		trigger = {
-			adm_tech = 5
-			dip_tech = 5
-			dip_power = 25
-		}
-
-		effect = {
-			add_dip_power = -25
-			add_country_modifier = {
-				name = qolu_conqui_cd
-				duration = 180
-				hidden = yes
-			}
-			create_conquistador = { tradition = 10 }
-		}
-	}
-
 	qolu_colonists = {
 		color = { 66 245 242 }
 

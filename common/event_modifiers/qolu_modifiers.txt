@@ -7,6 +7,7 @@ qolu_2colonists = {
 	colonists = 2
 	range = 0.5
 	global_colonial_growth = 15
+	may_explore = yes
 }
 
 por_exploration = {
@@ -33,14 +34,6 @@ disc_event_cd = {
 }
 morale_event_cd = {
 	
-}
-
-qolu_explo_cd = {
-
-}
-
-qolu_conqui_cd = {
-
 }
 
 qolu_tackle_debt = {
