@@ -315,7 +315,7 @@ categories =  {
 		supply_limit = 4
 		
 		terrain_override = {
-			210	226 # Spain
+			210 # Spain
 			139 1831 143 138 4175  #Balkans
 			158 1952 #Hungary
 			4236 #Slovakia
@@ -669,6 +669,7 @@ categories =  {
 		nation_designer_cost_multiplier = 0.9	
 
 		terrain_override = {
+			226
 			520 536 542 544 578 2035 2077 2079 2085 2087 2093
 			850 852 853 2018 2621 2622 2623 2626 2628 2629 2644 2646 2645 
 			588 2401 2301 324 1224 
