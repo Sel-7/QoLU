@@ -107,6 +107,7 @@ NDefines.NEconomy.CARAVAN_POWER_MAX = 30
 NDefines.NEconomy.COT_DOWNGRADE_PRESTIGE_COST = 0
 NDefines.NEconomy.GOLD_MINE_DEPLETION_THRESHOLD = 10				-- Gold mines above production level or above can be depleted
 NDefines.NEconomy.GOLD_MINE_DEPLETION_CHANCE = 0.05
+NDefines.NEconomy.GOLD_MINE_SIZE_PRIMITIVES = 15
 
 NDefines.NMilitary.MERCENARY_REINFORCE_COST_MULTIPLIER = 1
 NDefines.NMilitary.FORTRESS_COST = 0.166
@@ -142,7 +143,8 @@ NDefines.NMilitary.TRANSPORT_TIME = 30
 NDefines.NMilitary.MERCENARY_COMPANY_ARMY_TRADITION = 10.0
 NDefines.NMilitary.MERCENARY_COMPANY_MANPOWER_PER_REGIMENT = 1.25
 NDefines.NMilitary.MERCENARY_COMPANY_MANPOWER_RECOVERY = 90
-NDefines.NMilitary.MERCENARY_COMPANY_MAX_REGIMENTS = 30
+--NDefines.NMilitary.MERCENARY_COMPANY_MAX_REGIMENTS = 30
+NDefines.NMilitary.BANNER_MANPOWER_USAGE = 1
 
 NDefines.NAI.BIGSHIP_FRACTION = 0.1
 NDefines.NAI.TRANSPORT_FRACTION = -1 -- Max fraction of naval forcelimit that should be transports

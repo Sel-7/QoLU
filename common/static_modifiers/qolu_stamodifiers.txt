@@ -172,3 +172,7 @@ luck = {
 	#governing_capacity_modifier = 0.25
 
 }
+
+primitive_nation = {
+	development_cost = 0.25
+}
