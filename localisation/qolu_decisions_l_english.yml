@@ -3,12 +3,13 @@
 eco_golden_age_title:0 "Economic Golden Age"
 eco_golden_age_desc:0 " "
 
-qolu_explorer_title:0 "Recruit an Explorer"
-qolu_explorer_desc:0 ""
-qolu_conquistador_title:0 "Recruit a Conquistador"
-qolu_conquistador_desc:0 ""
-qolu_colonists_title:0 "Delve into Colonial Matters"
-qolu_colonists_desc:0 ""
+#colonial game
+qolu_eur_colonists_title:0 "Delve into Colonial Matters"
+qolu_eur_colonists_desc:0 ""
+qolu_afr_colonists_title:0 "Delve into Colonial Matters"
+qolu_afr_colonists_desc:0 ""
+qolu_asia_colonists_title:0 "Delve into Colonial Matters"
+qolu_asia_colonists_desc:0 ""
 
 #trade hubs
 Create_a_Trade_Hub_title:0 "Create a Center of Trade"

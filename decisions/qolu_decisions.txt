@@ -20,13 +20,16 @@ country_decisions = {
 		}
 	}
 
-	qolu_colonists = {
+	qolu_eur_colonists = {
 		color = { 66 245 242 }
 
 		potential = {
 			ai =  no
 			adm_tech = 5
 			dip_tech = 5
+			capital_scope = {
+				continent = europe
+			}
 			NOT = { has_country_modifier = qolu_2colonists }
 			NOT = { tag = OIR }
 			NOT = { tag = MJZ }
@@ -37,6 +40,72 @@ country_decisions = {
 		trigger = {
 			adm_tech = 5
 			dip_tech = 5
+			dip_power = 50
+		}
+
+		effect = {
+			dip_power = -50
+
+			add_country_modifier = {
+				name = qolu_2colonists
+				duration = -1
+			}
+		}
+	}
+
+	qolu_afr_colonists = {
+		color = { 66 245 242 }
+
+		potential = {
+			ai =  no
+			adm_tech = 8
+			dip_tech = 8
+			capital_scope = {
+				continent = africa
+			}
+			NOT = { has_country_modifier = qolu_2colonists }
+			NOT = { tag = OIR }
+			NOT = { tag = MJZ }
+			NOT = { tag = MCH }
+			NOT = { has_government_reform = steppe_horde }
+		}
+
+		trigger = {
+			adm_tech = 8
+			dip_tech = 8
+			dip_power = 50
+		}
+
+		effect = {
+			dip_power = -50
+
+			add_country_modifier = {
+				name = qolu_2colonists
+				duration = -1
+			}
+		}
+	}
+
+	qolu_asia_colonists = {
+		color = { 66 245 242 }
+
+		potential = {
+			ai =  no
+			adm_tech = 9
+			dip_tech = 9
+			capital_scope = {
+				continent = asia
+			}
+			NOT = { has_country_modifier = qolu_2colonists }
+			NOT = { tag = OIR }
+			NOT = { tag = MJZ }
+			NOT = { tag = MCH }
+			NOT = { has_government_reform = steppe_horde }
+		}
+
+		trigger = {
+			adm_tech = 8
+			dip_tech = 8
 			dip_power = 50
 		}
 
