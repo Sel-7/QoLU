@@ -15103,8 +15103,8 @@ TUN_ideas = {
 		diplomatic_upkeep = 1
 	}
 	corsairs = {
-		navy_tradition = 1
-		privateer_efficiency = 0.10
+		naval_morale = 0.05
+		land_morale = 0.05
 	}
 	tun_attract_foreign_pirates = {
 		global_sailors_modifier = 0.25
