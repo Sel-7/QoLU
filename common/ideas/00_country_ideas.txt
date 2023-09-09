@@ -1518,13 +1518,13 @@ PRU_ideas = {
 		army_tradition_decay = -0.01
 	}
 	army_professionalism = {
-		land_morale = 0.20
+		land_morale = 0.15
 	}	
 	noble_cadets = {
 		nobles_loyalty_modifier = 0.10
 	}
 	goose_step = {
-		infantry_power = 0.20
+		infantry_power = 0.1
 	}
 	regimental_cantons = {
 		global_manpower_modifier = 0.25
