@@ -1,0 +1,58 @@
+can_harsh_treatment = {
+	condition = {
+			potential = {
+				FROM = {
+					ai = yes
+				}
+			}
+			allow = {
+				always = no
+			}
+		}
+}
+
+can_declare_bankruptcy = {
+	condition = {
+			potential = {
+				FROM = {
+						ai = yes
+				}	
+			}
+			allow = {
+				always = no
+			}
+		}
+}
+
+can_increase_autonomy = {
+	condition = {
+			potential = {
+				FROM = {
+						ai = yes
+				}	
+			}
+			allow = {
+				always = no
+			}
+		}
+}
+
+
+
+can_colonize_province = {
+	condition = {
+		tooltip = "qolu_cant_colonize_outside_tt"
+		potential = {
+			FROM = {
+				is_colonial_nation = yes
+			}
+		}
+		allow = {
+			FROM = {
+				capital_scope = {
+					colonial_region = ROOT
+				}
+			}
+		}
+	}
+}
