@@ -132,7 +132,7 @@ cossacks_mechanic = {
 				}
 				add_war_exhaustion = -2
 			}
-			cooldown_years = 0
+			cooldown_years = 10
 			ai_chance = {
 				factor = 1
 				modifier = {
