@@ -1,0 +1,162 @@
+qolu_frn_s1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+
+}
+
+qolu_frn_s2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+
+	qolu_frn_s2_1 = {
+		position = 2
+		required_missions = { qolu_frn_s3_1 }
+
+		provinces_to_highlight = {
+			area = hesse_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			hesse_area = {
+				type = all
+				is_core = ROOT
+			}
+		}
+
+		effect = {
+			north_rhine_area = {
+				limit = {
+					NOT = { is_core = ROOT	}
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qolu_frn_s2_2 = {
+		position = 3
+		required_missions = { qolu_frn_s2_1 }`
+
+		provinces_to_highlight = {
+			area = north_rhine_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			north_rhine_area = {
+				type = all
+				is_core = ROOT
+			}
+		}
+
+		effect = {
+			custom_tooltip = qolu_claim_to_rhenish
+			hidden_effect = {
+				every_province = {
+					limit = {
+						continent = europe
+						culture = rhenish
+						NOT = { is_core = ROOT	}
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+
+	}
+}
+
+qolu_frn_s3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+
+	qolu_frn_s3_1 = {
+		position = 1
+
+		trigger = {
+			1876 = {
+				num_of_times_expanded_infrastructure = 1
+				base_production = 10
+			}
+		}
+
+		effect = {
+			1876 = {
+				add_province_modifier = {
+					name = "qolu_frn_expansion"
+					duration = 10950
+				}
+			}
+
+			hesse_area = {
+				limit = {
+					NOT = { is_core = ROOT	}
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lower_franconia_area = {
+				limit = {
+					NOT = { is_core = ROOT	}
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}	
+}
+
+qolu_frn_s4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+	
+}
+
+qolu_frn_s5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+	
+}

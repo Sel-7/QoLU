@@ -57,3 +57,14 @@ qolu_national_rebuild = {
 	global_manpower_modifier = -0.2
 	land_morale = -0.1
 }
+
+
+##################
+#Frankfurt Mission Modifiers#
+##################
+
+qolu_frn_expansion = {
+	province_trade_power_value = 10
+	development_cost_modifier = -0.2
+	ae_impact = -0.2
+}

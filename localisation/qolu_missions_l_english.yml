@@ -74,3 +74,9 @@
  btc_por_legacy_of_albuquerque_desc:0 "The Portuguese led military campaigns towards the Islamic world. As stated by Afonso de Albuquerque: “The first goal of the rally around the Islamic world, is to storm the Prophet’s Mosque and take the remains of the Prophet Muhammad as a bargaining chip to recover Jerusalem from the Muslims”."
  btc_enable_belem_tower_tt:0 "Enables the construction of the §YBelém Tower§! in Lisboa."
  btc_enable_pena_palace_tt:0 "Enables the construction of the §YPena Palace§! in Lisboa."
+
+ ##############
+ # FRN / WES Missions#
+ ##############
+ 
+ qolu_claim_to_rhenish:0 "Gain a permanent claim on all §YRhenish§! culture provinces in §YGermany§!."
