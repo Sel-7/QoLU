@@ -205,37 +205,8 @@ estate_brahmins_brahmin_governance = {
 		country_admin_power = 1
 	}
 	ai_will_do = {
-		factor = 100
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { crown_land_share = 30 }
-				estate_influence = {
-					estate = estate_church
-					influence = 95
-				}
-			}
-			NOT = { has_estate_privilege = estate_brahmins_brahmin_governance }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 35 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 55 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_brahmins_brahmin_governance }
-		}
-		modifier = {
-			factor = 0.8
-			is_absolutism_active = yes
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { adm = 2 }
-		}
+		factor = 10000
+		
 	}
 }
 
@@ -288,33 +259,33 @@ estate_brahmins_legitimacy_to_rule = {
 	}
 }
 
-estate_brahmins_brahmin_leadership = {
-	icon = privilege_seek_support_of_brahmins
-	max_absolutism = -5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	influence = 0.05
-	is_valid = {
-		NOT = { religion_group = muslim }
-	}
-	loyalty = 0.05
-	penalties = {
-		stability_cost_modifier = 0.1
-	}
-	benefits = {
-		adm_advisor_cost = -0.15
-	}
-	ai_will_do = {
-		factor = 9
-		modifier = {
-			factor = 0.5
-			is_absolutism_active = yes
-		}
-		modifier = {
-			factor = 3
-			uses_meritocracy = yes
-		}
-	}
-}
+#estate_brahmins_brahmin_leadership = {
+#	icon = privilege_seek_support_of_brahmins
+#	max_absolutism = -5
+#	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+#	influence = 0.05
+#	is_valid = {
+#		NOT = { religion_group = muslim }
+#	}
+#	loyalty = 0.05
+#	penalties = {
+#		stability_cost_modifier = 0.1
+#	}
+#	benefits = {
+#		adm_advisor_cost = -0.15
+#	}
+#	ai_will_do = {
+#		factor = 9
+#		modifier = {
+#			factor = 0.5
+#			is_absolutism_active = yes
+#		}
+#		modifier = {
+#			factor = 3
+#			uses_meritocracy = yes
+#		}
+#	}
+#}
 
 estate_brahmins_flexible_deities = {
 	icon = privilege_switch_hindu_deity
@@ -1095,7 +1066,7 @@ estate_brahmins_development_of_temples = {
 		no_estate_crownland_loss_from_developing
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 7500
 	}
 }
 estate_brahmins_expand_the_theology = {

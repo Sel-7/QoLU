@@ -218,3 +218,7 @@ expanded_infrastructure = {
 lost_hegemony = {
 	#all_power_cost	= 0.10
 }
+
+vassal_nation = {
+	#development_cost = 0.5
+}
