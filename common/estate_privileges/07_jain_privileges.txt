@@ -221,6 +221,7 @@ estate_jains_diplomacy = {
 			factor = 10000
 	}
 }
+}
 
 estate_jains_clerical_class = {
 	icon = privilege_patronize_jain_families
