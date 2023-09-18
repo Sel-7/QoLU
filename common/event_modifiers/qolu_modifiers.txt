@@ -58,6 +58,10 @@ qolu_national_rebuild = {
 	land_morale = -0.1
 }
 
+qolu_agricultural_investment = {
+	local_tax_modifier = 1.75
+}
+
 
 ##################
 #Frankfurt Mission Modifiers#
