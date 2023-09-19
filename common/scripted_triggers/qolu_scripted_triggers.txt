@@ -1,8 +1,0 @@
-qolu_has_food_province = {
-	OR = {
-		trade_goods = livestock
-		trade_goods = wine
-		trade_goods = grain 
-		trade_goods = fish
-	}
-}

@@ -34,7 +34,7 @@ qolu.3.f:0 "Recruit Fortifcation Expert"
 qolu.3.g:0 "Recruit Grand Captain"
 qolu.3.h:0 "£no£ Don't Recruit Anyone"
 
- #internal dev
+#internal dev
  echo.2.t:0 "Internal Development"
  echo.2.d:0 "Focus on internal development for the next 15 years."
  echo.2.a:0 "Ok."
@@ -42,12 +42,8 @@ qolu.3.h:0 "£no£ Don't Recruit Anyone"
  echo.4.t:0 "A New Center of Trade!"
  echo.4.d:0 "After some deliberations, our merchants have successfully made $PROVINCE$ a center of trade."
  echo.4.a:0 "Good."
- #rural investment
- qolu.4.t:0 "Rural Investment"
- qolu.4.d:0 "The profitable goods are profitable for the middle class, and nobles, however the peasantry sees virtually none of these returns. With investment into the rural infrastructure, we can also potentially see a greater tax return from the people. "
- qolu.4.a:0 "Invest into Rural Infrastructure"
 
-#cooldowns
+#
 morale_cooldown:0 "Maybe Next Time"
 disc_cooldown:0 "Maybe Next Time"
  

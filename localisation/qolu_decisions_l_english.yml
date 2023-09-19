@@ -15,11 +15,6 @@ qolu_asia_colonists_desc:0 ""
 Create_a_Trade_Hub_title:0 "Create a Center of Trade"
 Create_a_Trade_Hub_desc:0 "At least one of our province has become a trade hub and could potentially become a center of trade, our merchants say. They would however, need some investment to make this happen."
 
-#agricultural investment
-
-qolu_invest_in_agriculture_title:0 "Invest into the Rural Infrastructure"
-qolu_invest_in_agriculture_desc:0 "The profitable goods are profitable for the middle class, and nobles, however the peasantry sees virtually none of these returns. With investment into the rural infrastructure, we can also potentially see a greater tax return from the people."
-
 qolu_recruit_admin_advisor_title:0 "Recruit Admin Advisor"
 qolu_recruit_admin_advisor_desc:0 ""
 qolu_recruit_diplomatic_advisor_title:0 "Recruit Diplomatic Advisor"
@@ -31,7 +26,6 @@ qolu_national_debt_title:0 "Tackle the National Debt"
 qolu_national_debt_desc:0 "Our [Root.GovernmentName] has gone through tough times as of late, and now require drastic measures to solve this economic crisis."
 qolu_national_rebuilding_title:0 "Commence the National Rebuild"
 qolu_national_rebuilding_desc:0 "Now that our economic crisis is solved, our [Root.GovernmentName] can now begin to rebuild."
-
 
  #Development Counter
  echo_development_counter_title:0 "Total Development Improvements"
