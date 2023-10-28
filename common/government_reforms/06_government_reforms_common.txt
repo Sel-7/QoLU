@@ -3731,6 +3731,7 @@ embrace_the_economic_theory_reform = {
 				is_revolutionary = yes
 				has_dlc = "Emperor"
 				has_government_attribute = enables_estate_burghers
+				has_idea_group = economic_ideas
 			}
 			can_swap_out_of_estate_granting_reform = {
 				estate = estate_burghers
@@ -3738,7 +3739,7 @@ embrace_the_economic_theory_reform = {
 		}
 	}
 	modifiers = {
-		interest = -0.5
+		interest = -0.25
 		inflation_reduction = 0.2
 	}
 	ai = {

@@ -926,11 +926,11 @@ estate_jains_control_over_monetary_policy = {
 		NOT = { has_estate = estate_vaisyas }
 	}
 	penalties = {
-		all_power_cost = 0.05
+		#all_power_cost = 0.05
 	}
 	benefits = {
 		inflation_reduction = 0.15
-		interest = -0.5
+		#interest = -0.5
 		production_efficiency = 0.05
 	}
 	ai_will_do = {
@@ -1228,7 +1228,7 @@ estate_jains_promote_jain_bookkeeping = {
 		trigger = { always = yes }
 		modifier = {
 			inflation_action_cost = -0.5
-			interest = -0.5
+			#interest = -0.25
 			state_maintenance_modifier = -0.25
 		}
 	}
