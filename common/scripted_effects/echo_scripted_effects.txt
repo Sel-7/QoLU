@@ -63,3 +63,187 @@ echo_development_counter = {
 		}
 	]
 }
+
+gecko_mercs = {
+	if = {
+		limit = {	
+			has_country_modifier = Minor
+		}
+		hidden_effect = {
+			export_to_variable = {
+					which = geckomercFL
+					value = land_forcelimit
+					who = ROOT
+			}
+			divide_variable = {
+					which = geckomercFL
+					value = 100
+			}
+			multiply_variable = {
+					which = geckomercFL
+					value = 25
+			}
+			change_variable = {
+					which = geckomercFL
+					value = 30
+			}
+			if = {
+							limit = {
+								has_country_modifier = war_chest
+								NOT = {has_idea = mass_army}						
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.1
+								}
+						}
+			if = {
+							limit = {
+								OR = {
+									has_idea = mass_army
+								}
+								NOT = { has_country_modifier = war_chest}
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.1
+								}
+						}
+						if = {
+							limit = {
+								OR = {
+									has_idea = mass_army
+								}
+								NOT = { has_country_modifier = war_chest}
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.2
+								}
+						}
+						if = {
+							limit = {
+								OR = {
+									has_idea = mass_army
+								}
+								has_country_modifier = war_chest
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.2
+								}
+						}
+						if = {
+							limit = {
+								OR = {
+									has_idea = mass_army
+								}
+								has_country_modifier = war_chest
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.3
+								}
+						}
+			else = {
+				#nothing
+			}	
+			export_to_variable = {
+						which = geckomercvalue
+						value = trigger_value:num_of_mercenaries
+						who = ROOT
+			}
+		}	
+	}
+	else_if = {
+		limit = {
+			NOT = { has_country_modifier = Minor }
+		}
+		hidden_effect = {
+			export_to_variable = {
+					which = geckomercFL
+					value = land_forcelimit
+					who = ROOT
+			}
+			divide_variable = {
+					which = geckomercFL
+					value = 100
+			}
+			multiply_variable = {
+					which = geckomercFL
+					value = 25
+			}
+			change_variable = {
+					which = geckomercFL
+					value = 20
+			}
+				if = {
+							limit = {
+								has_country_modifier = war_chest
+								NOT = {has_idea = mass_army}
+								
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.1
+								}
+						}
+				if = {
+							limit = {
+								OR = {
+									has_idea = mass_army
+								}
+								NOT = { has_country_modifier = war_chest}
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.1
+								}
+						}
+						if = {
+							limit = {
+								OR = {
+									has_idea = mass_army
+								}
+								NOT = { has_country_modifier = war_chest}
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.2
+								}
+						}
+						if = {
+							limit = {
+								OR = {
+									has_idea = mass_army
+								}
+								has_country_modifier = war_chest
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.2
+								}
+						}
+						if = {
+							limit = {
+								OR = {
+									has_idea = mass_army
+								}
+								has_country_modifier = war_chest
+							}
+								multiply_variable = { 
+									which = geckomercFL
+									value = 1.3
+								}
+						}
+			else = {
+				#nothing
+			}
+			export_to_variable = {
+						which = geckomercvalue
+						value = trigger_value:num_of_mercenaries
+						who = ROOT
+			}
+		}
+	}
+}
