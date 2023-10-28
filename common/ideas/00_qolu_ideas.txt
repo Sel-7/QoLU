@@ -9,6 +9,11 @@ EGY_ideas = {
 		land_forcelimit_modifier = 0.25
 	}
 
+	trigger = {
+		tag = EGY
+	}
+    free = yes       #will be added at load.
+
 	EGY_1 = {
 		production_efficiency = 0.1
 		development_cost = -0.05
