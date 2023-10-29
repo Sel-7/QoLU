@@ -1643,7 +1643,7 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.3
+		cavalry_power = 0.15
 		can_recruit_hussars = yes
 	}
 	wojsko_komputoe = {
@@ -1765,7 +1765,7 @@ PLC_ideas = {
 		army_tradition = 1
 	}
 	winged_hussars = { 
-		cavalry_power = 0.3
+		cavalry_power = 0.15
 		can_recruit_hussars = yes
 	}
 	plc_refine_our_golden_liberty = { #Same for all of them
