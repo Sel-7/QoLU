@@ -249,8 +249,8 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	max_general_shock = 1
-	shock_damage_received = -0.075
+	land_leader_shock = 1
+	shock_damage = 0.15
 
 	effect = {}
 	removed_effect = {}
