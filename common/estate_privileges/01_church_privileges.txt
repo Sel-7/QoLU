@@ -648,6 +648,7 @@ estate_church_clerical_oversight = {
 	penalties = {
 	}
 	benefits = {
+		monthly_splendor = 1
 	}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
