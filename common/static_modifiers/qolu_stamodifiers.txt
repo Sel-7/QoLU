@@ -191,6 +191,11 @@ over_governing_capacity_modifier = {
 	global_manpower_modifier = -0.75
 }
 
+expand_administation_modifier = {
+	expand_administration_cost = 0.40
+	governing_capacity = 100
+}
+
 expanded_infrastructure = {
 	allowed_num_of_buildings = 1
 	allowed_num_of_manufactories = 1
