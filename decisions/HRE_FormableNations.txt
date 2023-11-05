@@ -838,7 +838,7 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = GER }
 			NOT = { tag = PRU }
-			NOT = { tag = HSA }
+			#NOT = { tag = HSA }
 			NOT = { tag = SAX } #Saxe-Lauenburg should form either Saxony or Hannover, not both
 			NOT = { exists = HAN }
 			OR = {
