@@ -4,8 +4,7 @@ qolu_frn_s1 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = FRN
-			tag = WES
+
 		}
 	}
 	has_country_shield = yes
@@ -18,8 +17,7 @@ qolu_frn_s2 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = FRN
-			tag = WES
+			
 		}
 	}
 	has_country_shield = yes
@@ -91,8 +89,7 @@ qolu_frn_s3 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = FRN
-			tag = WES
+
 		}
 	}
 	has_country_shield = yes
@@ -139,8 +136,7 @@ qolu_frn_s4 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = FRN
-			tag = WES
+
 		}
 	}
 	has_country_shield = yes
@@ -153,8 +149,7 @@ qolu_frn_s5 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = FRN
-			tag = WES
+
 		}
 	}
 	has_country_shield = yes
