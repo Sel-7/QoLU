@@ -655,36 +655,62 @@ emp_naples_5 = {
 			}
 			num_of_owned_provinces_with = {
 				value = 10
-				development = 10
+				development = 15
 				region = italy_region
 			}
 		}
 		effect = {
 			change_government_reform_progress = 50
+			121 = {
+				change_trade_goods = silk
+				add_province_modifier = {
+					name = "qolu_silk_production"
+					duration = 12775
+				}
+			}
 		}
 	}
 	emp_nap_rein_in_nobility = {
 		icon = rein_in_the_nobles
 		required_missions = { emp_nap_develop_naples }
 		trigger = {
-			NOT = { current_age = age_of_discovery }
-			NOT = { current_age = age_of_reformation }
-			crown_land_share = 70
-			NOT = {
-				estate_territory = {
-					estate = estate_nobles
-					territory = 10
+			num_of_owned_provinces_with = {
+				value = 5
+				OR = {
+					trade_goods = grain
+					trade_goods = wine
 				}
-			}
-			NOT = {
-				any_owned_province = {
-					is_state = yes
-					local_autonomy = 10
-				}
+				development = 20
+				region = italy_region
 			}
 		}
+
 		effect = {
-			add_revolutionary_zeal_or_absolutism = { amount = 15 }
+			custom_tooltip = qolu_producing_wine_and_grain_tt
+			hidden_effect = {
+				every_owned_province = {
+					if = {
+						limit = {
+							trade_goods = wine
+						}
+						add_province_modifier = { 
+							name = qolu_italian_breweries_w
+							duration = -1
+							hidden = yes
+						}
+					}
+					if = {
+						limit = {
+							trade_goods = grain
+						}
+						add_province_modifier = { 
+							name = qolu_italian_breweries_w
+							duration = -1
+							hidden = yes
+						}
+					}
+				}
+			}
 		}
 	}
 	emp_nap_neapolitan_governance = {

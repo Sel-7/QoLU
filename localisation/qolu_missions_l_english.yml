@@ -1,20 +1,6 @@
 ﻿l_english:
- ##############
- # ARABIA / RASSIDS #
- ##############
 
- #Slot 1
- qolu_ras_s1_1_title:0 "Last Bastions of Shiites"
- qolu_ras_s1_1_desc:0 "The few remaining Shiites on the Arabian Penninsula should be protected and secured under us."
-
- #Slot 3
- qolu_ras_s3_1_title:0 "Viziers of the Imam"
- qolu_ras_s3_1_desc:0 "The Imam is required to be well educated and informed. These Viziers will allow for the realm to remain more stable and prosper even during times of war."
- qolu_ras_s3_2_title:0 "Protector of Yemeni People"
- qolu_ras_s3_2_desc:0 "The Rasulid dynasty isn't capable of protecting the yemeni people, and should thus be brought to heel."
-
-
-
+ qolu_producing_wine_and_grain_tt: "Only provinces we §Yown§! now will gain the §Yfollowing modifier§!: \n\nProduction of Grain: §G+75%§! \nProduction of Wine: §G+50%§! "
  ############################
  # PORTUGAL - CREDIT TO BEYOND THE CAPE#
  ############################

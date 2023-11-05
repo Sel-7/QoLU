@@ -68,3 +68,19 @@ qolu_frn_expansion = {
 	development_cost_modifier = -0.2
 	ae_impact = -0.2
 }
+
+################
+#Naples Mission Modifiers#
+################
+
+qolu_silk_production = {
+	trade_goods_size_modifier = 0.33
+}
+
+qolu_italian_breweries_g = {
+	production_efficiency = 0.75
+}
+
+qolu_italian_breweries_w = {
+	production_efficiency = 0.5
+}
