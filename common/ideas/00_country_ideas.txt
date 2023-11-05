@@ -1639,7 +1639,6 @@ POL_ideas = {
 		war_exhaustion = -0.02
 	}
 	peichota_wybraniecka = {
-		global_manpower_modifier = 0.25
 		infantry_power = 0.1
 	}
 	winged_hussars = {
