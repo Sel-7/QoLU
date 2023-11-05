@@ -8,13 +8,15 @@ capital = 165 # Bern
 elector = yes
 add_army_professionalism = 0.1
 
-1399.1.1 = {
+1422.1.1 = {
 	monarch = {
-		name = "Die Tagsatzung"
+		name = "Thomas Eugster"
 		adm = 3
 		dip = 3
 		mil = 3
-		regent = yes
+
+		birth_date = 1420.1.1
+		
 	}
 }
 
