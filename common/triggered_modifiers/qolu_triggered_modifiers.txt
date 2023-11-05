@@ -109,21 +109,33 @@ ahead_of_time = {
 	yearly_army_professionalism = 0.002
 }
 
+qolu_over_merc_fl = {
+	potential = {
+		ROOT = {
+				ai = no	
+			}
+		NOT = { has_idea_group = mercenary_ideas }
+	}
+	trigger = {
+		num_of_hired_mercenary_companies = 4
+	}
+	mercenary_cost = 1.5
+	mercenary_manpower = -0.25
+	merc_maintenance_modifier = 0.25
+}
+
 qolu_over_merc_fl_2 = {
 	potential = {
 		ROOT = {
 				ai = no	
 			}
-		num_of_mercenaries = 1
+		num_of_hired_mercenary_companies = 4
 		NOT = { has_idea_group = mercenary_ideas }
 	}
 	trigger = {
-			check_variable = {
-				which = geckomercvalue
-				which = geckomercFL
-			}
+		num_of_hired_mercenary_companies = 6
 	}
-	merc_maintenance_modifier = 1.5
-	mercenary_manpower = -1
-	mercenary_cost = 5
+	mercenary_cost = 1.5
+	mercenary_manpower = -0.5
+	merc_maintenance_modifier = 0.25
 }
