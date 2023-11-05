@@ -244,7 +244,7 @@ age_of_reformation = {
 		obj_christian_convert = {
 			has_global_modifier_value = {
 				which = global_missionary_strength
-				value = 0.004
+				value = 0.04
 			}
 		}
 		
