@@ -144,6 +144,7 @@ country_decisions = {
 		color = { 166  0  0 }
 
 		potential = {
+			NOT = { has_country_modifier = qolu_tackle_debt_cd }
 			NOT = { has_country_modifier = qolu_tackle_debt }
 			NOT = { has_country_modifier = qolu_national_rebuild }
 			is_bankrupt = no
@@ -156,6 +157,7 @@ country_decisions = {
 		}
 
 		effect = {
+			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = "qolu_tackle_debt"
 				duration = -1
@@ -178,7 +180,7 @@ country_decisions = {
 		}
 
 		allow = {
-			NOT = { years_of_income = 1 }
+			NOT = { years_of_income = 0.5 }
 			is_in_deficit = no
 		}
 
@@ -361,37 +363,6 @@ country_decisions = {
 				custom_tooltip = echo_development_counter_tt_updater
 				hidden_effect = { echo_development_counter = { on_startup = yes } }
 			}
-		}
-	}
-
-	qolu_aragon_autonomy_reduction = { ## CBA'd to figure out the correct way to reduce autonomy for these provs lol
-		potential = {
-			tag  = ARA
-			ai = no
-			NOT = { has_country_flag = qolu_ara_aut_reduction }
-		}
-
-		allow = {
-			2988 = { owned_by = ARA }
-			2987 = { owned_by = ARA }
-			212 = { owned_by = ARA }
-			197 = { owned_by = ARA }
-		}
-
-		effect = {
-			2988 = {
-				set_local_autonomy = 0
-			}
-			2987 = {
-				set_local_autonomy = 0
-			}
-			212 = {
-				set_local_autonomy = 0
-			}
-			197 = {
-				set_local_autonomy = 0
-			}
-			set_country_flag = qolu_ara_aut_reduction
 		}
 	}
 }

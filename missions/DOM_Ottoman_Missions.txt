@@ -1161,7 +1161,7 @@ tur_african_conquest = {
 		completed_by = 1455.1.1
 		trigger = {
 			has_mil_advisor_2 = yes
-			mil_tech = 5
+			mil_tech = 4
 		}
 		effect = {
 			if = {
@@ -1935,10 +1935,12 @@ tur_african_conquest = {
 						who = ROOT 
 						value = 150 
 					}
-					trust = { 
-						who = ROOT 
-						value = 80 
-					}
+					if = {
+						limit = { has_dlc = "Leviathan" }
+						trust = { 
+							who = ROOT 
+							value = 80 
+						}
 				}
 				num_of_owned_provinces_with = {
 					province_has_center_of_trade_of_level = 1
@@ -2067,6 +2069,7 @@ tur_egyptian_conquest = {
 			add_permanent_claim_province = { province = 1773 }
 			add_permanent_claim_province = { province = 4699 }
 			add_permanent_claim_province = { province = 4698 }
+			add_permanent_claim_province = { province = 1764 }
 			add_prestige = 5
 		}
 
@@ -2131,14 +2134,14 @@ tur_egyptian_conquest = {
 					NOT = {
 						has_great_project = {
 							type = hagia_sophia
-							tier = 2
+							tier = 1
 						}
 					}
-					NOT = {
-						has_great_project = {
-							type = hagia_sophia
-							tier = 3
-						}
+					#NOT = {
+					#	has_great_project = {
+					#		type = hagia_sophia
+					#		tier = 3
+					#	}
 					}
 				}
 				NOT = { base_tax = 20 }
@@ -2554,7 +2557,7 @@ tur_egyptian_conquest = {
 					remove_country_modifier = tur_mamlukian_administration
 				}
 				change_ruler_stat = {
-					stat = dip
+					type = dip
 					amount = 2
 				}
 			}
@@ -4291,15 +4294,15 @@ tur_non_muslim_path = {
 				duration = -1
 			}
 			change_ruler_stat = {
-				stat = adm
+				type = adm
 				amount = 1
 			}
 			change_ruler_stat = {
-				stat = dip
+				type = dip
 				amount = 1
 			}
 			change_ruler_stat = {
-				stat = mil
+				type = mil
 				amount = 1
 			}
 		}
@@ -4367,7 +4370,7 @@ tur_issue_the_kannuname_slot = {
 				insight_tooltip = INSIGHT_JUST_TOOLTIP
 				effect_tooltip = "
 				change_ruler_stat = {
-					stat = adm
+					type = adm
 					amount = 2
 				}
 				add_ruler_modifier = { 
@@ -4707,7 +4710,7 @@ tur_persian_conquest = {
 				add_permanent_claim = ROOT
 			}
 			change_ruler_stat = {
-				stat = dip
+				type = dip
 				amount = 2
 			}
 			country_event_with_insight = {

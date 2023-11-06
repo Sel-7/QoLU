@@ -238,3 +238,39 @@ recovery_motivation = {
 	interest = -0.5
 	horde_unity = 10
 }
+
+crown_colony_overlord = {
+	merchants = 1
+	global_trade_power = 0.05
+	global_tariffs = -0.1
+}
+
+private_enterprise_overlord = {
+	merchants = 1
+	global_trade_power = 0.05
+	global_tariffs = -0.1
+}
+
+self_governing_colony_overlord = {
+	merchants = 1
+	global_trade_power = 0.05
+	global_tariffs = -0.1
+}
+
+crown_colony_subject = {
+	global_autonomy = -0.1
+	global_colonial_growth = 10
+}
+
+private_enterprise_subject = {
+	#global_ship_trade_power = 0.2
+	global_trade_goods_size_modifier = 0.1
+	#naval_tradition_from_trade = 0.1
+	#ship_power_propagation = 0.1
+}
+
+self_governing_colony_subject = {
+	colonists = 1
+	#development_cost = -0.15
+	#liberty_desire = 25
+}
