@@ -17,7 +17,7 @@ estate_church_land_rights = {
 	conditional_modifier = {
 		trigger = { has_country_flag = mng_increased_land_rights_flag }
 		modifier = {
-			stability_cost_dmodifier = -0.05
+			stability_cost_modifier = -0.05
 		}
 	}
 	benefits = {

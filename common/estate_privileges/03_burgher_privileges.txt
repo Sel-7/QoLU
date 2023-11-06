@@ -1327,7 +1327,7 @@ estate_burghers_control_over_monetary_policy = {
 			has_country_flag = fra_enable_italian_bookkeeping_privilege_flag
 		}
 		modifier = {
-			all_power_cost = -0.05
+			all_power_cost = -0.015
 			burghers_influence_modifier = 0.025 
 		}
 	}
@@ -1413,8 +1413,11 @@ estate_burghers_private_trade_fleets = {
 		modifier = {
 			trade_steering = 0.1
 		}
+	}
 	conditional_modifier = {
-		trigger = { has_government_mechanic = russian_modernization_mechanic }
+		trigger = { 
+			has_government_mechanic = russian_modernization_mechanic 
+		}
 		modifier = { monthly_russian_modernization = -0.03 }
 	}
 	#conditional_modifier = {
@@ -1434,7 +1437,7 @@ estate_burghers_private_trade_fleets = {
 		}
 	}
 }
-}
+
 estate_burghers_prussian_confederation = {
 	icon = privilege_royal_authority
 	max_absolutism = -5
