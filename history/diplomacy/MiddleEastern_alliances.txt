@@ -284,6 +284,13 @@ guarantee = {
 #	end_date = 1517.1.1
 #}
 
+vassal = { #Syrian Territories
+	first = MAM
+	second = SYR
+	start_date = 1444.1.1
+	end_date = 1517.1.1
+}
+
 vassal = { #Mamluks fall
 	first = TUR
 	second = HED
