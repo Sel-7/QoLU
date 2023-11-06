@@ -17873,8 +17873,8 @@ ARM1_ideas = {
 
 ARB_ideas = {
 	start = {
-		tolerance_own = 2
-		years_of_nationalism = -10
+		shock_damage_received = -0.15
+		leader_land_shock = 1
 	}
 
 	bonus = {
@@ -17887,27 +17887,28 @@ ARB_ideas = {
 	free = yes
 
 	ARB_arabian_pincers = {
-		cav_to_inf_ratio = 0.25
-		cavalry_power = 0.25
+		cav_to_inf_ratio = 0.15
+		cavalry_power = 0.15
 	}
 	ARB_pact_of_umar = {
 		dhimmi_loyalty_modifier = 0.1
 		global_tax_modifier = 0.2
 	}
 	ARB_engage_in_indian_ocean_trade = {
-		trade_steering = 0.2	
+		trade_efficiency = 0.1	
 	}
 	ARB_conversion = {
 		global_missionary_strength = 0.03
+		missionaries = 2
 	}
 	ARB_jihad = {
 		warscore_cost_vs_other_religion = -0.1
 	}
 	ARB_new_caliphate_rising = {
-		missionaries = 2
+		infantry_power = 0.1
 	}
 	ARB_mubarizun = {
-		army_tradition_decay = -0.01
+		global_trade_goods_size_modifier = 0.1
 	}
 }
 
