@@ -2142,7 +2142,7 @@ tur_egyptian_conquest = {
 					#		type = hagia_sophia
 					#		tier = 3
 					#	}
-					}
+					#}
 				}
 				NOT = { base_tax = 20 }
 				NOT = { has_tax_building_trigger = yes }
