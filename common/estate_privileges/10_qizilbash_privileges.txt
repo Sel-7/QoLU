@@ -578,31 +578,31 @@ estate_qizilbash_regimental_discipline = {
 	}
 	benefits = {
 	}
-	influence_scaled_conditional_modifier = {
-		trigger = {
-			estate_loyalty = { estate = estate_qizilbash loyalty = 60 }
-		}
-		modifier = {
-			discipline = 0.05
-		}
-	}
-	influence_scaled_conditional_modifier = {
-		trigger = {
-			estate_loyalty = { estate = estate_qizilbash loyalty = 30 }
-			NOT = { estate_loyalty = { estate = estate_qizilbash loyalty = 60 } }
-		}
-		modifier = {
-			discipline = 0.025
-		}
-	}
-	influence_scaled_conditional_modifier = {
-		trigger = {
-			NOT = { estate_loyalty = { estate = estate_qizilbash loyalty = 30 } }
-		}
-		modifier = {
-			discipline = -0.025
-		}
-	}
+	#influence_scaled_conditional_modifier = {
+	#	trigger = {
+	#		estate_loyalty = { estate = estate_qizilbash loyalty = 60 }
+	#	}
+	#	modifier = {
+	#		discipline = 0.05
+	#	}
+	#}
+	#influence_scaled_conditional_modifier = {
+	#	trigger = {
+	#		estate_loyalty = { estate = estate_qizilbash loyalty = 30 }
+	#		NOT = { estate_loyalty = { estate = estate_qizilbash loyalty = 60 } }
+	#	}
+	#	modifier = {
+	#		discipline = 0.025
+	#	}
+	#}
+	#influence_scaled_conditional_modifier = {
+	#	trigger = {
+	#		NOT = { estate_loyalty = { estate = estate_qizilbash loyalty = 30 } }
+	#	}
+	#	modifier = {
+	#		discipline = -0.025
+	#	}
+	#}
 	modifier_by_land_ownership = {
 	}
 	#conditional_modifier = {
@@ -684,7 +684,7 @@ estate_qizilbash_tupchi_artillery_corps = {
 			}
 		}
 		modifier = {
-			artillery_cost = -0.33
+			artillery_cost = -0.1
 		}
 	}
 	benefits = {

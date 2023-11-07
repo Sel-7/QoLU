@@ -652,7 +652,7 @@ estate_ghulams_tupchi_artillery_corps = {
 			}
 		}
 		modifier = {
-			artillery_cost = -0.33
+			artillery_cost = -0.1
 		}
 	}
 	benefits = {
