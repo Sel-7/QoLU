@@ -89,6 +89,7 @@ drove_back_the_turk = {
 succesful_bid_for_imperial_crown = {
 	prestige = 1
 	diplomatic_reputation = 1
+	ae_impact = -0.2
 }
 
 austrian_silesia = {
