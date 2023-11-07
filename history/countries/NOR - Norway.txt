@@ -4,7 +4,7 @@ primary_culture = norwegian
 add_accepted_culture = icelandic
 religion = catholic
 technology_group = western
-historical_friend = DAN
+historical_rival = DAN
 capital = 17 #Akershus
 
 1397.1.1 = {
