@@ -778,6 +778,7 @@ CAS_ideas = {
 	start = {
 		land_morale = 0.15
 		allowed_marine_fraction = 0.05
+		has_marines = yes
 	}
 	bonus = {
 		global_colonial_growth = 25
