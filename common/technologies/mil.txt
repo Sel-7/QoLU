@@ -262,6 +262,7 @@ technology = {
 	
 	#Reiter
 	maneuver_value 		= 	0.25
+	cavalry_shock		=	0.2
 
 	enable = hungarian_hussar
 	enable = ottoman_spahi		
@@ -302,6 +303,7 @@ technology = {
 	#Matchlock Musket
 	infantry_shock		= 	0.20
 	cavalry_fire		= 	0.5
+	cavalry_shock		=	0.2
 
 	
 	weapons = yes
@@ -323,6 +325,7 @@ technology = {
 	
 	supply_limit 		= 	0.5
 	military_tactics	=	0.25
+	
 
 	enable = tofongchis_musketeer		
 	enable = ottoman_sekban		
@@ -372,6 +375,7 @@ technology = {
 	#Star Bastions
 	fort_16th = yes
 	infantry_fire		=	0.3
+	cavalry_shock		=	0.2
 	
 	enable = african_hussar
 	enable = french_caracolle 
@@ -464,7 +468,7 @@ technology = {
 	#	global_trade = 0.15
 	#}
 	
-	cavalry_shock		=	1.0
+	cavalry_shock		=	0.4
 	supply_limit		= 	0.5	
 	
 	enable = maharathan_cavalry		
