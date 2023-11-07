@@ -68,6 +68,13 @@ qolu_frn_expansion = {
 	development_cost_modifier = -0.2
 	ae_impact = -0.2
 }
+################
+# Swiss Mission Modifiers #
+################
+
+swiss_mountains_development = {
+	development_cost = -0.1
+}
 
 ################
 #Naples Mission Modifiers#
