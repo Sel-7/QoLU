@@ -527,7 +527,7 @@ estate_church_clerical_ministers = {
 			religion_group = muslim
 		}
 		modifier = {
-			monthly_piety = 0.002
+			monthly_piety = 0.01
 		}
 	}
 	conditional_modifier = {
@@ -646,7 +646,7 @@ estate_church_freedom_of_interpretation = {
 	penalties = {
 	}
 	benefits = {
-		monthly_piety = -0.002
+		monthly_piety = -0.01
 	}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
