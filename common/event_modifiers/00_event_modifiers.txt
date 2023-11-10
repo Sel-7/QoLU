@@ -2743,7 +2743,9 @@ bad_free_trade_merchants = {
 }
 
 public_works_of_cairo = {
-	local_development_cost = -0.1
+	monthly_splendor = 1
+	allowed_num_of_manufactories = 1
+	local_center_of_trade_upgrade_cost = -0.25
 }
 
 mam_large_festitives = {
@@ -7566,7 +7568,7 @@ dyn_newborn_daughter = {
 }
 
 reset_parliament_debate_modifier = {
-	local_unrest = 1
+	global_unrest = 1
 }
 
 organised_through_bishops_aspect_modifier = {
@@ -13597,6 +13599,22 @@ ASK_FOR_CONTRIBUTION_BURGHERS_level_4 = {
 	naval_maintenance_modifier = -0.1
 	build_cost = -0.1
 }
+ASK_FOR_CONTRIBUTION_VAISYAS_level_1 = {
+	naval_maintenance_modifier = -0.025
+	build_cost = -0.025
+}
+ASK_FOR_CONTRIBUTION_VAISYAS_level_2 = {
+	naval_maintenance_modifier = -0.05
+	build_cost = -0.05
+}
+ASK_FOR_CONTRIBUTION_VAISYAS_level_3 = {
+	naval_maintenance_modifier = -0.075
+	build_cost = -0.075
+}
+ASK_FOR_CONTRIBUTION_VAISYAS_level_4 = {
+	naval_maintenance_modifier = -0.1
+	build_cost = -0.1
+}
 
 estate_church_donation_right_scaling = {
 	missionary_maintenance_cost = -1
@@ -13804,27 +13822,34 @@ just_asked_to_convert_timer = {}
 revoked_war_rights = {
 	liberty_desire = 20
 }
+
 #Promoting Art
 promoting_art = {
 	monthly_persian_influence = 0.1
 	global_unrest = -0.5
 	country_admin_power = -1
 }
+
 promoting_architecture = {
 	build_time = -0.1
 }
+
 promoting_textiles = {
 	prestige_decay = -0.01
 }
+
 promoting_painting = {
 	legitimacy = 1
 }
+
 legacy_of_timur_modifier = {
 	core_creation = -0.1
 	province_warscore_cost = -0.1
 	reform_progress_growth = -2
 	country_diplomatic_power = -2
 }
+
+
 #New Persia Flavor Events
 per_muzaffarid_centre_of_admin_modifier = {
 	local_governing_cost_increase = -20
@@ -13950,20 +13975,24 @@ zoroastrian_prophet_in_the_court = {
 	global_missionary_strength = 0.03
 	tolerance_own = 2
 }
+
 #Qizilbash Estate
 qizilbash_cavalry_modifier = {
 	cavalry_power = 0.1
 	movement_speed = 0.1
 }
+
 estate_qizilbash_protected_communities_mod = {
 	local_culture_conversion_time = 5
 	local_culture_conversion_cost = 5
 	local_autonomy = -0.03
 }
+
 #Ghulams Estate
 estate_ghulams_levies_mod = {
 	local_manpower_modifier = 0.3
 }
+
 estate_ghulams_government_loyal = {
 	global_unrest = -3
 	harsh_treatment_cost = -0.5
@@ -13977,16 +14006,19 @@ estate_ghulams_government_disloyal = {
 	global_unrest = 2
 	global_rebel_suppression_efficiency = -0.5
 }
+
 estate_ghulams_ensure_caucasian_sovereignty_mod = {
 	local_culture_conversion_time = 5
 	local_culture_conversion_cost = 5
 	regiment_recruit_speed = -0.25
 }
+
 #Zoroastrian Mechanics
 embraced_passive_conversion_methods = {
 	can_not_build_missionaries = yes
 	religion = yes
 }
+
 #Grand Vizier Modifiers
 grand_vizier_philosopher = {
 	yearly_corruption = -0.05
@@ -14093,6 +14125,7 @@ grand_vizier_grand_captain = {
 	country_military_power = 1
 	siege_ability = 0.1
 }
+
 #Perisna Influence Counter
 used_persian_influece_interaction_1 = { influence_to_vassal_elevation_cost = -20 }
 used_persian_influece_interaction_2 = { influence_to_vassal_elevation_cost = -40 }
@@ -14114,6 +14147,7 @@ used_persian_influece_interaction_17 = { influence_to_vassal_elevation_cost = -3
 used_persian_influece_interaction_18 = { influence_to_vassal_elevation_cost = -360 }
 used_persian_influece_interaction_19 = { influence_to_vassal_elevation_cost = -380 }
 used_persian_influece_interaction_20 = { influence_to_vassal_elevation_cost = -400 }
+
 #Permanently Accepted Culture (until demoted)
 free_slot_for_armenian = { num_accepted_cultures = 1 }
 free_slot_for_georgian = { num_accepted_cultures = 1 }

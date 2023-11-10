@@ -249,7 +249,7 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	land_leader_shock = 1
+	leader_land_shock = 1
 	shock_damage = 0.15
 
 	effect = {}

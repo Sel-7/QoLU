@@ -34,17 +34,17 @@ country_decisions = {
 			NOT = { tag = OIR }
 			NOT = { tag = MJZ }
 			NOT = { tag = MCH }
-			NOT = { has_government_reform = steppe_horde }
+			NOT = { has_reform = steppe_horde }
 		}
 
-		trigger = {
+		allow = {
 			adm_tech = 5
 			dip_tech = 5
 			dip_power = 50
 		}
 
 		effect = {
-			dip_power = -50
+			add_dip_power = -50
 
 			add_country_modifier = {
 				name = qolu_2colonists
@@ -67,17 +67,17 @@ country_decisions = {
 			NOT = { tag = OIR }
 			NOT = { tag = MJZ }
 			NOT = { tag = MCH }
-			NOT = { has_government_reform = steppe_horde }
+			NOT = { has_reform = steppe_horde }
 		}
 
-		trigger = {
+		allow = {
 			adm_tech = 8
 			dip_tech = 8
 			dip_power = 50
 		}
 
 		effect = {
-			dip_power = -50
+			add_dip_power = -50
 
 			add_country_modifier = {
 				name = qolu_2colonists
@@ -100,17 +100,17 @@ country_decisions = {
 			NOT = { tag = OIR }
 			NOT = { tag = MJZ }
 			NOT = { tag = MCH }
-			NOT = { has_government_reform = steppe_horde }
+			NOT = { has_reform = steppe_horde }
 		}
 
-		trigger = {
+		allow = {
 			adm_tech = 8
 			dip_tech = 8
 			dip_power = 50
 		}
 
 		effect = {
-			dip_power = -50
+			add_dip_power = -50
 
 			add_country_modifier = {
 				name = qolu_2colonists
@@ -127,7 +127,7 @@ country_decisions = {
 			NOT = { has_country_modifier = por_exploration }
 		}
 
-		trigger = {
+		allow = {
 			always = yes
 		}
 
@@ -217,11 +217,11 @@ country_decisions = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = PR_commandant_decision
-				NOT = { has_country_modifier = commandant}
+				NOT = { has_country_modifier = commandant_boost}
 			}
 			custom_trigger_tooltip = {
 				tooltip = PR_grand_captain_decision
-				NOT = { has_country_modifier = grand_captain }
+				NOT = { has_country_modifier = grand_captain_boost }
 			}
 			always = no
 		}

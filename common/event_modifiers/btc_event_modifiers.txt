@@ -348,7 +348,7 @@ por_caravels = {
 por_galleons = {
 	allowed_galleon_fraction = 0.1
 	has_galleon = yes
-	heavy_ship_cannons = 0.1
+	heavy_ship_number_of_cannons_modifier = 0.1
 }
 
 por_english_alliance = {
@@ -422,32 +422,32 @@ extra_flagship = {
 	max_flagships = 1
 }
 
-homeland_focus = {
-	monthly_portuguese_saudade = -1
-}
+#homeland_focus = {
+#	monthly_portuguese_saudade = -1
+#}
 
-overseas_focus = {
-	monthly_portuguese_saudade = 1
-}
+#overseas_focus = {
+#	monthly_portuguese_saudade = 1
+#}
 
-high_saudade_1 = {
-	monthly_portuguese_saudade = 0.05
-}
-high_saudade_2 = {
-	monthly_portuguese_saudade = 0.1
-}
-high_saudade_3 = {
-	monthly_portuguese_saudade = 0.15
-}
-low_saudade_1 = {
-	monthly_portuguese_saudade = -0.05
-}
-low_saudade_2 = {
-	monthly_portuguese_saudade = -0.1
-}
-low_saudade_3 = {
-	monthly_portuguese_saudade = -0.15
-}
+#high_saudade_1 = {
+#	monthly_portuguese_saudade = 0.05
+#}
+#high_saudade_2 = {
+#	monthly_portuguese_saudade = 0.1
+#}
+#high_saudade_3 = {
+#	monthly_portuguese_saudade = 0.15
+#}
+#low_saudade_1 = {
+#	monthly_portuguese_saudade = -0.05
+#}
+#low_saudade_2 = {
+#	monthly_portuguese_saudade = -0.1
+#}
+#low_saudade_3 = {
+#	monthly_portuguese_saudade = -0.15
+#}
 
 around_africa = {
 	range = 1.0
@@ -590,24 +590,24 @@ expensive_spices = {
 	trade_efficiency = -0.05
 }
 
-capital_1 = {
-	monthly_portuguese_saudade = -0.05
-}
-capital_2 = {
-	monthly_portuguese_saudade = -0.1
-}
-capital_3 = {
-	monthly_portuguese_saudade = -0.15
-}
-capital_4 = {
-	monthly_portuguese_saudade = -0.2
-}
-capital_5 = {
-	monthly_portuguese_saudade = -0.25
-}
-capital_6 = {
-	monthly_portuguese_saudade = -0.3
-}
+#capital_1 = {
+#	monthly_portuguese_saudade = -0.05
+#}
+#capital_2 = {
+#	monthly_portuguese_saudade = -0.1
+#}
+#capital_3 = {
+#	monthly_portuguese_saudade = -0.15
+#}
+#capital_4 = {
+#	monthly_portuguese_saudade = -0.2
+#}
+#capital_5 = {
+#	monthly_portuguese_saudade = -0.25
+#}
+#capital_6 = {
+#	monthly_portuguese_saudade = -0.3
+#}
 
 lusiadas = {
 	prestige_decay = -0.01
@@ -621,9 +621,9 @@ portugal_succession_crisis = {
 	naval_morale = -0.1
 }
 
-reduced_saudade = {
-	monthly_portuguese_saudade = -0.5
-}
+#reduced_saudade = {
+#	monthly_portuguese_saudade = -0.5
+#}
 
 large_trade_company = {
 	merchants = 2

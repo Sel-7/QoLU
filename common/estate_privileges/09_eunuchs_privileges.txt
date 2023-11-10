@@ -72,34 +72,34 @@ estate_eunuchs_outwards_perfection_privilege = {
 	}
 }
 
-#estate_eunuchs_palace_bureaucracy_privilege = {
-#	icon = estate_eunuchs_palace_bureaucracy_privilege
-#	max_absolutism = -10
-#	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-#	is_valid = { }
-#	can_select = { }
-#	influence = 0.1
-#	loyalty = 0.05
-#	benefits = { advisor_cost = -0.1 }
-#	modifier_by_land_ownership = {
-#		yearly_corruption = 0.33
-#		governing_capacity_modifier = 0.25
-#	}
-#	penalties = {
-#	}
-#	
-#	ai_will_do = {
-#		factor = 1
-#		modifier = {
-#			factor = 0
-#			yearly_corruption_increase = 0.35
-#		}
-#		modifier = {
-#			factor = 1.25
-#			governing_capacity_percentage = 0.95 
-#		}
-#	}
-#}
+estate_eunuchs_palace_bureaucracy_privilege = {
+	icon = estate_eunuchs_palace_bureaucracy_privilege
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	is_valid = { always = no }
+	can_select = { }
+	influence = 0.1
+	loyalty = 0.05
+	benefits = { advisor_cost = -0.1 }
+	modifier_by_land_ownership = {
+		yearly_corruption = 0.33
+		governing_capacity_modifier = 0.25
+	}
+	penalties = {
+	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			yearly_corruption_increase = 0.35
+		}
+		modifier = {
+			factor = 1.25
+			governing_capacity_percentage = 0.95 
+		}
+	}
+}
 
 estate_eunuchs_delegate_provincial_administration_privilege = {
 	icon = estate_eunuchs_delegate_provincial_administration_privilege

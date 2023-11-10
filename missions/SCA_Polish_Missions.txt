@@ -1,4 +1,4 @@
-poland_sca_slot_1 = { #Made by William 'Big Boss' S.
+poland_sca_slot_1 = { 
 	slot = 1
 	generic = no
 	ai = yes
@@ -716,9 +716,12 @@ poland_sca_slot_2_a = {
 						who = ROOT 
 						value = 190 
 					}
-					trust = { 	
-						who = ROOT 
-						value = 100 
+					if = {
+						limit = { has_dlc = "Leviathan" }
+						trust = {
+							who = ROOT
+							value = 100
+						}
 					}
 					is_at_war = no 
 					NOT = { total_development = ROOT } 
@@ -1460,12 +1463,13 @@ poland_sca_slot_3_a = {
 				tag = PLC 
 				current_age = age_of_reformation
 			}
+			num_of_allies = 2 
 			army_size_percentage = 0.9 
 			BOH = { 
 				OR = { 
 					alliance_with = ROOT 
 					is_rival = ROOT 
-					is_subject_of = ROOT
+					is_subject_of = ROOT 
 					has_opinion_modifier = {
 						who = ROOT
 						modifier = insulted
@@ -1481,6 +1485,7 @@ poland_sca_slot_3_a = {
 				OR = { 
 					alliance_with = ROOT 
 					is_rival = ROOT 
+					is_subject_of = ROOT 
 					has_opinion_modifier = {
 						who = ROOT
 						modifier = insulted
@@ -1494,12 +1499,177 @@ poland_sca_slot_3_a = {
 			}
 		}
 		effect = {
-			silesia_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
+			custom_tooltip = pol_if_antagonize_poland_or_hungary_pu_tt
+			tooltip = {
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					months = 300
+					target = HUN
+				} 
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					months = 300
+					target = BOH
+				} 
+			}
+			custom_tooltip = pol_alternatively_tt 
+			tooltip = { 
+				add_favors = {
+					who = HUN 
+					amount = 10 
 				}
-				add_permanent_claim = ROOT
+				add_favors = { 
+					who = BOH 
+					amount = 10 
+				}
+				BOH = { add_historical_friend = ROOT }
+				add_historical_friend = BOH 
+				HUN = { add_historical_friend = ROOT }
+				add_historical_friend = HUN 
+			}
+			custom_tooltip = pol_impact_future_missions_tt 
+			hidden_effect = { 
+				swap_non_generic_missions = yes 
+				if = { 
+					limit = { alliance_with = BOH } 
+					add_favors = { 
+						who = BOH 
+						amount = 10 
+					}
+					BOH = { add_historical_friend = ROOT }
+					add_historical_friend = BOH 
+				}
+				else_if = {
+					limit = {
+						valid_for_personal_unions_trigger = yes 
+						BOH = { 
+							OR = { 
+								is_rival = ROOT 
+								has_opinion_modifier = {
+									who = ROOT
+									modifier = insulted
+								}
+								has_opinion_modifier = {
+									who = ROOT
+									modifier = scornfully_insulted
+								} 
+							}
+							valid_for_personal_unions_trigger = yes 
+						}
+					}
+					add_casus_belli = {
+						type = cb_restore_personal_union
+						months = 300
+						target = BOH
+					} 
+				}
+				else = {
+					moravia_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT }  
+						}
+						add_permanent_claim = ROOT 
+					}
+					erzgebirge_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT }  
+						}
+						add_permanent_claim = ROOT 
+					}
+					bohemia_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT } 
+						}
+						add_permanent_claim = ROOT 
+					}
+					silesia_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT } 
+						}
+						add_permanent_claim = ROOT 
+					}
+					lusatia_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT } 
+						}
+						add_permanent_claim = ROOT 
+					}
+				}
+				if = { 
+					limit = { alliance_with = HUN } 
+					add_favors = { 
+						who = HUN 
+						amount = 10 
+					}
+					HUN = { add_historical_friend = ROOT }
+					add_historical_friend = HUN 
+				}
+				else_if = {
+					limit = {
+						valid_for_personal_unions_trigger = yes 
+						HUN = { 
+							OR = { 
+								is_rival = ROOT 
+								has_opinion_modifier = {
+									who = ROOT
+									modifier = insulted
+								}
+								has_opinion_modifier = {
+									who = ROOT
+									modifier = scornfully_insulted
+								} 
+							}
+							valid_for_personal_unions_trigger = yes 
+						}
+					}
+					add_casus_belli = {
+						type = cb_restore_personal_union
+						months = 300
+						target = HUN
+					} 
+				}
+				else = {
+					slovakia_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT } 
+						}
+						add_permanent_claim = ROOT 
+					}
+					alfold_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT } 
+						}
+						add_permanent_claim = ROOT 
+					}
+					transdanubia_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT } 
+						}
+						add_permanent_claim = ROOT 
+					}
+					southern_transylvania_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT }  
+						}
+						add_permanent_claim = ROOT 
+					}
+					transylvania_area = { 
+						limit = { 
+							NOT = { is_core = ROOT } 
+							NOT = { is_permanent_claim = ROOT }  
+						}
+						add_permanent_claim = ROOT 
+					}
+				}
 			}
 		}
 	}		
@@ -1549,12 +1719,10 @@ poland_sca_slot_3_a = {
 						who = ROOT 
 						value = 190 
 					}
-					if = {
-						limit = { has_dlc = "Leviathan" }
-						trust = {
-							who = ROOT
-							value = 100
-						}}
+					trust = { 	
+						who = ROOT 
+						value = 100 
+					}
 					is_at_war = no 
 					NOT = { total_development = ROOT } 
 					NOT = { army_size = ROOT } 
@@ -1609,7 +1777,6 @@ poland_sca_slot_3_a = {
 					}
 					HUN = { add_liberty_desire = -20 } 
 				}
-				custom_tooltip = pol_every_mil_building_1_base_development_mil_tt
 			}
 			hidden_effect = {
 				if = {
@@ -1654,16 +1821,6 @@ poland_sca_slot_3_a = {
 						}
 					}
 					add_prestige = 20 
-				}
-				every_owned_province = { 
-					limit = {
-						OR = { 
-							has_manpower_building_trigger = yes 
-							has_forcelimit_building_trigger = yes 
-							has_fort_building_trigger = yes 
-						}
-					} 
-					add_base_manpower = 1 
 				}
 				if = { 
 					limit = { 
@@ -1915,7 +2072,7 @@ poland_sca_slot_3_b = {
 		effect = {
 			if = { 
 				limit = { has_dlc = "Mandate of Heaven" }
-				custom_tooltip = pol_if_used_ge_rest_else_30_years_extension_tt 
+				custom_tooltip = bs_pol_if_used_ge_rest_else_30_years_extension_tt 
 				if = {
 					limit = { has_had_golden_age = yes } 
 					reset_golden_age = yes 
@@ -1989,7 +2146,7 @@ poland_sca_slot_3_b = {
 					limit = { has_dlc = "Third Rome" } 
 					custom_tooltip = pol_10_streltsy_in_capital
 				}
-				else = { add_yearly_manpower = 2 } 
+				else = { add_yearly_manpower = 0.33 } 
 				russia_region = {
 					limit = { 
 						NOT = { owned_by = ROOT } 
@@ -2004,7 +2161,7 @@ poland_sca_slot_3_b = {
 					name = broke_the_rus
 					duration = 9125 
 				}
-				add_yearly_manpower = 2
+				add_yearly_manpower = 0.33
 				karelia_area = {
 					limit = { 
 						NOT = { country_or_non_sovereign_subject_holds = ROOT } 
@@ -2276,7 +2433,7 @@ poland_sca_slot_3_plc_1 = {
 		effect = {
 			if = { 
 				limit = { has_dlc = "Mandate of Heaven" }
-				custom_tooltip = pol_if_used_ge_rest_else_30_years_extension_tt 
+				custom_tooltip = bs_pol_if_used_ge_rest_else_30_years_extension_tt 
 				if = {
 					limit = { has_had_golden_age = yes } 
 					reset_golden_age = yes 
@@ -2369,7 +2526,7 @@ poland_sca_slot_3_plc_1 = {
 						}
 					}
 				}
-				else = { add_yearly_manpower = 2 } 
+				else = { add_yearly_manpower = 0.33 } 
 				russia_region = {
 					limit = { 
 						NOT = { owned_by = ROOT } 
@@ -2384,7 +2541,7 @@ poland_sca_slot_3_plc_1 = {
 					name = broke_the_rus
 					duration = 9125 
 				}
-				add_yearly_manpower = 2
+				add_yearly_manpower = 0.33
 				karelia_area = {
 					limit = { 
 						NOT = { country_or_non_sovereign_subject_holds = ROOT } 
@@ -2436,7 +2593,7 @@ poland_sca_slot_3_plc_1 = {
 					}
 				}
 				else = { 
-					add_yearly_manpower = 2 
+					add_yearly_manpower = 0.33
 					add_country_modifier = { 
 						name = broke_the_rus
 						duration = 9125 
@@ -2917,6 +3074,7 @@ poland_sca_slot_4_b = {
 							who = ROOT 
 							modifier = sent_gift
 						}
+					}
 				}
 				religious_unity = 0.9 
 			}
@@ -3213,7 +3371,7 @@ poland_sca_slot_4_d = {
 			else = { add_stability_or_adm_power = yes }
 			if = { 
 				limit = { has_parliament = yes } 
-				add_years_of_manpower_scaled_to_seats = 1
+				add_years_of_manpower_scaled_to_seats = 0.33
 			}
 			else = { add_mil_power = 50 }
 		} 

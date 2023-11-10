@@ -13,11 +13,6 @@ capital = "Kherson"
 is_city = yes
 add_core = CRI
 
-add_permanent_province_modifier = {
-	name = echo_dnieper_buh_estuary_pmod
-	duration = -1
-}
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

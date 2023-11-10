@@ -80,12 +80,6 @@ country_event = {
 				}
 				else_if = {
 					limit = {
-						has_estate_privilege = estate_nobles_advisors
-					}
-					remove_estate_privilege = estate_nobles_advisors
-				}
-				else_if = {
-					limit = {
 						has_estate_privilege = estate_nobles_right_of_counsel
 					}
 					remove_estate_privilege = estate_nobles_right_of_counsel
@@ -307,7 +301,6 @@ country_event = {
 				estate_nobles_land_rights = { remove_estate_privilege = estate_nobles_land_rights }
 				estate_nobles_officer_corp = { remove_estate_privilege = estate_nobles_officer_corp }
 				estate_nobles_levies = { remove_estate_privilege = estate_nobles_levies }
-				estate_nobles_advisors = { remove_estate_privilege = estate_nobles_advisors }
 				estate_nobles_right_of_counsel = { remove_estate_privilege = estate_nobles_right_of_counsel }
 				estate_nobles_supremacy_over_crown = { remove_estate_privilege = estate_nobles_supremacy_over_crown }
 				estate_nobles_strong_duchies = { remove_estate_privilege = estate_nobles_strong_duchies }
@@ -1927,12 +1920,6 @@ country_event = {
 						has_estate_privilege = estate_nobles_levies
 					}
 					remove_estate_privilege = estate_nobles_levies
-				}
-				else_if = {
-					limit = {
-						has_estate_privilege = estate_nobles_advisors
-					}
-					remove_estate_privilege = estate_nobles_advisors
 				}
 				else_if = {
 					limit = {

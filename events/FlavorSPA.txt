@@ -2929,7 +2929,7 @@ country_event = { #The Spanish Dollar
 		}
 		
 		change_ruler_stat = {
-			stat = adm
+			type = adm
 			amount = 1
 		}
 		

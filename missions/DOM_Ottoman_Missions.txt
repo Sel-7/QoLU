@@ -9,7 +9,7 @@ tur_conquest_of_europe = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -791,7 +791,7 @@ tur_conquest_of_europe = {
 	}
 	
 	tur_address_firman = {
-		#Credit to Big Boss
+		
 		icon = mission_the_firman
 		required_missions = {  }
 		position = 10
@@ -1060,7 +1060,7 @@ tur_african_conquest = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1161,16 +1161,15 @@ tur_african_conquest = {
 		completed_by = 1455.1.1
 		trigger = {
 			has_mil_advisor_2 = yes
-			mil_tech = 4
 		}
 		effect = {
 			if = {
-				limit = { NOT = { mil_tech = 7 } }
+				limit = { NOT = { mil_tech = 10 } }
 				capital_scope = {
-					large_cast_bronze_mortar = ROOT
-					large_cast_bronze_mortar = ROOT
-					large_cast_bronze_mortar = ROOT
-					large_cast_bronze_mortar = ROOT
+					culverin = ROOT
+					culverin = ROOT
+					culverin = ROOT
+					culverin = ROOT
 				}
 				custom_tooltip = tur_guns_of_urban_ct
 			}
@@ -1941,6 +1940,7 @@ tur_african_conquest = {
 							who = ROOT 
 							value = 80 
 						}
+					}
 				}
 				num_of_owned_provinces_with = {
 					province_has_center_of_trade_of_level = 1
@@ -2039,7 +2039,7 @@ tur_egyptian_conquest = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -2134,15 +2134,15 @@ tur_egyptian_conquest = {
 					NOT = {
 						has_great_project = {
 							type = hagia_sophia
-							tier = 1
+							tier = 2
 						}
 					}
-					#NOT = {
-					#	has_great_project = {
-					#		type = hagia_sophia
-					#		tier = 3
-					#	}
-					#}
+					NOT = {
+						has_great_project = {
+							type = hagia_sophia
+							tier = 3
+						}
+					}
 				}
 				NOT = { base_tax = 20 }
 				NOT = { has_tax_building_trigger = yes }
@@ -2962,7 +2962,7 @@ tur_arabian_conquest = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -3063,7 +3063,7 @@ tur_arabian_conquest = {
 	}
 	
 	tur_fate_of_the_patriarchate = {
-		icon = mission_pf_cross
+		icon = mission_hagia_sophia
 		required_missions = { tur_city_of_worlds_desire }
 		position = 4
 		provinces_to_highlight = {
@@ -3250,7 +3250,7 @@ tur_arabian_conquest = {
 		}
 	}
 	
-	tur_crimean_khaganate = {	#- written by Big Boss
+	tur_crimean_khaganate = {
 		icon = mission_chinese_general_riding
 		required_missions = {  }
 		position = 6
@@ -3274,10 +3274,13 @@ tur_arabian_conquest = {
 						who = ROOT 
 						value = 150 
 					}
-					trust = { 
-						who = ROOT 
-						value = 60 
-					} 
+					if = {
+						limit = { has_dlc = "Leviathan" }
+						trust = { 
+							who = ROOT 
+							value = 60 
+						} 
+					}
 				}
 				AND = { 
 					azov_area = { 
@@ -3525,7 +3528,6 @@ tur_arabian_conquest = {
 	}
 	
 	tur_seize_the_caliphate = {
-		#Localization written by Big Boss
 		icon = mission_the_caliph
 		required_missions = {
 			tur_conquer_egypt
@@ -3569,7 +3571,7 @@ tur_arabian_conquest = {
 			prestige = 50
 			if = {
 				limit = { religion = sunni }
-				has_country_modifier = khalifah
+				has_ruler_modifier = khalifah
 			}
 		}
 		effect = {
@@ -3611,7 +3613,7 @@ tur_dummy_missions_path = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_country_flag = tur_chose_legalism }
 		NOT = { has_country_flag = tur_chose_mysticism }
@@ -3911,7 +3913,7 @@ tur_legalism_path = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = tur_chose_legalism
 	}
@@ -4068,7 +4070,7 @@ tur_mysticism_path = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = tur_chose_mysticism
 	}
@@ -4224,7 +4226,7 @@ tur_non_muslim_path = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = tur_non_muslim_path_flag
 	}
@@ -4323,7 +4325,7 @@ tur_issue_the_kannuname_slot = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -4395,7 +4397,7 @@ tur_persian_conquest = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -4771,7 +4773,7 @@ tur_persian_conquest = {
 	}
 	
 	tur_imperial_fabrics = {
-		#Credit to Big Boss
+		
 		icon = mission_finest_carpets
 		required_missions = { tur_the_silk_road }
 		position = 11
@@ -4994,7 +4996,7 @@ tur_stagnation_slot_1 = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = tur_unlocked_disaster_missions
 	}
@@ -5336,7 +5338,7 @@ tur_stagnation_slot_2 = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = tur_unlocked_disaster_missions
 	}
@@ -5421,7 +5423,7 @@ tur_stagnation_slot_3 = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = tur_unlocked_disaster_missions
 	}
@@ -5595,7 +5597,7 @@ tur_stagnation_slot_4 = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = tur_unlocked_disaster_missions
 	}
@@ -5738,7 +5740,7 @@ tur_stagnation_slot_5 = {
 	}
 	potential = {
 		has_dlc = "Domination"
-		tag = TUR
+		OR = { tag = TUR tag = RUM }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = tur_unlocked_disaster_missions
 	}

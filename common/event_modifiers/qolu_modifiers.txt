@@ -16,7 +16,15 @@ por_exploration = {
 }
 
 echo_development = {
-	development_cost = -0.125
+	development_cost = -0.1
+}
+
+trade_hub_created_in_province = {
+	
+}
+
+trade_hub_created = {
+
 }
 
 adm_advisor_cd = {
@@ -57,6 +65,11 @@ qolu_national_rebuild = {
 	global_manpower_modifier = -0.2
 	land_morale = -0.1
 }
+
+burnt_development = {
+	
+}
+
 
 
 ##################

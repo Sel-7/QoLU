@@ -37,14 +37,14 @@ discovered_by = indian
 	add_core = PER
 	remove_core = BUK
 } # The Safavids took over, Shi'ism became the state religion
-1550.1.1 = { discovered_by = TUR }
-1673.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
+#1550.1.1 = { discovered_by = TUR }
+#1673.1.1 = { discovered_by = ENG }
+#1707.5.12 = { discovered_by = GBR }
 1750.1.2 = {
 	owner = KHO
 	controller = KHO
 	remove_core = PER
-	unrest = 0
+#	unrest = 0
 } # Shahrokh is allowed to remain as ruler of Khurasan
 1796.1.1 = {
 	owner = PER

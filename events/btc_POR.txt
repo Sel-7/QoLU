@@ -33,12 +33,12 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			norte_area = {
-				add_devastation = 30
-				add_base_tax = -1
-				add_base_production = -1
-				add_base_manpower = -1
-			}
+			#norte_area = {
+			#	add_devastation = 30
+			#	add_base_tax = -1
+			#	add_base_production = -1
+			#	add_base_manpower = -1
+			#}
 			beieras_area = {
 				add_devastation = 30
 				add_base_tax = -1
@@ -57,7 +57,7 @@ country_event = {
 				add_base_production = -1
 				add_base_manpower = -1
 			}
-			tangier_area = {
+			northern_morocco_area = {
 				add_devastation = 30
 				add_base_tax = -1
 				add_base_production = -1
@@ -81,12 +81,12 @@ country_event = {
 				add_base_production = -1
 				add_base_manpower = -1
 			}
-			estremadura_area = {
-				add_devastation = 50
-				add_base_tax = -2
-				add_base_production = -2
-				add_base_manpower = -2
-			}
+			#estremadura_area = {
+			#	add_devastation = 50
+			#	add_base_tax = -2
+			#	add_base_production = -2
+			#	add_base_manpower = -2
+			#}
 			231 = {
 				add_base_tax = -1
 				add_base_production = -1
@@ -151,15 +151,6 @@ country_event = {
 	
 	immediate = {
 		add_stability = -1
-		every_owned_province = {
-			limit = {
-				area = estremadura_area
-			}
-			add_base_tax = -1
-			add_base_production = -1
-			add_base_manpower = -1
-			add_devastation = 15
-		}
 		231 = {
 			add_base_production = -1
 			add_base_manpower = -1
@@ -1278,12 +1269,12 @@ country_event = {
 
 		add_papal_influence = 10
 
-		declare_war_with_cb = {
-			casus_belli = cb_war_of_three_kings
-			who = MOR
-		}
-		set_country_flag = war_of_three_kings
-		MOR = { set_country_flag = war_of_three_kings }
+		#declare_war_with_cb = {
+		#	casus_belli = cb_war_of_three_kings
+		#	who = MOR
+		#}
+		#set_country_flag = war_of_three_kings
+		#MOR = { set_country_flag = war_of_three_kings }
 
 		# MOR = {
 		# 	add_opinion = {
@@ -2245,42 +2236,42 @@ country_event = {
 
 # Choose focus #
 
-country_event = {
-	id = btc_por.131
-	title = btc_por.131_t
-	desc = btc_por.131_d
-	picture = saudade_decision_picture
+#country_event = {
+#	id = btc_por.131
+#	title = btc_por.131_t
+#	desc = btc_por.131_d
+#	picture = saudade_decision_picture
+#
+#	is_triggered_only = yes
+#
+#	option = {	# Homeland focus
+#		name = btc_por.131a
+#
+#		add_adm_power = -100
+#		add_mil_power = -100
+#
+#		add_country_modifier = {
+#			name = homeland_focus
+#			duration = 1875
+#		}
+#	}
+#
+#	option = {	# Overseas focus
+#		name = btc_por.131b
+#
+#		add_adm_power = -100
+#		add_dip_power = -100
+#
+#		add_country_modifier = {
+#			name = overseas_focus
+#			duration = 1875
+#		}
+#	}
 
-	is_triggered_only = yes
-
-	option = {	# Homeland focus
-		name = btc_por.131a
-
-		add_adm_power = -100
-		add_mil_power = -100
-
-		add_country_modifier = {
-			name = homeland_focus
-			duration = 1875
-		}
-	}
-
-	option = {	# Overseas focus
-		name = btc_por.131b
-
-		add_adm_power = -100
-		add_dip_power = -100
-
-		add_country_modifier = {
-			name = overseas_focus
-			duration = 1875
-		}
-	}
-
-	option = {	# Go back
-		name = btc_por.131d
-	}
-}
+#	option = {	# Go back
+#		name = btc_por.131d
+#	}
+#}
 
 # Colonize Arguin #
 
@@ -2311,245 +2302,245 @@ country_event = {
 }
 
 # Saudade calculation monthly pulse
-country_event = {
-	id = btc_por.133
-	title = btc_por.133_t
-	desc = btc_por.133_d
+#country_event = {
+#	id = btc_por.133
+#	title = btc_por.133_t
+#	desc = btc_por.133_d
+#
+#	is_triggered_only = yes
+#	hidden = yes
+#
+#	trigger = {
+#		has_government_mechanic = portuguese_saudade_mechanic
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	immediate = {
+#		export_to_variable = {
+#			which = provincesInStates
+#			value = trigger_value:num_of_provinces_in_states
+#		}
+#		export_to_variable = {
+#			which = provincesInTerritories
+#			value = trigger_value:num_of_provinces_in_territories
+#		}
+#		subtract_variable = {
+#			which = provincesInStates
+#			which = provincesInTerritories
+#		}
+#		set_variable = {
+#			which = saudadeValue
+#			which = provincesInStates
+#		}
+#	}
+#
+#	option = {
+#		name = btc_por.133a
+#
+#		trigger = {
+#			AND = {
+#				NOT = {
+#					check_variable = {
+#						which = saudadeValue
+#						value = -4
+#					}
+#				}
+#				check_variable = {
+#					which = saudadeValue
+#					value = -9
+#				}
+#			}
+#		}
+#
+#		if = { 
+#			limit = { NOT = { has_country_modifier = high_saudade_1 } }
+#			add_country_modifier = {
+#				name = high_saudade_1
+#				duration = -1
+#			}
+#			remove_country_modifier = high_saudade_2
+#			remove_country_modifier = high_saudade_3
+#			remove_country_modifier = low_saudade_1
+#			remove_country_modifier = low_saudade_2
+#			remove_country_modifier = low_saudade_3
+#		}
+#	}
+#
+#	option = {
+#		name = btc_por.133b
+#
+#		trigger = {
+#			AND = {
+#				NOT = {
+#					check_variable = {
+#						which = saudadeValue
+#						value = -9
+#					}
+#				}
+#				check_variable = {
+#					which = saudadeValue
+#					value = -14
+#				}
+#			}
+#		}
+#
+#		if = { 
+#			limit = { NOT = { has_country_modifier = high_saudade_2 } }
+#			add_country_modifier = {
+#				name = high_saudade_2
+#				duration = -1
+#			}
+#			remove_country_modifier = high_saudade_1
+#			remove_country_modifier = high_saudade_3
+#			remove_country_modifier = low_saudade_1
+#			remove_country_modifier = low_saudade_2
+#			remove_country_modifier = low_saudade_3
+#		}
+#	}
+#
+#	option = {
+#		name = btc_por.133c
+#
+#		trigger = {
+#			NOT = {
+#				check_variable = {
+#					which = saudadeValue
+#					value = -14
+#				}
+#			}
+#		}
+#
+#		if = { 
+#			limit = { NOT = { has_country_modifier = high_saudade_3 } }
+#			add_country_modifier = {
+#				name = high_saudade_3
+#				duration = -1
+#			}
+#			remove_country_modifier = high_saudade_1
+#			remove_country_modifier = high_saudade_2
+#			remove_country_modifier = low_saudade_1
+#			remove_country_modifier = low_saudade_2
+#			remove_country_modifier = low_saudade_3
+#		}
+#	}
+#
+#	option = {
+#		name = btc_por.133d
+#
+#		trigger = {
+#			AND = {
+#				check_variable = {
+#					which = saudadeValue
+#					value = 5
+#				}
+#				NOT = {
+#					check_variable = {
+#						which = saudadeValue
+#						value = 10
+#					}
+#				}
+#			}
+#		}
+#
+#		if = { 
+#			limit = { NOT = { has_country_modifier = low_saudade_1 } }
+#			add_country_modifier = {
+#				name = low_saudade_1
+#				duration = -1
+#			}
+#			remove_country_modifier = high_saudade_1
+#			remove_country_modifier = high_saudade_2
+#			remove_country_modifier = high_saudade_3
+#			remove_country_modifier = low_saudade_2
+#			remove_country_modifier = low_saudade_3
+#		}
+#	}
+#
+#	option = {
+#		name = btc_por.133e
+#
+#		trigger = {
+#			AND = {
+#				check_variable = {
+#					which = saudadeValue
+#					value = 10
+#				}
+#				NOT = {
+#					check_variable = {
+#						which = saudadeValue
+#						value = 15
+#					}
+#				}
+#			}
+#		}
 
-	is_triggered_only = yes
-	hidden = yes
-
-	trigger = {
-		has_government_mechanic = portuguese_saudade_mechanic
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		export_to_variable = {
-			which = provincesInStates
-			value = trigger_value:num_of_provinces_in_states
-		}
-		export_to_variable = {
-			which = provincesInTerritories
-			value = trigger_value:num_of_provinces_in_territories
-		}
-		subtract_variable = {
-			which = provincesInStates
-			which = provincesInTerritories
-		}
-		set_variable = {
-			which = saudadeValue
-			which = provincesInStates
-		}
-	}
-
-	option = {
-		name = btc_por.133a
-
-		trigger = {
-			AND = {
-				NOT = {
-					check_variable = {
-						which = saudadeValue
-						value = -4
-					}
-				}
-				check_variable = {
-					which = saudadeValue
-					value = -9
-				}
-			}
-		}
-
-		if = { 
-			limit = { NOT = { has_country_modifier = high_saudade_1 } }
-			add_country_modifier = {
-				name = high_saudade_1
-				duration = -1
-			}
-			remove_country_modifier = high_saudade_2
-			remove_country_modifier = high_saudade_3
-			remove_country_modifier = low_saudade_1
-			remove_country_modifier = low_saudade_2
-			remove_country_modifier = low_saudade_3
-		}
-	}
-
-	option = {
-		name = btc_por.133b
-
-		trigger = {
-			AND = {
-				NOT = {
-					check_variable = {
-						which = saudadeValue
-						value = -9
-					}
-				}
-				check_variable = {
-					which = saudadeValue
-					value = -14
-				}
-			}
-		}
-
-		if = { 
-			limit = { NOT = { has_country_modifier = high_saudade_2 } }
-			add_country_modifier = {
-				name = high_saudade_2
-				duration = -1
-			}
-			remove_country_modifier = high_saudade_1
-			remove_country_modifier = high_saudade_3
-			remove_country_modifier = low_saudade_1
-			remove_country_modifier = low_saudade_2
-			remove_country_modifier = low_saudade_3
-		}
-	}
-
-	option = {
-		name = btc_por.133c
-
-		trigger = {
-			NOT = {
-				check_variable = {
-					which = saudadeValue
-					value = -14
-				}
-			}
-		}
-
-		if = { 
-			limit = { NOT = { has_country_modifier = high_saudade_3 } }
-			add_country_modifier = {
-				name = high_saudade_3
-				duration = -1
-			}
-			remove_country_modifier = high_saudade_1
-			remove_country_modifier = high_saudade_2
-			remove_country_modifier = low_saudade_1
-			remove_country_modifier = low_saudade_2
-			remove_country_modifier = low_saudade_3
-		}
-	}
-
-	option = {
-		name = btc_por.133d
-
-		trigger = {
-			AND = {
-				check_variable = {
-					which = saudadeValue
-					value = 5
-				}
-				NOT = {
-					check_variable = {
-						which = saudadeValue
-						value = 10
-					}
-				}
-			}
-		}
-
-		if = { 
-			limit = { NOT = { has_country_modifier = low_saudade_1 } }
-			add_country_modifier = {
-				name = low_saudade_1
-				duration = -1
-			}
-			remove_country_modifier = high_saudade_1
-			remove_country_modifier = high_saudade_2
-			remove_country_modifier = high_saudade_3
-			remove_country_modifier = low_saudade_2
-			remove_country_modifier = low_saudade_3
-		}
-	}
-
-	option = {
-		name = btc_por.133e
-
-		trigger = {
-			AND = {
-				check_variable = {
-					which = saudadeValue
-					value = 10
-				}
-				NOT = {
-					check_variable = {
-						which = saudadeValue
-						value = 15
-					}
-				}
-			}
-		}
-
-		if = { 
-			limit = { NOT = { has_country_modifier = low_saudade_2 } }
-			add_country_modifier = {
-				name = low_saudade_2
-				duration = -1
-			}
-			remove_country_modifier = high_saudade_1
-			remove_country_modifier = high_saudade_2
-			remove_country_modifier = high_saudade_3
-			remove_country_modifier = low_saudade_1
-			remove_country_modifier = low_saudade_3
-		}
-	}
-
-	option = {
-		name = btc_por.133f
-
-		trigger = {
-			check_variable = {
-				which = saudadeValue
-				value = 15
-			}
-		}
-
-		if = { 
-			limit = { NOT = { has_country_modifier = low_saudade_3 } }
-			add_country_modifier = {
-				name = low_saudade_3
-				duration = -1
-			}
-			remove_country_modifier = high_saudade_1
-			remove_country_modifier = high_saudade_2
-			remove_country_modifier = high_saudade_3
-			remove_country_modifier = low_saudade_1
-			remove_country_modifier = low_saudade_2
-		}
-	}
-
-	option = {
-		name = btc_por.133g
-
-		trigger = {
-			AND = {
-				check_variable = {
-					which = saudadeValue
-					value = -4
-				}
-				NOT = {
-					check_variable = {
-						which = saudadeValue
-						value = 4
-					}
-				}
-			}
-		}
-
-		remove_country_modifier = high_saudade_1
-		remove_country_modifier = high_saudade_2
-		remove_country_modifier = high_saudade_3
-		remove_country_modifier = low_saudade_1
-		remove_country_modifier = low_saudade_2
-		remove_country_modifier = low_saudade_3
-	}
-}
+#		if = { 
+#			limit = { NOT = { has_country_modifier = low_saudade_2 } }
+#			add_country_modifier = {
+#				name = low_saudade_2
+#				duration = -1
+#			}
+#			remove_country_modifier = high_saudade_1
+#			remove_country_modifier = high_saudade_2
+#			remove_country_modifier = high_saudade_3
+#			remove_country_modifier = low_saudade_1
+#			remove_country_modifier = low_saudade_3
+#		}
+#	}
+#
+#	option = {
+#		name = btc_por.133f
+#
+#		trigger = {
+#			check_variable = {
+#				which = saudadeValue
+#				value = 15
+#			}
+#		}
+#
+#		if = { 
+#			limit = { NOT = { has_country_modifier = low_saudade_3 } }
+#			add_country_modifier = {
+#				name = low_saudade_3
+#				duration = -1
+#			}
+#			remove_country_modifier = high_saudade_1
+#			remove_country_modifier = high_saudade_2
+#			remove_country_modifier = high_saudade_3
+#			remove_country_modifier = low_saudade_1
+#			remove_country_modifier = low_saudade_2
+#		}
+#	}
+#
+#	option = {
+#		name = btc_por.133g
+#
+#		trigger = {
+#			AND = {
+#				check_variable = {
+#					which = saudadeValue
+#					value = -4
+#				}
+#				NOT = {
+#					check_variable = {
+#						which = saudadeValue
+#						value = 4
+#					}
+#				}
+#			}
+#		}
+#
+#		remove_country_modifier = high_saudade_1
+#		remove_country_modifier = high_saudade_2
+#		remove_country_modifier = high_saudade_3
+#		remove_country_modifier = low_saudade_1
+#		remove_country_modifier = low_saudade_2
+#		remove_country_modifier = low_saudade_3
+#	}
+#}
 
 # Establish Feitoria #
 
@@ -2650,7 +2641,6 @@ province_event = {
 		if = {
 			limit = {
 				has_fort_building_trigger = yes
-				owner = { has_estate_privilege = estate_slavers_feitoria_defenses }
 			}
 			add_province_modifier = {
 				name = slave_garrison
@@ -2896,18 +2886,6 @@ country_event = {
 	option = {	# Gift it to the Pope
 		name = btc_por.139a
 
-		add_country_modifier = {
-			name = gave_hanno
-			duration = 1825
-		}
-
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = gifted_hanno # 50 relation
-			}
-		}
-
 		hidden_effect = {
 			country_event = {
 				id = btc_por.140
@@ -2919,17 +2897,6 @@ country_event = {
 	
 	option = {	# Display it in [ROOT.capital.getName]
 		name = btc_por.139b
-
-		add_country_modifier = {
-			name = kept_hanno
-			duration = 1825
-		}
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = didnt_gift_hanno # -50 relation
-			}
-		}
 
 		hidden_effect = {
 			country_event = {
@@ -2989,17 +2956,6 @@ country_event = {
 	
 	option = {	# Keep it as the personal pet of [ROOT.getMonarchName]
 		name = btc_por.140b
-
-		add_country_modifier = {
-			name = kept_ganda
-			duration = 1825
-		}
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = didnt_gift_ganda # -50 relation
-			}
-		}
 	}
 }
 
@@ -3022,13 +2978,6 @@ country_event = {
 
 		add_prestige = -10
 		add_navy_tradition = -10
-
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = didnt_gift_ganda # -50 relation
-			}
-		}
 	}
 }
 
@@ -3052,12 +3001,6 @@ country_event = {
 		add_country_modifier = {
 			name = gave_ganda
 			duration = 1825
-		}
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = gifted_ganda # 50 relation
-			}
 		}
 	}
 }
@@ -3149,10 +3092,6 @@ country_event = {
 			limit = {
 				religion_group = muslim
 			}
-			add_opinion = {
-				who = ROOT
-				modifier = stole_mohamed
-			}
 		}
 
 		hidden_effect = {
@@ -3220,9 +3159,9 @@ country_event = {
 					}
 					cede_province = POR
 				}
-				else = {
-					cede_province = IBE
-				}
+				#else = {
+				#	cede_province = IBE
+				#}
 			}
 		}
 		event_target:owner_of_gaza = {
@@ -3233,9 +3172,9 @@ country_event = {
 					}
 					cede_province = POR
 				}
-				else = {
-					cede_province = IBE
-				}
+				#else = {
+				#	cede_province = IBE
+				#}
 			}
 		}
 		event_target:owner_of_jaffa = {
@@ -3246,9 +3185,9 @@ country_event = {
 					}
 					cede_province = POR
 				}
-				else = {
-					cede_province = IBE
-				}
+				#else = {
+				#	cede_province = IBE
+				#}
 			}
 		}
 
@@ -3424,9 +3363,9 @@ country_event = {
 			}
 			join_all_offensive_wars_of = POR
 		}
-		else = {
-			join_all_offensive_wars_of = IBE
-		}
+		#else = {
+			#join_all_offensive_wars_of = IBE
+		#}
 	}
 
 	option = {	# A true epic... but we won't join
@@ -3642,12 +3581,6 @@ country_event = {
 			factor = 1
 		}
 
-		ETH = {
-			add_opinion = {
-				who = ROOT
-				modifier = pero_da_covilha_stays
-			}
-		}
 		add_prestige = -10
 
 		custom_tooltip = discover_prester_john
@@ -3666,13 +3599,6 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-
-		ETH = {
-			add_opinion = {
-				who = ROOT
-				modifier = pero_da_covilha_taken
-			}
-		}
 		add_prestige = 10
 
 		custom_tooltip = discover_prester_john
@@ -3686,147 +3612,6 @@ country_event = {
 	}
 }
 
-# Big city saudade calculation monthly pulse
-country_event = {
-	id = btc_por.155
-	title = btc_por.155_t
-	desc = btc_por.155_d
-
-	is_triggered_only = yes
-	hidden = yes
-
-	trigger = {
-		has_government_mechanic = portuguese_saudade_mechanic
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = btc_por.155a
-
-		every_owned_province = {
-			if = {
-				limit = {
-					AND = {
-						development = 30
-						NOT = { development = 35 }
-					}
-					culture = root
-				}
-				add_province_modifier = {
-					name = capital_1
-					duration = -1
-				}
-				remove_province_modifier = capital_2
-				remove_province_modifier = capital_3
-				remove_province_modifier = capital_4
-				remove_province_modifier = capital_5
-				remove_province_modifier = capital_6
-			}
-			if = {
-				limit = {
-					AND = {
-						development = 35
-						NOT = { development = 40 }
-					}
-					culture = root
-				}
-				add_province_modifier = {
-					name = capital_2
-					duration = -1
-				}
-				remove_province_modifier = capital_1
-				remove_province_modifier = capital_3
-				remove_province_modifier = capital_4
-				remove_province_modifier = capital_5
-				remove_province_modifier = capital_6
-			}
-			if = {
-				limit = {
-					AND = {
-						development = 40
-						NOT = { development = 45 }
-					}
-					culture = root
-				}
-				add_province_modifier = {
-					name = capital_3
-					duration = -1
-				}
-				remove_province_modifier = capital_1
-				remove_province_modifier = capital_2
-				remove_province_modifier = capital_4
-				remove_province_modifier = capital_5
-				remove_province_modifier = capital_6
-			}
-			if = {
-				limit = {
-					AND = {
-						development = 45
-						NOT = { development = 50 }
-					}
-					culture = root
-				}
-				add_province_modifier = {
-					name = capital_4
-					duration = -1
-				}
-				remove_province_modifier = capital_1
-				remove_province_modifier = capital_2
-				remove_province_modifier = capital_3
-				remove_province_modifier = capital_5
-				remove_province_modifier = capital_6
-			}
-			if = {
-				limit = {
-					AND = {
-						development = 50
-						NOT = { development = 55 }
-					}
-					culture = root
-				}
-				add_province_modifier = {
-					name = capital_5
-					duration = -1
-				}
-				remove_province_modifier = capital_1
-				remove_province_modifier = capital_2
-				remove_province_modifier = capital_3
-				remove_province_modifier = capital_4
-				remove_province_modifier = capital_6
-			}
-			if = {
-				limit = {
-					development = 55
-					culture = root
-				}
-				add_province_modifier = {
-					name = capital_6
-					duration = -1
-				}
-				remove_province_modifier = capital_1
-				remove_province_modifier = capital_2
-				remove_province_modifier = capital_3
-				remove_province_modifier = capital_4
-				remove_province_modifier = capital_5
-			}
-			if = {
-				limit = {
-					NOT = { development = 30 }
-					culture = root
-				}
-				remove_province_modifier = capital_1
-				remove_province_modifier = capital_2
-				remove_province_modifier = capital_3
-				remove_province_modifier = capital_4
-				remove_province_modifier = capital_5
-				remove_province_modifier = capital_6
-			}
-		}
-	}
-}
 
 # Luis de Camões #
 
@@ -5093,7 +4878,7 @@ country_event = {
 				limit = {
 					OR = {
 						war_with = POR
-						war_with = IBE
+						#war_with = IBE
 					}
 				}
 				save_event_target_as = ally_war_portugal
@@ -5119,10 +4904,10 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				exists = IBE
+				#exists = IBE
 			}
-			create_alliance = IBE
-			join_all_defensive_wars_of = IBE
+			#create_alliance = IBE
+			#join_all_defensive_wars_of = IBE
 		}
 	}
 
@@ -5145,18 +4930,18 @@ country_event = {
 				set_country_flag = england_rejected_alliance
 			}
 		}
-		else_if = {
-			limit = {
-				exists = IBE
-			}
-			IBE = { 
-				country_event = {
-					id = btc_por.126
-					days = 3
-				} 	
-				set_country_flag = england_rejected_alliance
-			}
-		}
+		#else_if = {
+		#	limit = {
+		#		exists = IBE
+		#	}
+		#	IBE = { 
+		#		country_event = {
+		#			id = btc_por.126
+		#			days = 3
+		#		} 	
+		#		set_country_flag = england_rejected_alliance
+		#	}
+		#}
 	}
 }
 
@@ -5287,13 +5072,6 @@ country_event = {
 			estate = estate_nobles
 			loyalty = 10
 		}
-
-		ARA = {
-			add_opinion = {
-				who = ROOT
-				modifier = exiled_leonor
-			}
-		}
 	}
 
 	option = {	# Allow shared custody of the young King
@@ -5305,15 +5083,6 @@ country_event = {
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -10
-		}
-
-		ARA = {
-			add_opinion = {
-				who = ROOT
-				modifier = welcomed_leonor
-			}
-			add_historical_friend = ROOT
-			remove_rival = ROOT
 		}
 		add_historical_friend = ARA
 		remove_rival = ARA

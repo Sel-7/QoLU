@@ -1,3 +1,4 @@
+namespace = echo
 ###we stand alone dev event####
 country_event = {
     id = echo.2

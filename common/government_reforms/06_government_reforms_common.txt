@@ -121,6 +121,72 @@ parliamentary_reform = {
 	}
 }
 
+restoration_of_the_senate_reform = {
+	icon = "restoration_of_the_senate_reform"
+	modifiers = {
+		global_unrest = -2
+		max_possible_parliament_seats = 8
+	}
+	potential = {
+		is_revolutionary = no
+		NOT = { has_government_attribute = is_pirate_republic_reform }
+		NOT = { has_government_attribute = english_parliament }
+		OR = {
+			tag = BYZ
+			was_tag = BYZ 
+		}
+	}
+	
+	trigger = {
+		NOT = { has_reform = elective_monarchy }
+		NOT = { has_reform = polish_great_sejm }
+		NOT = { has_reform = polish_elective_monarchy }
+		if = {
+			limit = { NOT = { has_dlc = "Mandate of Heaven" } }
+			NOT = { has_reform = celestial_empire }
+			NOT = { is_revolutionary_republic_trigger = yes }
+		}
+	}
+
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+		custom_attributes = {
+			blocked_call_diet = yes
+		}
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = { technology_group = western }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { technology_group = western }
+			NOT = {
+				any_neighbor_country = {
+					technology_group = western
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_reform = mughal_government
+				has_reform = celestial_empire
+				religion = confucianism
+			}
+		}
+	}
+
+}
+
 # Upgraded Indian estate reforms
 
 permanent_marathas_council_reform = {
@@ -676,6 +742,7 @@ lands_for_the_monasteries_reform = {
 		factor = 1
 	}
 }
+
 #the_avestan_dogma_reform = {
 #	icon = "articles_of_agreement"
 #	allow_normal_conversion = yes
@@ -1146,7 +1213,6 @@ secure_clergy_power_reform = {
 	}
 	modifiers = {
 		church_influence_modifier = 0.05
-		adm_advisor_cost = -0.1
 	}
 	effect = {
 		hidden_effect = {
@@ -1653,6 +1719,52 @@ english_conciliarism_reform = {
 		factor = 1
 	}
 }
+#Persia
+legacy_of_the_safavid_reform = {
+	icon = "legacy_of_the_safavid_reform"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = legacy_of_the_safavid_reform
+		}
+	}
+	trigger = {
+		OR = {
+			has_reform = feudal_theocracy
+			has_reform = persian_government_reform
+		}
+	}
+	modifiers = {
+		church_loyalty_modifier = 0.1
+		global_missionary_strength = 0.015
+		church_privilege_slots = 1
+		church_influence_modifier = -0.1
+	}
+	effect = {
+	}
+	removed_effect = {
+	}
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Cradle of Civilization"
+				has_dlc = "King of Kings"
+			}
+		}
+		custom_attributes = {
+			upgrade_feudal_theocracy = yes
+		}
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		custom_attributes = {
+			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180°
+		}
+	}
+	ai = {
+		factor = 10
+	}
+}
 
 #Military Doctrines
 organized_military_staff_reform = {
@@ -1758,6 +1870,9 @@ sustained_discipline_reform = {
 cavalry_warfare_reform = {
 	icon = "cavalry"
 	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_unlocked_government_reform = { government_reform = legacy_of_the_seljuk_reform } }
+	}
 	trigger = {
 		if = {
 			limit = { has_modifier_locking_military_tier = yes }
@@ -1769,7 +1884,7 @@ cavalry_warfare_reform = {
 	}
 	modifiers = {
 		cav_to_inf_ratio = 0.1
-		cavalry_cost = -0.05
+		#cavalry_cost = -0.05
 	}
 	
 	ai = {
@@ -1897,7 +2012,7 @@ doppelsoldner_reform = {
 		}
 	}
 	modifiers = {
-		mercenary_cost = -0.25
+		mercenary_cost = -0.1
 		possible_condottieri = 0.5
 		merc_leader_army_tradition = 0.25
 	}
@@ -3939,6 +4054,24 @@ commercial_trade_empire_reform = {
 		custom_attributes = {
 			can_establish_trade_protectorates = yes
 		}
+	}
+	ai = {
+		factor = 1
+	}
+}
+laesio_enormis_reform = {
+	icon = "laesio_enormis_reform"
+	allow_normal_conversion = yes
+	potential = {
+		has_dlc = "King of Kings"
+		is_or_was_tag = { tag = BYZ }
+	}
+	modifiers = {
+		global_prosperity_growth = 0.5
+		nobles_loyalty_modifier = -0.05
+		nobles_influence_modifier = -0.1
+		production_efficiency = 0.15
+		global_autonomy = -0.05
 	}
 	ai = {
 		factor = 1
