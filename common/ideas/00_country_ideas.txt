@@ -2164,7 +2164,7 @@ JAP_ideas = {
 MAM_ideas = {
 	start = {
 		global_prov_trade_power_modifier = 0.25
-		cavalry_power = 0.10
+		cavalry_power = 0.15
 	}
 	
 	bonus = {
@@ -16057,11 +16057,11 @@ CLI_ideas = {
 
 WES_ideas = {
 	start = {
-		diplomats = 1
+		land_morale = 0.1
 		land_forcelimit_modifier = 0.2
 	}
 	bonus = {
-		discipline = 0.05
+		infantry_power = 0.15
 	}
 	trigger = {
 		tag = WES
@@ -16076,11 +16076,11 @@ WES_ideas = {
 		development_cost = -0.05
 	}
 	wes_increased_conscription = {
-		global_manpower_modifier = 0.20
+		global_manpower_modifier = 0.25
 	}
 	wes_administrative_assimilation_of_rheinlanders = {
 		num_accepted_cultures = 1
-		same_culture_advisor_cost = -0.25
+		same_culture_advisor_cost = -0.2
 	}
 	wes_taxation = {
 		global_tax_modifier = 0.1
