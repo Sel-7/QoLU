@@ -2134,6 +2134,12 @@ tur_egyptian_conquest = {
 					NOT = {
 						has_great_project = {
 							type = hagia_sophia
+							tier = 1
+						}
+					}
+					NOT = {
+						has_great_project = {
+							type = hagia_sophia
 							tier = 2
 						}
 					}
@@ -2156,6 +2162,10 @@ tur_egyptian_conquest = {
 						has_dlc = "Leviathan"
 					}
 					OR = {
+						has_great_project = {
+							type = hagia_sophia
+							tier = 1
+						}
 						has_great_project = {
 							type = hagia_sophia
 							tier = 2
