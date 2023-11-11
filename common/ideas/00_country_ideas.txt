@@ -12152,7 +12152,7 @@ AUG_ideas = {
 FRN_ideas = {
 	start = {
 		global_tax_modifier = 0.1
-		global_trade_power = 0.15
+		land_morale = 0.1
 	}
 	bonus = {
 		prestige = 1
@@ -12177,7 +12177,7 @@ FRN_ideas = {
 		spy_offence = 0.15
 	}
 	frn_cultural_center = {
-		land_morale = 0.1
+		global_own_trade_power = 0.2
 	}
 	frn_sausages = {
 		production_efficiency = 0.1
