@@ -162,6 +162,8 @@ country_event = {
 	desc = qolu.4.d
 	picture = DIPLOMACY_SIGNING_eventPicture
 
+	is_triggered_only = yes
+
 	option = {
 		name = qolu.4.a
 	}
