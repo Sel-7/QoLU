@@ -867,7 +867,7 @@ geo_second_branch = {
 			}
 			add_country_modifier = {
 				name = "geo_counter_turkomans"
-				duration = 7300
+				duration = -1
 			}
 			al_jazira_area = {
 				limit = {
@@ -1360,7 +1360,7 @@ geo_third_branch = {
 			}
 			add_country_modifier = {
 				name = geo_turning_the_tide
-				duration = 7300
+				duration = 14600
 			}
 			thrace_area = {
 				limit = {

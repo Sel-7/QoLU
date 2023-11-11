@@ -4626,7 +4626,7 @@ TRE_ideas = {
 GEO_ideas = {
 	start = {
 		defensiveness = 0.25
-		infantry_power = 0.1
+		infantry_power = 0.15
 	}
 	
 	bonus = {
@@ -4658,7 +4658,7 @@ GEO_ideas = {
 	}
 	restoration_of_fortresses_and_churches = {
 		build_cost = -0.1
-		development_cost_in_primary_culture = -0.05
+		development_cost_in_primary_culture = -0.075
 	}
 	sadrosho_districts = {
 		manpower_recovery_speed = 0.2
