@@ -43,10 +43,15 @@ qolu.3.h:0 "£no£ Don't Recruit Anyone"
  echo.4.d:0 "After some deliberations, our merchants have successfully made $PROVINCE$ a center of trade."
  echo.4.a:0 "Good."
 
-#
+#cd's
 morale_cooldown:0 "Maybe Next Time"
 disc_cooldown:0 "Maybe Next Time"
  
+#new player guide
+
+qolu.4.t:0 "New Player Guide"
+qolu.4.d: "Changes made to the mod are the following:\n\nIdea groups and policies have been revamped in their entirity so it'd be best to check them out\n\nCrownland can now be sold at 0%, so all monarch point estates should be taken day 1.\n\n§PTriggered Modifiers:§! Imperial Ambition, Ahead of Time, War Chest, Minor and Mercenary Force Limit\n\n§PImperial Ambition:§! No Allies + Being up to date on institutions whilst being less than 5th Great Power for Slight Military and Economic Buffs\n§PAhead of Time:§! Requires all institutions to be embraced to receive tech cost, army professionalism and reform progress.\n §PWar Chest:§! Have a Treasury of 1.25x Yearly Income, with no allies, built to force limit whilst at war to receive powerful military buffs\n§PMinor:§! Not HRE emperor, and Below 300 dev to receive strong economic buffs.\n§PMercenary Force Limit:§! This comes in 2 stages. The First being when 4 mercenary companies are recruited, you receive a mercenary debuff, then when at 6 companies, you receive the same debuff, effectively doubling it. However taking Mercenary Ideas completely removes the triggered modifier.\n\n§RDecisions:§! Economic Golden Era, Advisors, Colonial Matters, Tackling National Debt and Creating Trade Centers.\n\n§REconomic Golden Era:§! Have 200 Monarch Points, and 200 splendor (Not Used, just a trigger) to receive -10% All Power Cost, and 10% Goods Produced.\n§RAdvisors:§! Military, Diplomatic and Administrative Advisors can be picked for 25 of their respective points\n§RColonial Matters:§! Portugal has access to colonisation day 1, Europeans have access to colonisation at Adm+Dip tech 5, while Africans gain access at Adm+Dip tech 8, and then Asians gain access at Adm+Dip tech 9. Hordes are completely locked out of colonisation.\n§RTackling National Debt:§! Have 10 Loans to receive a lot of negative interest, however at great detriment to the military. This decision unlocks 'Commence National Rebuild' which stops the effects of Tackling, however some slight military debuffs are in place for a time.\n§RCreating Trade Centers:§! When a province inside a state is 30 Development, and has a marketplace, whilst the state not having a trade center. You can create a trade center in that province.\n\n§TMercenary Companies§! have been vastly limited across the board, however there are some really big companies at mil tech 9,18 and 26 which gives §T60k§!, §T100k§! and two §T120k§! merc stacks respectively."
+qolu.4.a:0 "Got it."
 
  #beyond the cape integration
 

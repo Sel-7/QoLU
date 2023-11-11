@@ -3,6 +3,12 @@
 eco_golden_age_title:0 "Economic Golden Age"
 eco_golden_age_desc:0 " "
 
+#new player guide
+qolu_new_player_guide_title:0 "Read the New Player Guide"
+qolu_new_player_guide_desc:0 "An event popup to showcase all the new changes made to the mod to improve the new player experience."
+qolu_disable_guide_title:0 "Click to Disable New Player Guide Permanently"
+qolu_disable_guide_desc:0 "Decision for New Player Guide will Dissappear Permanently"
+
 #colonial game
 qolu_eur_colonists_title:0 "Delve into Colonial Matters"
 qolu_eur_colonists_desc:0 ""
