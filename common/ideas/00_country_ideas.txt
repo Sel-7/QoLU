@@ -4673,7 +4673,7 @@ GEO_ideas = {
 
 AFG_ideas = {
 	start = {
-		army_tradition = 0.5
+		cavalry_power = 0.15
 		global_own_trade_power = 0.1
 	}
 	
@@ -4699,7 +4699,7 @@ AFG_ideas = {
 		diplomatic_reputation = 1
 	}
 	durrani_imperialism = {
-		cavalry_power = 0.15
+		army_tradition = 0.5
 	}
 	institutionalized_loya_jirga = {
 		legitimacy = 1
