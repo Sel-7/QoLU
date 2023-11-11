@@ -1415,6 +1415,7 @@ VEN_ideas = {
 	start = {
 		shock_damage_received = -0.15
 		allowed_marine_fraction = 0.25
+		has_marines = yes
 	}
 	
 	bonus = {
@@ -1430,7 +1431,7 @@ VEN_ideas = {
 		reform_progress_growth = 0.25
 	}
 	conscription = {
-		global_sailors_modifier = 0.33
+		global_sailors_modifier = 0.2
 	}
 	venetian_arsenal = {
 		galley_power = 0.2
