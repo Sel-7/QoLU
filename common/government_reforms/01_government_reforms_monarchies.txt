@@ -4,6 +4,7 @@ monarchy_mechanic = {
 	heir = yes
 	queen = yes
 	basic_reform = yes # = invisible/does not take up a slot
+	is_eligible_for_hre_emperor = yes
 	valid_for_nation_designer = no
 	custom_attributes = {
 		enables_aristocratic_idea_group = yes
@@ -1090,7 +1091,7 @@ reformed_byzantine_monarchy_reform = {
 		global_autonomy = -0.05
 		culture_conversion_cost = -0.2
 		years_of_nationalism = -5
-		max_possible_parliament_seats = 8
+		yearly_absolutism = 1
 	}
 	
 	conditional = {
@@ -1101,6 +1102,12 @@ reformed_byzantine_monarchy_reform = {
 			}
 		}
 		has_parliament = yes
+	}
+	conditional = {
+		allow = { has_dlc = "King of Kings" }
+		custom_attributes = {
+			enables_pronoias = yes 
+		}
 	}
 }
 
@@ -1508,7 +1515,7 @@ persian_government_reform = {
 		tolerance_own = 2
 		development_cost = -0.05
 		innovativeness_gain = 0.25
-		manpower_in_accepted_culture_provinces = 0.15
+		#manpower_in_accepted_culture_provinces = 0.15
 	}
 	custom_attributes = {
 		enables_divine_idea_group = yes
@@ -1750,6 +1757,7 @@ stadthalter_monarchy_reform = {
 		heir = no
 		duration = 4
 		has_term_election = yes
+		is_eligible_for_hre_emperor = no
 		states_general_mechanic = {
 			statists = {
 				naval_forcelimit_modifier = 0.10
@@ -2945,6 +2953,16 @@ revolutionary_empire_reform = {
 				override_country_name = GURKANI_EMPIRE_STRING
 				set_country_flag = is_gurkani_flag
 			}
+			if = {
+				limit = {
+					has_country_flag = is_revolutionary_iran_flag
+					is_revolutionary = no
+				}
+				clr_country_flag = is_revolutionary_iran_flag
+				restore_country_name = yes
+				override_country_name = IRAN_STRING
+				set_country_flag = is_iran_flag
+			}
 		}
 	}
 }
@@ -3689,6 +3707,7 @@ livonian_naval_monarchy = {
 		heir = no
 		duration = 4
 		has_term_election = yes
+		is_eligible_for_hre_emperor = no
 		states_general_mechanic = {
 			statists = {
 				global_colonial_growth = 10
@@ -4471,7 +4490,7 @@ grant_military_command_reform = {
 	}
 	modifiers = {
 		army_tradition = 0.25
-		cavalry_cost = -0.075
+		cavalry_cost = -0.05
 		nobles_influence_modifier = 0.05
 		maratha_exclusive_influence_modifier = 0.05
 		rajput_exclusive_influence_modifier = 0.05
@@ -4864,6 +4883,7 @@ separation_of_boyars_from_court_reform = {
 		factor = 10
 	}
 }
+
 reform_the_pronoiars_reform = {
 	icon = "reform_the_pronoiars_reform"
 	allow_normal_conversion = yes
@@ -5869,6 +5889,7 @@ states_general_reform = {
 		heir = no
 		duration = 4
 		has_term_election = yes
+		is_eligible_for_hre_emperor = no
 		states_general_mechanic = {
 			statists = {
 				diplomatic_reputation = 1
