@@ -274,3 +274,7 @@ self_governing_colony_subject = {
 	#development_cost = -0.15
 	#liberty_desire = 25
 }
+
+qizilbash_regiment = {
+	shock_damage = 0.05
+}
