@@ -211,11 +211,11 @@ ardabil_missions_4 = {
 		required_missions = { arl_build_army_mission }
 		position = 2
 		provinces_to_highlight = {
-			area = shirvan_area
+			area = tabarestan_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			shirvan_area = {
+			tabarestan_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
