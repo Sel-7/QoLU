@@ -62,7 +62,11 @@ country_decisions = {
 			adm_tech = 5
 			dip_tech = 5
 			capital_scope = {
-				continent = europe
+				OR = {
+					continent = north_america
+					continent = europe
+					continent = south_america
+				}
 			}
 			NOT = { has_country_modifier = qolu_2colonists }
 			NOT = { tag = OIR }

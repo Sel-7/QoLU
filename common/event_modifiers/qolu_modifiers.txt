@@ -76,10 +76,24 @@ burnt_development = {
 #Frankfurt Mission Modifiers#
 ##################
 
-qolu_frn_expansion = {
-	province_trade_power_value = 10
-	development_cost_modifier = -0.2
-	ae_impact = -0.2
+qolu_frn_semi_strict_army = {
+	discipline = 0.015
+}
+qolu_frn_strict_army = {
+	discipline = 0.03
+}
+qolu_rhenish_mercenaries = {
+	mercenary_manpower = 0.25
+	mercenary_discipline = 0.05
+	allow_mercenary_drill = yes
+}
+qolu_frn_construction = {
+	build_cost = -0.125
+	build_time = -0.125
+}
+qolu_master_of_rhine = {
+	land_morale = 0.05
+	trade_efficiency = 0.1
 }
 ################
 # Swiss Mission Modifiers #

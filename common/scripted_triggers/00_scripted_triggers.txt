@@ -18,6 +18,23 @@
 # Usage:
 # my_test_trigger = { ARG1=foo ARG2=bar CONTEXT=FROM }
 
+#Level 4 Advisors
+
+has_mil_advisor_4 = {
+	custom_trigger_tooltip = {
+		tooltip = has_mil_advisor_4_tooltip
+		OR = {
+			army_organiser = 4
+			army_reformer = 4
+			commandant = 4
+			grand_captain = 4
+			recruitmaster = 4
+			fortification_expert = 4
+			quartermaster = 4
+		}
+	}
+}
+
 #GENERAL TRIGGERS
 has_mil_advisor = {
 	custom_trigger_tooltip = {

@@ -64,5 +64,38 @@
  ##############
  # FRN / WES Missions#
  ##############
+
+ qolu_frn_1_1_title:0 "Security of our Lands"
+ qolu_frn_1_1_desc:0 ""
+ qolu_frn_1_2_title:0 "Train the Army"
+ qolu_frn_1_2_desc:0 ""
+ qolu_frn_1_3_title:0 "Military Masters"
+ qolu_frn_1_3_desc:0 ""
+ qolu_strict_army_replaced_tt: "Lose the modifier §YSemi-strict Army§! and gain §YStrict Army§!."
+
+ qolu_frn_2_1_title:0 "Hessian Conquest"
+ qolu_frn_2_1_desc:0 ""
+ qolu_frn_2_2_title:0 "Rhenish Unification"
+ qolu_frn_2_2_desc:0 ""
+ qolu_frn_2_3_title:0 "Quell the North"
+ qolu_frn_2_3_desc:0 ""
  
- qolu_claim_to_rhenish:0 "Gain a permanent claim on all §YRhenish§! culture provinces in §YGermany§!."
+ qolu_frn_3_1_title:0 "Expansion of Frankfurt"
+ qolu_frn_3_1_desc:0 ""
+ qolu_frn_3_2_title:0 "Paper Economy"
+qolu_frn_3_2_desc:0 ""
+
+ qolu_frn_4_1_title:0 "Into Franconia"
+ qolu_frn_4_1_desc:0 ""
+ qolu_frn_4_2_title:0 "Cover the Eastern Flank"
+ qolu_frn_4_2_desc:0 ""
+ qolu_frn_4_3_title:0 "Rulers of the Rhine"
+qolu_frn_4_3_desc:0 ""
+ 
+
+ qolu_frn_5_1_title:0 "Powerful Court"
+ qolu_frn_5_1_desc:0 ""
+ qolu_frn_5_2_title:0 "Assembly of Knowledge"
+ qolu_frn_5_3_desc:0 ""
+ qolu_frn_5_3_title:0 "Grip on the Crown"
+ qolu_frn_5_3_desc:0 ""
