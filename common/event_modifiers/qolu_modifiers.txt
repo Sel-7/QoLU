@@ -100,7 +100,7 @@ qolu_master_of_rhine = {
 ################
 
 swiss_mountains_development = {
-	development_cost = -0.1
+	local_development_cost = -0.1
 }
 
 ################
@@ -112,9 +112,9 @@ qolu_silk_production = {
 }
 
 qolu_italian_breweries_g = {
-	production_efficiency = 0.75
+	local_production_efficiency = 0.75
 }
 
 qolu_italian_breweries_w = {
-	production_efficiency = 0.5
+	local_production_efficiency = 0.5
 }
