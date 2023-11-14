@@ -2846,7 +2846,11 @@ MCH_ideas = {
 	}
 	
 	bonus = {
-		land_morale = 0.15	
+		horde_unity = 1
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
 	}
 	
 	trigger = {
@@ -2866,14 +2870,10 @@ MCH_ideas = {
 		stability_cost_modifier = -0.1
 	}
 	the_later_jin = {
-		horde_unity = 1
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.3
-		meritocracy = 1
+		cavalry_power = 0.15
 	}	
 	link_with_the_mongol_dynasty = {
-		cavalry_power = 0.15
+		land_morale = 0.15
 	}
 	manchu_chinese_learning = {
 		mil_tech_cost_modifier = -0.1
