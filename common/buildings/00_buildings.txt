@@ -367,8 +367,26 @@ fort_15th = {
 	}
 
 	build_trigger = {
-		all_province_in_state = {
-			NOT = { has_fort_building_trigger = yes }
+		OR = {
+			is_capital = yes
+			NOT = {
+				ROOT = {
+					any_neighbor_province = {
+						owned_by = ROOT
+						OR = {
+							has_building = fort_15th
+							has_construction = fort_15th
+							has_building = fort_16th
+							has_construction = fort_16th
+							has_building = fort_17th
+							has_construction = fort_17th
+							has_building = fort_18th
+							has_construction = fort_18th
+						}	
+						NOT = { is_capital = yes }
+					}
+				}
+			}
 		}
 	}
 
@@ -757,10 +775,29 @@ fort_16th = {
 	}
 
 	build_trigger = {
-		all_province_in_state = {
-			NOT = { has_fort_building_trigger = yes }
+		OR = {
+			is_capital = yes
+			NOT = {
+				ROOT = {
+					any_neighbor_province = {
+						owned_by = ROOT
+						OR = {
+							has_building = fort_15th
+							has_construction = fort_15th
+							has_building = fort_16th
+							has_construction = fort_16th
+							has_building = fort_17th
+							has_construction = fort_17th
+							has_building = fort_18th
+							has_construction = fort_18th
+						}	
+						NOT = { is_capital = yes }
+					}
+				}
+			}
 		}
 	}
+	
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 	on_built = {
@@ -1265,8 +1302,26 @@ fort_17th = {
 	}
 
 	build_trigger = {
-		all_province_in_state = {
-			NOT = { has_fort_building_trigger = yes }
+		OR = {
+			is_capital = yes
+			NOT = {
+				ROOT = {
+					any_neighbor_province = {
+						owned_by = ROOT
+						OR = {
+							has_building = fort_15th
+							has_construction = fort_15th
+							has_building = fort_16th
+							has_construction = fort_16th
+							has_building = fort_17th
+							has_construction = fort_17th
+							has_building = fort_18th
+							has_construction = fort_18th
+						}	
+						NOT = { is_capital = yes }
+					}
+				}
+			}
 		}
 	}
 
@@ -1720,8 +1775,26 @@ fort_18th = {
 	}
 
 	build_trigger = {
-		all_province_in_state = {
-			NOT = { has_fort_building_trigger = yes }
+		OR = {
+			is_capital = yes
+			NOT = {
+				ROOT = {
+					any_neighbor_province = {
+						owned_by = ROOT
+						OR = {
+							has_building = fort_15th
+							has_construction = fort_15th
+							has_building = fort_16th
+							has_construction = fort_16th
+							has_building = fort_17th
+							has_construction = fort_17th
+							has_building = fort_18th
+							has_construction = fort_18th
+						}	
+						NOT = { is_capital = yes }
+					}
+				}
+			}
 		}
 	}
 
