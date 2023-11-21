@@ -192,7 +192,7 @@ over_governing_capacity_modifier = {
 }
 
 expand_administation_modifier = {
-	expand_administration_cost = 0.40
+	expand_administration_cost = 0.85
 	governing_capacity = 100
 }
 
