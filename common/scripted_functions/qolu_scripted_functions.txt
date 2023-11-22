@@ -56,3 +56,35 @@ can_colonize_province = {
 		}
 	}
 }
+
+can_move_capital = {
+	condition = {
+		tooltip = "NO_CAPITAL_MOVE_SHOGUN"
+		potential = {
+			FROM = {
+				has_reform = shogunate
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+
+	condition = {
+		potential = { 
+			FROM = {
+				is_colonial_nation = yes
+			}
+		}
+		allow = { 
+			NOT = {
+				OR = {
+					continent = south_america
+					continent = north_america
+					region = australia_region
+					region = oceanea_region
+				}
+			}
+		}
+	}
+}
