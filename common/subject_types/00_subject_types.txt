@@ -626,6 +626,7 @@ colony = {
 	increase_tariffs = yes
 	decrease_tariffs = yes
 	enforce_culture = yes
+	grant_province = no
 
 	# Modifiers:
 	modifier_overlord = {
