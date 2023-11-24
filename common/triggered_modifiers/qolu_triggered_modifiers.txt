@@ -139,3 +139,67 @@ qolu_over_merc_fl_2 = {
 	mercenary_manpower = -0.5
 	merc_maintenance_modifier = 0.25
 }
+
+qolu_expansion_1 = {
+	potential = {
+		num_of_cities = 35
+		NOT = { TAG = AZT }
+		NOT = { TAG = INC }
+		NOT = { TAG = CSU }
+	}
+
+	trigger = {
+		num_of_cities = 50
+	}
+	all_power_cost = -0.0125
+	statewide_governing_cost = -0.1
+
+}
+
+qolu_expansion_2 = {
+	potential = {
+		num_of_cities = 50
+		NOT = { TAG = AZT }
+		NOT = { TAG = INC }
+		NOT = { TAG = CSU }
+	}
+
+	trigger = {
+		num_of_cities = 75
+	}
+	all_power_cost = -0.0125
+	statewide_governing_cost = -0.1
+
+}
+
+qolu_expansion_3 = {
+	potential = {
+		num_of_cities = 75
+		NOT = { TAG = AZT }
+		NOT = { TAG = INC }
+		NOT = { TAG = CSU }
+	}
+
+	trigger = {
+		num_of_cities = 100
+	}
+	all_power_cost = -0.0125
+	statewide_governing_cost = -0.1
+
+}
+
+qolu_expansion_4 = {
+	potential = {
+		num_of_cities = 100
+		NOT = { TAG = AZT }
+		NOT = { TAG = INC }
+		NOT = { TAG = CSU }
+	}
+
+	trigger = {
+		num_of_cities = 125
+	}
+	all_power_cost = -0.0125
+	statewide_governing_cost = -0.1
+
+}
