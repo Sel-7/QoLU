@@ -9,6 +9,7 @@ qolu_new_player_guide_desc:0 "An event popup to showcase all the new changes mad
 qolu_disable_guide_title:0 "Click to Disable New Player Guide Permanently"
 qolu_disable_guide_desc:0 "Decision for New Player Guide will Dissappear Permanently"
 
+
 #colonial game
 qolu_eur_colonists_title:0 "Delve into Colonial Matters"
 qolu_eur_colonists_desc:0 ""
@@ -38,6 +39,12 @@ qolu_national_rebuilding_desc:0 "Now that our economic crisis is solved, our [Ro
  echo_development_counter_desc:0 "" 
  echo_development_counter_tt:0 "Development Improvements:\n\n£adm£ Development Gained: §G[Root.echo_adm_dev_counter.GetValue]§! \n£dip£ Development Gained: §G[Root.echo_dip_dev_counter.GetValue]§! \n£mil£ Development Gained: §G[Root.echo_mil_dev_counter.GetValue]§! \n\nTotal Development Gained: §G[Root.echo_total_dev_counter.GetValue]§!"
  echo_development_counter_tt_updater:0 "Add §YDevelopment Improvement Counter§!".
+
+#Wool to Cloth Conversion
+
+qolu_wool_into_cloth_d_title:0 "Change Wool into Cloth"
+qolu_wool_into_cloth_d_desc:0 ""
+qolu_wool_into_cloth:0 "Total Wool into Cloth changes"
 
 
 
