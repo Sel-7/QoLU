@@ -1772,6 +1772,7 @@ mercenary_ideas = {
 	bonus = {
 		mercenary_discipline = 0.1
 		possible_condottieri = 1 
+		allow_mercenaries_to_split = yes
 	}
 
 	organised_mercenary_payment = {
