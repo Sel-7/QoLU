@@ -507,6 +507,8 @@ technology = {
 	enable = pacific_swarm_cav
 	
 	combat_width = 2
+	artillery_shock 	=	0.1
+	artillery_fire		=	1.0
 }
 
 technology = {
@@ -603,7 +605,7 @@ technology = {
 	#Cartridge	(1620)?)
 	cavalry_fire		=	0.5
 	artillery_shock 	=	0.1
-	artillery_fire		=	2.0
+	artillery_fire		=	1.0
 	
 	combat_width = 2
 	
