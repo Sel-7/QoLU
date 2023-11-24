@@ -240,6 +240,7 @@ technology = { #Metallurgy
 	#}
 	
 	mills = yes
+	town_hall = yes
 	production_efficiency 	=	0.02
 
 
@@ -340,7 +341,7 @@ technology = { #The Constitution
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 
-	town_hall = yes
+
 }
 
 technology = { #Measuring the World
