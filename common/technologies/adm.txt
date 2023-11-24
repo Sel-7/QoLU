@@ -212,6 +212,7 @@ technology = { #Scientific Experimentation
 	
 	plantations = yes
 	allowed_idea_groups	= 4
+	governing_capacity = 125
 }
 
 technology = { #Military Administration
@@ -256,7 +257,7 @@ technology = { #University
 	#}
 	
 	university = yes	
-	governing_capacity = 250
+	governing_capacity = 125
 	
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
