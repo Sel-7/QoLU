@@ -17784,47 +17784,7 @@ ERANSHAHR_ideas = {
 #	}
 #}
 
-TIM_ideas = {
-	start = {
-		diplomatic_upkeep = 1
-		leader_land_shock = 1
-	}
 
-	bonus = {
-		discipline = 0.05
-	}
-
-	trigger = {
-		tag = TIM
-	}
-	free = yes
-
-	timurid_architecture = {
-		prestige = 1
-	}
-	the_mantle_of_the_great_khan = {
-		land_morale = 0.1
-	}
-	unleash_the_tiger = {
-		shock_damage = 0.1
-	}
-	chagatai_literature = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.3
-		meritocracy = 1	#For completion's sake
-		horde_unity = 1
-	}
-	timurid_renaissance = {
-		technology_cost = -0.05
-	}
-	riches_of_the_silk_road = {
-		global_own_trade_power = 0.25
-	}
-	reform_the_diwan = {
-		yearly_corruption = -0.1
- 	}
-}
 
 #1.36
 #(Great) Armenia
