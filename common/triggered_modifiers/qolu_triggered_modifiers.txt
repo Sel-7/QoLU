@@ -203,3 +203,16 @@ qolu_expansion_4 = {
 	statewide_governing_cost = -0.1
 
 }
+
+qolu_ai_sieges = {
+	potential = {
+		ai = yes
+		is_subject = no
+	}
+
+	trigger = {
+		always = yes
+	}
+
+	defensiveness = -0.5
+}
