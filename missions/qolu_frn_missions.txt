@@ -423,9 +423,17 @@ qolu_frn_slot_4 = {
 		}
 
 		effect = {
-			change_ruler_adm = 2
-			change_ruler_dip = 2
-			change_ruler_mil = 2
+			change_ruler_stat = {
+				stat = adm
+				value = 2
+			}
+			change_ruler_stat = {
+				stat = dip
+				value = 2
+			}			change_ruler_stat = {
+				stat = mil
+				value = 2
+			}
 			add_prestige = 50
 			add_stability = 1
 			add_treasury = 1000
