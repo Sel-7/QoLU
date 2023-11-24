@@ -147,6 +147,7 @@ qolu_expansion_1 = {
 		NOT = { TAG = INC }
 		NOT = { TAG = CSU }
 		NOT = { TAG = MNG }
+		is_year = 1490
 	}
 
 	trigger = {
@@ -164,6 +165,7 @@ qolu_expansion_2 = {
 		NOT = { TAG = INC }
 		NOT = { TAG = CSU }
 		NOT = { TAG = MNG }
+		is_year = 1500
 	}
 
 	trigger = {
@@ -181,6 +183,7 @@ qolu_expansion_3 = {
 		NOT = { TAG = INC }
 		NOT = { TAG = CSU }
 		NOT = { TAG = MNG }
+		is_year = 1510
 	}
 
 	trigger = {
@@ -198,6 +201,7 @@ qolu_expansion_4 = {
 		NOT = { TAG = INC }
 		NOT = { TAG = CSU }
 		NOT = { TAG = MNG }
+		is_year = 1520
 	}
 
 	trigger = {
