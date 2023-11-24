@@ -294,3 +294,10 @@ war_exhaustion = {
 	global_trade_goods_size_modifier = -0.02
 	monthly_militarized_society = -0.05
 }
+
+centralize_state = {
+	statewide_governing_cost = -0.2
+	local_prosperity_growth = 0.25
+	local_state_maintenance_modifier = -0.2
+	picture = "centralize_state"
+}
