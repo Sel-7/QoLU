@@ -50,6 +50,12 @@ country_event = { #Recruit Adm Advisor
 		add_adm_power = -25
 		create_advisor = inquisitor
 	}
+	option = {
+		name = qolu.1.h
+		hidden_effect = {
+			remove_country_modifier = adm_advisor_cd
+		}
+	}
 }
 
 country_event = { #Recruit Dip advisor
@@ -102,6 +108,12 @@ country_event = { #Recruit Dip advisor
 		add_dip_power = -25
 		create_advisor = navigator
 	}
+	option = {
+		name = qolu.2.h
+		hidden_effect = {
+			remove_country_modifier = adm_advisor_cd
+		}
+	}
 }
 
 country_event = { #Recruit Mil Advisor 
@@ -153,6 +165,12 @@ country_event = { #Recruit Mil Advisor
 
 		add_mil_power = -25
 		create_advisor = grand_captain
+	}
+	option = {
+		name = qolu.3.h
+		hidden_effect = {
+			remove_country_modifier = adm_advisor_cd
+		}
 	}
 }
 
