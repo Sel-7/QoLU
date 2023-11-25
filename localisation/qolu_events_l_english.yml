@@ -34,6 +34,14 @@ qolu.3.f:0 "Recruit Fortifcation Expert"
 qolu.3.g:0 "Recruit Grand Captain"
 qolu.3.h:0 "£no£ Don't Recruit Anyone"
 
+qolu.7.t:0 "Recruit Advisor"
+qolu.7.d: "Choose to recruit either:\n\nA Administrative Advisor\n\nA Diplomatic Advisor\n\nA Military Advisor\n\n For 25 of the respective monarch point."
+qolu.7.a:0 "Recruit Administrative Advisor"
+qolu.7.b:0 "Recruit Diplomatic Advisor"
+qolu.7.c:0 "Recruit Military Advisor"
+qolu.7.d:0 "Don't Recruit an Advisor"
+
+
 #internal dev
  echo.2.t:0 "Internal Development"
  echo.2.d:0 "Focus on internal development for the next 15 years."

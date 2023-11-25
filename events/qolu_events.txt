@@ -210,3 +210,37 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = qolu.7
+	title = qolu.7.t
+	desc = qolu.7.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.7.a
+		country_event ={
+			id = qolu.1
+		}
+	}
+	option = {
+		name = qolu.7.b
+		country_event ={
+			id = qolu.2
+		}
+	}
+	option = {
+		name = qolu.7.c
+		country_event ={
+			id = qolu.3
+		}
+	}
+	option = {
+		name = qolu.7.d
+		hidden_effect = {
+			remove_country_modifier = adm_advisor_cd
+		}
+	}
+}

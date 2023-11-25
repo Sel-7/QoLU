@@ -22,12 +22,9 @@ qolu_asia_colonists_desc:0 ""
 Create_a_Trade_Hub_title:0 "Create a Center of Trade"
 Create_a_Trade_Hub_desc:0 "At least one of our province has become a trade hub and could potentially become a center of trade, our merchants say. They would however, need some investment to make this happen."
 
-qolu_recruit_admin_advisor_title:0 "Recruit Admin Advisor"
-qolu_recruit_admin_advisor_desc:0 ""
-qolu_recruit_diplomatic_advisor_title:0 "Recruit Diplomatic Advisor"
-qolu_recruit_diplomatic_advisor_desc:0 ""
-qolu_recruit_military_advisor_title:0 "Recruit Military Advisor"
-qolu_recruit_military_advisor_desc:0 ""
+qolu_recruit_advisor_title:0 "Recruit Advisor"
+qolu_recruit_advisor_desc:0 ""
+
 
 qolu_national_debt_title:0 "Tackle the National Debt"
 qolu_national_debt_desc:0 "Our [Root.GovernmentName] has gone through tough times as of late, and now require drastic measures to solve this economic crisis."

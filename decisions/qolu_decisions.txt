@@ -310,65 +310,27 @@ country_decisions = {
 		effect = {
 		}
 	}
-	qolu_recruit_admin_advisor = {
+	qolu_recruit_advisor = {
 		color = { 166  0  0 }
 		potential = {
 			ai = no
 			NOT = { has_country_modifier = adm_advisor_cd }
        }
 		allow = {
-			adm_power = 25
+			OR = {
+				adm_power = 25
+				dip_power = 25
+				mil_power = 25
+			}
 			ai = no
 		}
 		effect = {
 			country_event = {
-				id = qolu.1
+				id = qolu.7
 			}
 			add_country_modifier = {
 				hidden = yes
 				name = adm_advisor_cd
-				duration = 90
-			}
-		}
-	}
-	qolu_recruit_diplomatic_advisor = {
-		color = { 166  0  0 }
-		potential = {
-			ai = no
-			NOT = { has_country_modifier = dip_advisor_cd }
-       }
-		allow = {
-			dip_power = 25
-			ai = no
-		}
-		effect = {
-			country_event = {
-				id = qolu.2
-			}
-			add_country_modifier = {
-				hidden = yes
-				name = dip_advisor_cd
-				duration = 90
-			}
-		}
-	}
-	qolu_recruit_military_advisor = {
-		color = { 166  0  0 }
-		potential = {
-			ai = no
-			NOT = { has_country_modifier = mil_advisor_cd }
-       }
-		allow = {
-			mil_power = 25
-			ai = no
-		}
-		effect = {
-			country_event = {
-				id = qolu.3
-			}
-			add_country_modifier = {
-				hidden = yes
-				name = mil_advisor_cd
 				duration = 90
 			}
 		}
