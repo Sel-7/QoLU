@@ -341,5 +341,5 @@ same_culture_group = {
 
 tolerance = {
 	local_unrest = -1
-	local_production_efficiency = 0.05
+	local_production_efficiency = 0.025
 }
