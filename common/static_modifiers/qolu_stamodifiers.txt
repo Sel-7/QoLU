@@ -323,3 +323,23 @@ republican_tradition = {
 	burghers_loyalty_modifier = 0.05
 	vaisyas_loyalty_modifier = 0.05
 }
+
+non_accepted_culture = {
+	monthly_persian_influence = -0.01
+	local_tax_modifier = -0.5
+	local_missionary_strength = -0.02
+	local_manpower_modifier = -0.75
+	local_sailors_modifier = -0.2
+	local_unrest = 2					#1% revolt risk!
+}
+
+same_culture_group = {
+	local_tax_modifier = -0.33			#10% penalty if same culture group but nothing else. Not applied if the controller is the Union Tag of the culture group, or has culture_group_union set.
+	local_manpower_modifier = -0.33
+	local_sailors_modifier = -0.1
+}
+
+tolerance = {
+	local_unrest = -1
+	local_production_efficiency = 0.05
+}
