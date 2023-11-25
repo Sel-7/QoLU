@@ -305,7 +305,7 @@ centralize_state = {
 # Multiplied by current Legitimacy - 50
 legitimacy = {
 	global_unrest = -4
-	statewide_governing_cost = -0.4
+	governing_capacity_modifier = 0.4
 	tolerance_own = 2
 	tolerance_heathen = 2
 	tolerance_heretic = 2
