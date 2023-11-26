@@ -154,7 +154,7 @@ qolu_expansion_1 = {
 		num_of_cities = 50
 	}
 	all_power_cost = -0.0125
-	statewide_governing_cost = -0.1
+	governing_capacity = 100
 
 }
 
@@ -172,7 +172,7 @@ qolu_expansion_2 = {
 		num_of_cities = 75
 	}
 	all_power_cost = -0.0125
-	statewide_governing_cost = -0.1
+	governing_capacity = 100
 
 }
 
@@ -190,7 +190,7 @@ qolu_expansion_3 = {
 		num_of_cities = 100
 	}
 	all_power_cost = -0.0125
-	statewide_governing_cost = -0.1
+	governing_capacity_modifier = -0.05
 
 }
 
@@ -208,7 +208,7 @@ qolu_expansion_4 = {
 		num_of_cities = 125
 	}
 	all_power_cost = -0.0125
-	statewide_governing_cost = -0.1
+	governing_capacity_modifier = -0.05
 
 }
 
