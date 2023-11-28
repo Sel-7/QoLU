@@ -9,6 +9,8 @@ qolu_expansion_2:0 "Budding Nation"
 qolu_expansion_3:0 "Rising Power"
 qolu_expansion_4:0 "World Power"
 
+qolu_draft_reward:0 "Increased Recruitment"
+
 economic_golden_age:0 "Economic Golden Age"
 
 disc_event_cd:0 "Commandant Cooldown"

@@ -70,6 +70,10 @@ burnt_development = {
 	
 }
 
+qolu_draft_reward = {
+	manpower_recovery_speed = 0.1
+}
+
 
 
 ##################
