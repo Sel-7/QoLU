@@ -148,6 +148,9 @@ qolu_expansion_1 = {
 		NOT = { TAG = CSU }
 		NOT = { TAG = MNG }
 		is_year = 1490
+		NOT = {
+			num_of_cities = 75
+		}
 	}
 
 	trigger = {
@@ -166,12 +169,15 @@ qolu_expansion_2 = {
 		NOT = { TAG = CSU }
 		NOT = { TAG = MNG }
 		is_year = 1500
+		NOT = {
+			num_of_cities = 100
+		}
 	}
 
 	trigger = {
 		num_of_cities = 75
 	}
-	all_power_cost = -0.0125
+	all_power_cost = -0.025
 	governing_capacity = 100
 
 }
@@ -184,13 +190,17 @@ qolu_expansion_3 = {
 		NOT = { TAG = CSU }
 		NOT = { TAG = MNG }
 		is_year = 1510
+		NOT = {
+			num_of_cities = 125
+		}
 	}
 
 	trigger = {
 		num_of_cities = 100
 	}
-	all_power_cost = -0.0125
-	governing_capacity_modifier = -0.05
+	all_power_cost = -0.0375
+	governing_capacity_modifier = -0.15
+	governing_capacity = 200
 
 }
 
@@ -207,8 +217,9 @@ qolu_expansion_4 = {
 	trigger = {
 		num_of_cities = 125
 	}
-	all_power_cost = -0.0125
-	governing_capacity_modifier = -0.05
+	all_power_cost = -0.05
+	governing_capacity_modifier = -0.2
+	governing_capacity = 200
 
 }
 
