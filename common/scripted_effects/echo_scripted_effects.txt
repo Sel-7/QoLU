@@ -78,13 +78,3 @@ qolu_wool_into_cloth_counter = {
 	}
 	]
 }
-
-qolu_force_limit_checker = {
-	[[on_startup]
-	export_to_variable = {
-		which = qolu_fl_check
-		value = land_forcelimit
-		who = ROOT
-	}
-	]
-}

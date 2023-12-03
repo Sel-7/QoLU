@@ -43,6 +43,17 @@ qolu_wool_into_cloth_d_title:0 "Change Wool into Cloth"
 qolu_wool_into_cloth_d_desc:0 ""
 qolu_wool_into_cloth:0 "Total Wool into Cloth changes"
 
+#Over Force Limit Checker
+
+qolu_check_forcelimit_debuff_title:0 "Check Current Over Force Limit Debuffs".
+qolu_check_forcelimit_debuff_desc:0 "Hover the Checkbox to see current debuffs from being over Force Limit"
+
+qolu_debuff_t0:0 "Currently Using Less than §Y125%§! of our §YForce Limit§! and receive no debuffs."
+qolu_debuff_t1:0 "Currently Using More than §Y125%§!, but less than §Y150%§! of our §YForce Limit§!, Receive the §YFollowing§! §RDebuffs§!:\n\n§YNational Unrest§! §R+2§!\n§YLand Maintenance§! §R+15%§!\n§YReinforce Speed§! §R-5%§!\n§YReinforce Cost§! §R+15%§!"
+qolu_debuff_t2:0 "Currently Using More than §Y150%§!, but less than §Y175%§! of our §YForce Limit§!, Receive the §YFollowing§! §RDebuffs§!:\n\n§YNational Unrest§! §R+4§!\n§YLand Maintenance§! §R+40%§!\n§YReinforce Speed§! §R-10%§!\n§YReinforce Cost§! §R+30%§!"
+qolu_debuff_t3:0 "Currently Using More than §Y175%§!, but less than §Y250%§! of our §YForce Limit§!, Receive the §YFollowing§! §RDebuffs§!:\n\n§YNational Unrest§! §R+6§!\n§YLand Maintenance§! §R+65%§!\n§YReinforce Speed§! §R-5%§!\n§YReinforce Cost§! §R+45%§!"
+qolu_debuff_t4:0 "Currently Using More than §Y250%§! of our §YForce Limit§!, Receive the §YFollowing§! §RDebuffs§!:\n\n§YNational Unrest§! §R+8§!\n§YLand Maintenance§! §R+90%§!\n§YReinforce Speed§! §R-20%§!\n§YReinforce Cost§! §R+60%§!\n§YGoods Produced Modifier§! §R-20%§!"
+
 
 
 PR_critical_events_title: "Remaining Critical Events"

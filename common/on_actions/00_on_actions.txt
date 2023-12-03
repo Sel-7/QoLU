@@ -24,7 +24,6 @@ on_startup = {
 	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
 	echo_development_counter = { on_startup = yes }
 	qolu_wool_into_cloth_counter = { on_startup = yes }
-	qolu_force_limit_checker { on_startup = yes }
 }
 
 # country
@@ -1970,6 +1969,13 @@ on_siberian_pulse = {
 
 # country random events
 on_monthly_pulse = {
+	events = {
+		qolu.8
+		qolu.9
+		qolu.10
+		qolu.11
+		qolu.12
+	}
 }
 on_yearly_pulse = {
 	events = {
