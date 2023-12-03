@@ -710,7 +710,7 @@ RUS_ideas = {
 	}
 	russian_artillery_yard = {
 		artillery_cost = -0.2
-		artillery_power = 0.1
+		artillery_power = 0.05
 	}
 	life_long_conscription  = {
 		land_forcelimit_modifier = 0.33
@@ -723,8 +723,7 @@ RUS_ideas = {
 		army_tradition = 0.25
 	}	
 	curriculum_of_the_cadet_corps = {
-		land_morale = 0.15
-		fire_damage_received = -0.1
+		fire_damage_received = -0.15
 	}
 }
 
