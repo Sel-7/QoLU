@@ -1052,7 +1052,7 @@ trade_kontor_network = {
 		full_idea_group = trade_ideas
 	}
 	
-	merchants = 2
+	merchants = 1
 
 	effect = {}
 	removed_effect = {}
