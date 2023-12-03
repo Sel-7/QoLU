@@ -140,30 +140,10 @@ qolu_over_merc_fl_2 = {
 	merc_maintenance_modifier = 0.25
 }
 
-qolu_expansion_1 = {
-	potential = {
-		num_of_cities = 35
-		NOT = { TAG = AZT }
-		NOT = { TAG = INC }
-		NOT = { TAG = CSU }
-		NOT = { TAG = MNG }
-		is_year = 1490
-		NOT = {
-			num_of_cities = 75
-		}
-	}
-
-	trigger = {
-		num_of_cities = 50
-	}
-	all_power_cost = -0.0125
-	governing_capacity = 100
-
-}
-
 qolu_expansion_2 = {
 	potential = {
 		num_of_cities = 50
+		is_subject = no
 		NOT = { TAG = AZT }
 		NOT = { TAG = INC }
 		NOT = { TAG = CSU }
@@ -185,6 +165,7 @@ qolu_expansion_2 = {
 qolu_expansion_3 = {
 	potential = {
 		num_of_cities = 75
+		is_subject = no
 		NOT = { TAG = AZT }
 		NOT = { TAG = INC }
 		NOT = { TAG = CSU }
@@ -206,6 +187,7 @@ qolu_expansion_3 = {
 
 qolu_expansion_4 = {
 	potential = {
+		is_subject = no
 		num_of_cities = 100
 		NOT = { TAG = AZT }
 		NOT = { TAG = INC }
