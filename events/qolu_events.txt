@@ -305,6 +305,7 @@ country_event = {
 	hidden = yes
 	is_triggered_only = yes
 	trigger = {
+		is_year = 1575
 		AND = {
 			army_size_percentage = 1.25
 			NOT = {
@@ -345,6 +346,7 @@ country_event = {
 	hidden = yes
 	is_triggered_only = yes
 	trigger = {
+		is_year = 1575
 		AND = {
 			army_size_percentage = 1.5
 			NOT = {
@@ -385,6 +387,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
+		is_year = 1575
 		AND = {
 			army_size_percentage = 1.75
 			NOT = {
@@ -423,6 +426,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
+		is_year = 1575
 		AND = {
 			army_size_percentage = 2.5
 		}
