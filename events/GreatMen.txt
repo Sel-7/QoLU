@@ -985,7 +985,7 @@ country_event = {
 	trigger = {
 		grand_captain = 3
 		OR = {
-			NOT = { has_country_flag = grand_captain }
+			NOT = { has_country_modifier = morale_event_long_cd }
 			NOT = { has_country_modifier = morale_event_cd }
 		}
 	}
@@ -1026,7 +1026,11 @@ country_event = {
 			name = "grand_captain_boost"
 			duration = 2190
 		}		
-		set_country_flag = grand_captain
+		add_country_modifier = {
+			name = "morale_event_long_cd"
+			duration = 36500
+			hidden = yes
+		}
 	}
 
 	option = {
@@ -1044,7 +1048,11 @@ country_event = {
 			name = "grand_captain_boost"
 			duration = 2190
 		}
-		set_country_flag = grand_captain
+		add_country_modifier = {
+			name = "morale_event_long_cd"
+			duration = 36500
+			hidden = yes
+		}
 	}
 
 	option = {
@@ -1137,7 +1145,7 @@ country_event = {
 	
 	trigger = {
 		commandant = 3
-		NOT = { has_country_flag = commandant }
+		NOT = { has_country_modifier = disc_event_long_cd }
 		NOT = { has_country_modifier = disc_event_cd }
 	}
 	
@@ -1178,7 +1186,11 @@ country_event = {
 			name = "commandant_boost"
 			duration = 2190
 		}		
-		set_country_flag = commandant
+		add_country_modifier = {
+			name = "disc_event_long_cd"
+			duration = 36500
+			hidden = yes
+		}
 	}
 
 	option = {
@@ -1196,7 +1208,12 @@ country_event = {
 			name = "commandant_boost"
 			duration = 2190
 		}
-		set_country_flag = commandant
+		add_country_modifier = {
+			name = "disc_event_long_cd"
+			duration = 36500
+			hidden = yes
+		}
+
 	}
 
 	option = {

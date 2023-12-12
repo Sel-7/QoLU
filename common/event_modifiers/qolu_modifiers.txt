@@ -40,6 +40,9 @@ mil_advisor_cd = {
 disc_event_cd = {
 
 }
+disc_event_long_cd = {
+	
+}
 morale_event_cd = {
 	
 }
