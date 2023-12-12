@@ -45,7 +45,7 @@ qolu_wool_into_cloth:0 "Total Wool into Cloth changes"
 
 #All Seats into Parliament
 
-qolu_all_seats_parliament_title:0 "Set all provinces to become a member of parliament."
+qolu_all_seats_parliament_title:0 "Set All Provinces into Parliament."
 qolu_all_seats_parliament_desc:0 ""
 
 #Over Force Limit Checker
