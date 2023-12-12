@@ -43,6 +43,11 @@ qolu_wool_into_cloth_d_title:0 "Change Wool into Cloth"
 qolu_wool_into_cloth_d_desc:0 ""
 qolu_wool_into_cloth:0 "Total Wool into Cloth changes"
 
+#All Seats into Parliament
+
+qolu_all_seats_parliament_title:0 "Set all provinces to become a member of parliament."
+qolu_all_seats_parliament_desc:0 ""
+
 #Over Force Limit Checker
 
 qolu_check_forcelimit_debuff_title:0 "Check Current Over Force Limit Debuffs".
