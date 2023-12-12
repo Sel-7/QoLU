@@ -98,7 +98,7 @@ GER_ideas = {
 	}
 	
 	bonus = {
-		global_manpower_modifier = 0.5
+		global_manpower_modifier = 0.33
 	}	
 
 	trigger = {
@@ -107,7 +107,7 @@ GER_ideas = {
 	free = yes
 	
 	ger_german_confederation = {
-		land_morale = 0.2
+		land_morale = 0.15
 	}
 	ger_german_universities = {
 		technology_cost = -0.1
