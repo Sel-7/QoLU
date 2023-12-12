@@ -11622,7 +11622,7 @@ per_culture_of_art = {
 per_restored_avesta = {
 	missionaries = 1
 	global_missionary_strength = 0.01
-	technology_cost = -0.1
+	technology_cost = -0.05
 }
 
 estate_church_muslim_integration_tooltip = {

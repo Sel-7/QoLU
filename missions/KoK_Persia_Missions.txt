@@ -777,7 +777,7 @@ kok_persia_mission_origins_slot_timurid = {
 			define_advisor = {
 				type = artist
 				skill = 3
-				cost_multiplier = 0.25
+				cost_multiplier = 0.75
 			}
 			add_government_power = {
 				mechanic_type = persian_influence_mechanic
@@ -3354,19 +3354,19 @@ kok_persia_culture_mission_slot_2 = {
 					change_price = {
 						trade_goods = silk
 						key = PERSIAN_SILK
-						value = 0.25
+						value = 0.1
 						duration = -1
 					}
 					change_price = {
 						trade_goods = dyes
 						key = PERSIAN_DYES
-						value = 0.5
+						value = 0.15
 						duration = -1
 					}
 					change_price = {
 						trade_goods = cloth
 						key = PERSIAN_CLOTH
-						value = 0.35
+						value = 0.15
 						duration = -1
 					}
 				"
@@ -3408,7 +3408,7 @@ kok_persia_culture_mission_slot_3 = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = per_investment_into_persia
-				duration = 9125
+				duration = 3650
 			}
 		}
 	}

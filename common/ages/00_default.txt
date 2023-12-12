@@ -419,6 +419,7 @@ age_of_reformation = {
 		ab_persia_development = {
 			allow = {
 				tag = PER
+				tag = ERS
 			}
 			modifier = {
 				development_cost = -0.1

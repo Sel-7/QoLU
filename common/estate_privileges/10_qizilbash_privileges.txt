@@ -720,7 +720,7 @@ estate_qizilbash_qurchi_service = {
 		}
 	}
 	benefits = {
-		morale_damage_received = -0.1
+		morale_damage_received = -0.05
 	}
 	loyalty_scaled_conditional_modifier = {
 		trigger = { always = yes }
