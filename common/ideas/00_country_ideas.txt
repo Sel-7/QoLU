@@ -1745,12 +1745,12 @@ LIT2_ideas = {
 
 PLC_ideas = {
 	start = {
-		nobles_loyalty_modifier = 0.1
+		cavalry_cost = -0.1
 		num_accepted_cultures = 2 
 	}
 	
 	bonus = {
-		tolerance_heretic = 3
+		land_morale = 0.15
 	}
 	
 	trigger = {
@@ -1768,6 +1768,7 @@ PLC_ideas = {
 	plc_the_obrona_potoczna = { #Same for all of them
 		drill_gain_modifier = 0.25
 		army_tradition = 1
+		global_regiment_cost = -0.10
 	}
 	winged_hussars = { 
 		cavalry_power = 0.15
