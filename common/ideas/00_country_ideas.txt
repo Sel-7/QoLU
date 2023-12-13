@@ -777,6 +777,7 @@ CAS_ideas = {
 	start = {
 		land_morale = 0.15
 		allowed_marine_fraction = 0.05
+		global_sailors_modifier = -0.05
 		has_marines = yes
 	}
 	bonus = {
@@ -844,15 +845,18 @@ NED_ideas = {
 	instructie_voor_de_admiraliteiten = {
 		leader_naval_fire = 2
 		allowed_marine_fraction = 0.25
+		global_sailors_modifier = -0.25
+		has_marines = yes
 	}
 	embrace_humanism = {
 		tolerance_heretic = 3
 	}
 	army_sappers = {
 		siege_ability = 0.10
+		artillery_power = 0.1
 	}
 	platoon_fire = {
-		fire_damage = 0.1
+		fire_damage = 0.15
 	}
 }
 
@@ -1414,6 +1418,7 @@ VEN_ideas = {
 	start = {
 		shock_damage_received = -0.15
 		allowed_marine_fraction = 0.25
+		global_sailors_modifier = -0.25
 		has_marines = yes
 	}
 	
