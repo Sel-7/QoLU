@@ -223,9 +223,7 @@ country_event = {
 
 	option = {
 		name = qolu.6.a
-		country_event ={
-			id = qolu.6
-		}
+		set_country_flag = colony_confirmed_warning
 	}
 }
 
