@@ -28,62 +28,6 @@ country_decisions = {
 		}
 	}
 
-	
-
-	qolu_check_forcelimit_debuff = { # 125 -> 150 -> 175 -> 250% Over force limit
-		color = { 0  166 0 }
-		potential = {
-			ai = no
-			army_size_percentage = 1
-		}
-		allow = {
-			hidden_trigger = {
-				army_size_percentage = 1.25
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					NOT = { army_size_percentage = 1.25 }
-				}
-				custom_tooltip = qolu_debuff_t0
-			}
-			if = {
-				limit = {
-					AND = {
-						army_size_percentage = 1.25
-						NOT = { army_size_percentage = 1.5 }
-					}
-				}
-				custom_tooltip = qolu_debuff_t1
-			}
-			if = {
-				limit = {
-					AND = {
-						army_size_percentage = 1.5
-						NOT = { army_size_percentage = 1.75 }
-					}
-				}
-				custom_tooltip = qolu_debuff_t2
-			}
-			if = {
-				limit = {
-					AND = {
-						army_size_percentage = 1.75
-						NOT = { army_size_percentage = 2.5 }
-					}
-				}
-				custom_tooltip = qolu_debuff_t3
-			}
-			if = {
-				limit = {
-					army_size_percentage = 2.5
-				}
-				custom_tooltip = qolu_debuff_t4
-			}
-		}
-	}
-
 	qolu_wool_into_cloth_d = {
 		color = { 166  0  0 }
 		potential = {
