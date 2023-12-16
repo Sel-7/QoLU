@@ -216,4 +216,6 @@ qolu_ai_sieges = {
 	}
 
 	defensiveness = -0.5
+	global_autonomy = -0.2
+	yearly_corruption = -0.2
 }
