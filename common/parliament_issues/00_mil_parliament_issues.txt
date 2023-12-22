@@ -391,15 +391,8 @@ the_draft = {
 		is_at_war = yes
 	}
 	
-	effect = {
-		issue_effect_scaling_with_estate_influence = {
-			estate = estate_nobles
-			effect1 = "add_years_of_manpower_scaled_to_seats = 0.1"
-			add_country_modifier = {
-				name = qolu_draft_reward
-				duration = 3650
-			}
-		}
+	modifier = {
+		manpower_recovery_speed = 0.75
 	}
 	
 	chance = {
