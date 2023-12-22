@@ -776,7 +776,7 @@ on_siege_won_country = {
 		flavor_lna.1 # Emerald Buddha
 		flavor_son.14 # Djenne surrenders to Songhai Trigger
 		flavor_teu.25 # Payback for the Hussite Wars
-		flavor_tur.240 # Collapse of teh Mamluks
+		#flavor_tur.240 # Collapse of teh Mamluks
 		flavor_kor.16 # Tripitaka Koreana
 		flavor_tur.211 # Fall of Vienna
 	}
