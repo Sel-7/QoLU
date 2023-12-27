@@ -187,14 +187,9 @@ allianceaction = {
 	condition = {
 		tooltip = qolu_too_many_allies 
 		potential = {
-			OR = {
 				ROOT = {
 					ai = yes
 				}
-				FROM = {
-					ai = yes
-				}
-			}
 		}
 
 		allow = {
