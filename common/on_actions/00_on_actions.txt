@@ -1969,13 +1969,6 @@ on_siberian_pulse = {
 
 # country random events
 on_monthly_pulse = {
-	events = {
-		qolu.8
-		qolu.9
-		qolu.10
-		qolu.11
-		qolu.12
-	}
 }
 on_yearly_pulse = {
 	events = {
