@@ -14,13 +14,11 @@ country_decisions = {
 				is_free_or_tributary_trigger = yes
 				ai = no
 			}
-			TAG = HUN
-
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = TUR }
-
 			OR = {
+				TAG = HUN
 				religion = orthodox
 				has_idea = MFA_byzantine_claimants
 			}
