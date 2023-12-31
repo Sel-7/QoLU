@@ -185,6 +185,26 @@ country_event = {
 	option = {
 		name = qolu.4.a
 	}
+	option = {
+		name = qolu.4.b
+
+		country_event = {
+			id = qolu.8
+		}
+	}
+	option = {
+		name = qolu.4.c
+		country_event = {
+			id = qolu.9
+		}
+	}
+	option = {
+		name = qolu.4.e
+		country_event = {
+			id = qolu.10
+		}
+	}
+
 }
 
 country_event = {
@@ -257,6 +277,108 @@ country_event = {
 		name = qolu.7.d
 		hidden_effect = {
 			remove_country_modifier = adm_advisor_cd
+		}
+	}
+}
+
+country_event = {
+	id = qolu.8
+	title = qolu.8.t
+	desc = qolu.8.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.8.a 
+	}
+
+	option = {
+		name = qolu.8.b 
+		country_event = {
+			id = qolu.9
+		}
+	}
+
+	option = {
+		name = qolu.8.c 
+		country_event = {
+			id = qolu.10
+		}
+	}
+
+	option = {
+		name = qolu.8.e 
+		country_event = {
+			id = qolu.4
+		}
+	}
+}
+
+country_event = {
+	id = qolu.9
+	title = qolu.9.t
+	desc = qolu.9.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.9.a 
+	}
+
+	option = {
+		name = qolu.9.b 
+		country_event = {
+			id = qolu.8
+		}
+	}
+
+	option = {
+		name = qolu.9.c 
+		country_event = {
+			id = qolu.10
+		}
+	}
+
+	option = {
+		name = qolu.9.e 
+		country_event = {
+			id = qolu.4
+		}
+	}
+}
+
+country_event = {
+	id = qolu.10
+	title = qolu.10.t
+	desc = qolu.10.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.10.a 
+	}
+
+	option = {
+		name = qolu.10.b 
+		country_event = {
+			id = qolu.8
+		}
+	}
+
+	option = {
+		name = qolu.10.c 
+		country_event = {
+			id = qolu.9
+		}
+	}
+
+	option = {
+		name = qolu.10.e 
+		country_event = {
+			id = qolu.4
 		}
 	}
 }
