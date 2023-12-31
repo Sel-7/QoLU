@@ -343,3 +343,7 @@ tolerance = {
 	local_unrest = -1
 	local_production_efficiency = 0.025
 }
+
+subject_sankin_kotai = {
+	#global_autonomy = 0.25
+}
