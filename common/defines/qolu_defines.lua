@@ -148,6 +148,8 @@ NDefines.NMilitary.MERCENARY_COMPANY_MANPOWER_RECOVERY = 90
 NDefines.NMilitary.MERCENARY_COMPANY_MAX_REGIMENTS = 40
 NDefines.NMilitary.BANNER_MANPOWER_USAGE = 1
 
+NDefines.NGovernment.EXPAND_ADMIN_COST = 50.0
+
 NDefines.NAI.BIGSHIP_FRACTION = 0.1
 NDefines.NAI.TRANSPORT_FRACTION = -1 -- Max fraction of naval forcelimit that should be transports
 NDefines.NAI.PEACE_TIME_MONTHS = 12
