@@ -7076,44 +7076,42 @@ JNP_ideas = {
 
 HAM_ideas = {
 	start = {
-		light_ship_power = 0.1
-		global_tax_modifier = 0.1
+		land_morale = 0.1
+		global_manpower_modifier = 0.1
 	}
-
+	
 	bonus = {
-		naval_forcelimit_modifier = 0.25
+		global_trade_goods_size_modifier = 0.075
 	}
 	
 	trigger = {
 		tag = HAM
 	}
-	free = yes		#will be added at load.
+	free = yes
 	
-	hanseatic_city = {
-		global_trade_power = 0.15
-	}		
-	hamburg_republic = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.3
-		meritocracy = 1
-		horde_unity = 1
+	end_of_victual_brothers = {
+		trade_efficiency = 0.10
 	}
-	walls_of_hamburg = {
-		defensiveness = 0.25
+	hsa_shipbuilding = {
+		allowed_marine_fraction = 0.25
+		global_sailors_modifier = 0.15
 	}
-	first_constitution = {
-		global_unrest = -1
+	strong_league_obligations = {
+		merchants = 1
 	}
-	johanneum = {
-		idea_cost = -0.1
+	reformed_hanstag = {
+		stability_cost_modifier = -0.1
+		justify_trade_conflict_cost = -0.1
 	}
-	berenberg_bank = {
+	hanseatic_levy_system = {
+		manpower_recovery_speed = 0.15
+	}
+	regularised_contribution = {
+		global_prov_trade_power_modifier = 0.20
+	}
+	the_hansa_bank = {
 		interest = -0.5
-		production_efficiency = 0.1
-	}
-	elbe_shipyards = {
-		global_ship_cost = -0.10
+		inflation_reduction = 0.05
 	}
 }
 
