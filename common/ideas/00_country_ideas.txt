@@ -2511,12 +2511,12 @@ BYZ_ideas = {
 	
 	regulations_for_mercenaries = {
 		merc_maintenance_modifier = -0.15
+		mercenary_discipline = 0.05
 	}
 	repopulation_of_countryside = {
 		global_trade_goods_size_modifier = 0.05
-		cavalry_power = 0.2
-		cavalry_cost = -0.1
-		cav_to_inf_ratio = 0.15
+		infantry_power = 0.1
+		morale_damage_received = -0.15
 	}
 	byz_roman_empire = {
 		global_manpower_modifier = 0.33
@@ -3449,11 +3449,11 @@ GRA_ideas = {
 PAP_ideas = {
 	start = {
 		diplomatic_reputation = 1
-		religious_unity = 0.25
+		discipline = 0.05
 	}
 
 	bonus = {
-		discipline = 0.05
+		infantry_power = 0.1
 	}
 	
 	trigger = {
@@ -3462,7 +3462,7 @@ PAP_ideas = {
 	free = yes		#will be added at load.
 	
 	ecclesiastical_primacy = {
-		tolerance_own = 2
+		tolerance_own = 3
 	}
 	papal_investiture_and_tithes = {
 		global_tax_modifier = 0.2
@@ -3477,10 +3477,11 @@ PAP_ideas = {
 		production_efficiency = 0.1
 	}
 	the_vatican_museums = {
-		free_dip_policy = 1
+		technology_cost = -0.05
+		idea_cost = -0.05
 	}
 	holy_father = {
-		ae_impact = -0.10
+		land_forcelimit_modifier = 0.15
 	}
 }
 
@@ -3488,7 +3489,8 @@ PAP_ideas = {
 SER_ideas = {
 	start = {
 		manpower_recovery_speed = 0.15
-		reinforce_speed = 0.15
+		land_morale = 0.10
+		
 	}
 	
 	bonus = {
@@ -3519,7 +3521,7 @@ SER_ideas = {
 		merc_maintenance_modifier = -0.15
 	}	
 	balkan_hajduks = {
-		land_morale = 0.10
+		reinforce_speed = 0.15
 	}
 }
 
@@ -5838,7 +5840,7 @@ RMN_ideas = {
 		manpower_recovery_speed = 0.2
 	}
 	skilled_commanders = {
-		leader_land_manuever = 1
+		leader_land_fire = 1
 	}
 	scorch_the_land_and_poison_the_wells = {
 		hostile_attrition = 1
@@ -5851,7 +5853,7 @@ RMN_ideas = {
 		horde_unity = 1
 	}
 	rom_peasant_soldiers = {
-		infantry_cost = -0.1
+		infantry_power = -0.1
 		global_manpower_modifier = 0.1
 	}
 	phanariote_traders = {
@@ -7064,7 +7066,7 @@ JNP_ideas = {
 		development_cost = -0.1
 	}
 	jnp_gangetic_plain = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.1f
 	}
 	jnp_hindusthani_classical_music = {
 		prestige = 1
