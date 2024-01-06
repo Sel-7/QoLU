@@ -114,9 +114,9 @@ historical_rival = MAM
 		name = "Ibrâhîm II"
 		dynasty = Karamanoglu
 		birth_date = 1409.1.1
-		adm = 0
-		dip = 0
-		mil = 1
+		adm = 4
+		dip = 2
+		mil = 5
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = kind_hearted_personality
@@ -130,9 +130,9 @@ historical_rival = MAM
 		birth_date = 1424.1.1
 		death_date = 1465.1.1
 		claim = 95
-		adm = 1
-		dip = 0
-		mil = 0
+		adm = 3
+		dip = 3
+		mil = 5
 	}
 }
 
