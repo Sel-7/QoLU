@@ -324,6 +324,7 @@ shipyard = {
 		local_ship_repair = 0.25
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		allowed_num_of_buildings = 1
 	}
 	on_built = {
 		add_development_from_building = {
@@ -590,6 +591,7 @@ dock = {
 		local_sailors_modifier = 0.5
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		allowed_num_of_buildings = 1
 	}
 	
 	on_built = {
@@ -885,6 +887,7 @@ naval_battery = {
 		hostile_disembark_speed = 2.0
 		hostile_fleet_attrition = 5
 		block_slave_raid = yes
+		allowed_num_of_buildings = 1
 	}
 
 	ai_will_do = {
@@ -1147,6 +1150,7 @@ grand_shipyard = {
 		local_ship_repair = 0.50
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		allowed_num_of_buildings = 1
 	}
 
 	on_built = {
@@ -1620,6 +1624,7 @@ drydock = {
 		local_sailors_modifier = 1.0
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		allowed_num_of_buildings = 1
 	}
 	
 	on_built = {
