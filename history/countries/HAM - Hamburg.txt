@@ -15,8 +15,8 @@ historical_friend = RIG #Riga
 	monarch = {
 		name = "Viktor"
 		dynasty = "Burg"
-		adm = 3
-		dip = 2
+		adm = 5
+		dip = 3
 		mil = 4
 	}
 }
