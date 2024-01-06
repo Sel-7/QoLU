@@ -354,3 +354,8 @@ banner_regiment = {
 	regiment_manpower_usage = -0.25
 	reinforce_speed = -0.5
 }
+
+scorched_earth = {
+	local_hostile_movement_speed = -0.33
+	local_monthly_devastation = 0.25
+}
