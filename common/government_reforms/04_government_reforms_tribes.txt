@@ -477,6 +477,7 @@ martial_society_reform = {
 	allow_normal_conversion = yes
 	icon = "tribal_martial_society"
 	modifiers = {
+		can_claim_states = yes 
 		global_manpower_modifier = 0.2
 	}
 	ai = {
@@ -494,6 +495,7 @@ civil_society_reform = {
 	allow_normal_conversion = yes
 	icon = "tribal_civil_society"
 	modifiers = {
+		can_claim_states = yes 
 		global_tax_modifier = 0.05
 		yearly_corruption = -0.05
 	}

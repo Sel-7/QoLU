@@ -2007,6 +2007,7 @@ republican_authoritarianism_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		global_unrest = -1
 		max_absolutism = 5
 	}
@@ -2043,6 +2044,7 @@ nepotism_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		candidate_random_bonus = 1
 	}
 
@@ -2067,6 +2069,7 @@ republicanism_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		republican_tradition = 0.2
 	}
 	ai = {
@@ -2087,6 +2090,7 @@ democratic_values_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		global_trade_goods_size_modifier = 0.05
 		maratha_muslim_influence_modifier = 0.1
 		rajput_muslim_influence_modifier = 0.1
@@ -2114,6 +2118,7 @@ aristocratic_values_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		global_manpower_modifier = 0.1
 		nobles_influence_modifier = 0.1
 		maratha_exclusive_influence_modifier = 0.1
@@ -2140,6 +2145,7 @@ religious_values_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		missionaries = 1
 		
 		brahmins_hindu_influence_modifier = 0.1
@@ -2204,6 +2210,7 @@ articles_of_agreement_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		pr_buccaneers_influence = 0.1
 		republican_tradition = 0.5
 		global_sailors_modifier = 0.1
@@ -2249,6 +2256,7 @@ the_pirate_ways_reform = {
 		has_government_attribute = is_pirate_republic_reform
 	}
 	modifiers = {
+		can_claim_states = yes 
 		privateer_efficiency = 0.25
 		land_morale = 0.1
 		naval_morale = 0.1
@@ -2285,6 +2293,7 @@ liberte_reform = {
 		has_dlc = "Emperor"
 	}
 	modifiers = {
+		can_claim_states = yes 
 		rr_girondists_influence = 0.1
 		num_accepted_cultures = 2
 		promote_culture_cost = -0.75
@@ -2302,6 +2311,7 @@ egalite_reform = {
 		has_dlc = "Emperor"
 	}
 	modifiers = {
+		can_claim_states = yes 
 		rr_jacobins_influence = 0.1
 		republican_tradition = 0.25
 		legitimacy = 1
@@ -2320,6 +2330,7 @@ fraternite_reform = {
 		has_dlc = "Emperor"
 	}
 	modifiers = {
+		can_claim_states = yes 
 		rr_royalists_influence = 0.1
 		culture_conversion_cost = -0.2
 		harsh_treatment_cost = -0.25

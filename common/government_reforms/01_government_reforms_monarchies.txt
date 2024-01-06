@@ -4391,6 +4391,7 @@ enforce_privileges_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
+		can_claim_states = yes 
 		global_manpower_modifier = 0.1
 		nobles_influence_modifier = 0.1
 		maratha_exclusive_influence_modifier = 0.1
@@ -4412,6 +4413,7 @@ quash_noble_power_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
+		can_claim_states = yes 
 		global_tax_modifier = 0.15
 		nobles_influence_modifier = -0.1
 		maratha_exclusive_influence_modifier = -0.1
@@ -4434,6 +4436,7 @@ grant_noble_castle_rights_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
+		can_claim_states = yes 
 		fort_maintenance_modifier = -0.2
 		nobles_influence_modifier = 0.05
 		maratha_exclusive_influence_modifier = 0.05
@@ -4466,6 +4469,7 @@ maintain_nobles_status_quo_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
+		can_claim_states = yes 
 		legitimacy = 0.5
 		meritocracy = 0.5
 		stability_cost_modifier = -0.15
@@ -4489,6 +4493,7 @@ grant_military_command_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
+		can_claim_states = yes 
 		army_tradition = 0.25
 		cavalry_cost = -0.05
 		nobles_influence_modifier = 0.05
@@ -4514,6 +4519,7 @@ grant_nobles_electorate_reform = {
 		NOT = { has_reform = celestial_empire }
 	}
 	modifiers = {
+		can_claim_states = yes 
 		nobles_loyalty_modifier = 0.1
 		maratha_loyalty_modifier = 0.1
 		rajput_loyalty_modifier = 0.1
@@ -4580,6 +4586,7 @@ blackmail_nobility_reform = {
 		full_idea_group = spy_ideas
 	}
 	modifiers = {
+		can_claim_states = yes 
 		nobles_influence_modifier = -0.1
 		maratha_exclusive_influence_modifier = -0.1
 		rajput_exclusive_influence_modifier = -0.1
@@ -4609,6 +4616,7 @@ enforce_trader_privileges_reform = {
 		has_reform = plutocratic_reform
 	}
 	modifiers = {
+		can_claim_states = yes 
 		trade_range_modifier = 0.3
 		trade_efficiency = 0.05
 	}
@@ -4636,6 +4644,7 @@ bengali_reform = {
 		religion_group = muslim
 	}
 	modifiers = {
+		can_claim_states = yes 
 		merchants = 1
 		trade_efficiency = 0.1
 	}
@@ -4653,6 +4662,7 @@ sufi_syncretism_reform = {
 		religion_group = muslim
 	}
 	modifiers = {
+		can_claim_states = yes 
 		global_missionary_strength = 0.01
 		development_cost = -0.05
 	}
@@ -4674,6 +4684,7 @@ poligar_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		infantry_power = 0.1
 		development_cost = -0.05
 	}
@@ -4690,6 +4701,7 @@ khalsa_reform = {
 		religion = sikhism
 	}
 	modifiers = {
+		can_claim_states = yes 
 		tolerance_heathen = 1
 		tolerance_heretic = 1
 		land_morale = 0.05
@@ -4713,6 +4725,7 @@ deccani_society_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		free_dip_policy = 1
 	}
 	ai = {
@@ -4731,6 +4744,7 @@ black_army_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
+		can_claim_states = yes 
 		merc_maintenance_modifier = -0.15
 		mercenary_discipline = 0.025
 		nobles_loyalty_modifier = -0.1
@@ -4760,6 +4774,7 @@ legion_of_honor_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		advisor_cost = -0.1
 		no_stability_loss_on_monarch_death = yes
 		yearly_army_professionalism = 0.005
@@ -4779,6 +4794,7 @@ imperial_nobility_reform = {
 		is_revolutionary = yes
 	}
 	modifiers = {
+		can_claim_states = yes 
 		leader_cost = -0.1
 		rr_royalists_influence = 0.1
 		army_tradition = 0.25
@@ -4813,6 +4829,7 @@ devshirme_system_reform = {
 		NOT = { has_estate_privilege = estate_janissary_janissaries_from_muslims }
 	}
 	modifiers = {
+		can_claim_states = yes 
 		global_manpower_modifier = 0.1
 		janissaries_influence_modifier = 0.1
 		janissaries_loyalty_modifier = 0.1
@@ -4851,6 +4868,7 @@ ottoman_conscription_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		manpower_in_own_culture_provinces = 0.1
 		manpower_in_true_faith_provinces = 0.1
 	}
@@ -4873,6 +4891,7 @@ separation_of_boyars_from_court_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
+		can_claim_states = yes 
 		yearly_government_power = 1.25
 		nobles_influence_modifier = -0.1
 		global_tax_modifier = 0.05
@@ -4891,6 +4910,7 @@ reform_the_pronoiars_reform = {
 		culture_group = byzantine
 	}
 	modifiers = {
+		can_claim_states = yes 
 		allow_client_states = yes
 		num_of_pronoiars = 2
 	}
@@ -4908,6 +4928,7 @@ pronoiar_monarchy_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 100
 	modifiers = {
+		can_claim_states = yes 
 		allow_client_states = yes
 		num_of_pronoiars = 3
 
@@ -4935,6 +4956,7 @@ house_of_lords_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		reform_progress_growth = 0.1
 		parliament_effect_duration = 5
 		nobles_loyalty_modifier = 0.05
@@ -4955,6 +4977,7 @@ ministerialis_promotion_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		nobles_privilege_slots = 1
 		advisor_cost = -0.1
 		monthly_favor_modifier = 0.1

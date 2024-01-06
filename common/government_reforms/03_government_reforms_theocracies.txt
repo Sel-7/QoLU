@@ -946,6 +946,7 @@ internal_mission_reform = {
 	icon = "clergyman"
 	allow_normal_conversion = yes
 	modifiers = {
+		can_claim_states = yes 
 		tolerance_own = 2
 	}
 	custom_attributes = {
@@ -957,6 +958,7 @@ external_mission_reform = {
 	icon = "soldiers"
 	allow_normal_conversion = yes
 	modifiers = {
+		can_claim_states = yes 
 		manpower_recovery_speed = 0.1
 	}
 }
@@ -972,6 +974,7 @@ mission_to_civilize_reform = {
 		}
 	}
 	modifiers = {
+		can_claim_states = yes 
 		colonist_placement_chance = 0.1
 		native_uprising_chance = -0.5
 	}
@@ -984,6 +987,7 @@ mission_to_kill_pirates_reform = {
 		num_of_ports = 1
 	}
 	modifiers = {
+		can_claim_states = yes 
 		global_sailors_modifier = 0.2
 		naval_forcelimit_modifier = 0.25
 		capture_ship_chance = 0.33
@@ -995,6 +999,7 @@ balanced_mission_reform = {
 	icon = "generic_people"
 	allow_normal_conversion = yes
 	modifiers = {
+		can_claim_states = yes 
 		devotion = 0.5
 		national_focus_years = -10
 	}
@@ -1007,6 +1012,7 @@ commercial_mission_reform = {
 	icon = "merchant"
 	allow_normal_conversion = yes
 	modifiers = {
+		can_claim_states = yes 
 		global_trade_power = 0.1
 		merchants = 1
 	}
@@ -1016,6 +1022,7 @@ mission_to_protect_reform = {
 	icon = "castle"
 	allow_normal_conversion = yes
 	modifiers = {
+		can_claim_states = yes 
 		defensiveness = 0.1
 		missionaries = 1
 		prestige_per_development_from_conversion = 0.2
