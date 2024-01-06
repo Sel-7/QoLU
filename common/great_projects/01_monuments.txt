@@ -196,7 +196,7 @@ hagia_sophia = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -227,7 +227,7 @@ hagia_sophia = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -267,7 +267,7 @@ hagia_sophia = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -427,7 +427,7 @@ stonehenge = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -457,7 +457,7 @@ stonehenge = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -488,7 +488,7 @@ stonehenge = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -642,7 +642,7 @@ tower_of_london = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -693,7 +693,7 @@ tower_of_london = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -746,7 +746,7 @@ tower_of_london = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -887,7 +887,7 @@ buddha_statues = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -917,7 +917,7 @@ buddha_statues = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -948,7 +948,7 @@ buddha_statues = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1111,7 +1111,7 @@ parthenon = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1141,7 +1141,7 @@ parthenon = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1172,7 +1172,7 @@ parthenon = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1296,7 +1296,7 @@ forbidden_city = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1326,7 +1326,7 @@ forbidden_city = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1357,7 +1357,7 @@ forbidden_city = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1474,7 +1474,7 @@ angkor_wat = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1510,7 +1510,7 @@ angkor_wat = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1540,7 +1540,7 @@ angkor_wat = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1689,7 +1689,7 @@ petra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1719,7 +1719,7 @@ petra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1750,7 +1750,7 @@ petra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1874,7 +1874,7 @@ cologne_cathedral = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1906,7 +1906,7 @@ cologne_cathedral = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -1944,7 +1944,7 @@ cologne_cathedral = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2080,7 +2080,7 @@ kremlin = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2110,7 +2110,7 @@ kremlin = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2140,7 +2140,7 @@ kremlin = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2261,7 +2261,7 @@ machu_picchu = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2296,7 +2296,7 @@ machu_picchu = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2326,7 +2326,7 @@ machu_picchu = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2452,7 +2452,7 @@ chichen_itza = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2488,7 +2488,7 @@ chichen_itza = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2524,7 +2524,7 @@ chichen_itza = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2644,7 +2644,7 @@ himeji_castle = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2674,7 +2674,7 @@ himeji_castle = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2706,7 +2706,7 @@ himeji_castle = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2828,7 +2828,7 @@ moai = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2859,7 +2859,7 @@ moai = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -2896,7 +2896,7 @@ moai = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3020,7 +3020,7 @@ stpeters_cathedral = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3050,7 +3050,7 @@ stpeters_cathedral = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3087,7 +3087,7 @@ stpeters_cathedral = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3349,7 +3349,7 @@ mount_fuji = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3379,7 +3379,7 @@ mount_fuji = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3411,7 +3411,7 @@ mount_fuji = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3535,7 +3535,7 @@ tenochtitlan = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3566,7 +3566,7 @@ tenochtitlan = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3598,7 +3598,7 @@ tenochtitlan = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3723,7 +3723,7 @@ notre_dame_cathedral = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3755,7 +3755,7 @@ notre_dame_cathedral = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3787,7 +3787,7 @@ notre_dame_cathedral = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3906,7 +3906,7 @@ shwedagon_pagoda = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3936,7 +3936,7 @@ shwedagon_pagoda = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -3968,7 +3968,7 @@ shwedagon_pagoda = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4110,7 +4110,7 @@ the_great_wall_of_china = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4140,7 +4140,7 @@ the_great_wall_of_china = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4172,7 +4172,7 @@ the_great_wall_of_china = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4290,7 +4290,7 @@ ambras_castle = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4327,7 +4327,7 @@ ambras_castle = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4365,7 +4365,7 @@ ambras_castle = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4495,7 +4495,7 @@ mesa_verde = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4525,7 +4525,7 @@ mesa_verde = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4556,7 +4556,7 @@ mesa_verde = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4679,7 +4679,7 @@ taj_mahal = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4710,7 +4710,7 @@ taj_mahal = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4742,7 +4742,7 @@ taj_mahal = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4858,7 +4858,7 @@ alhambra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4888,7 +4888,7 @@ alhambra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -4919,7 +4919,7 @@ alhambra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5037,7 +5037,7 @@ the_grand_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5067,7 +5067,7 @@ the_grand_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5098,7 +5098,7 @@ the_grand_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5216,7 +5216,7 @@ bagan_temples = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5247,7 +5247,7 @@ bagan_temples = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5279,7 +5279,7 @@ bagan_temples = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5397,7 +5397,7 @@ ait_benhaddou = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5427,7 +5427,7 @@ ait_benhaddou = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5458,7 +5458,7 @@ ait_benhaddou = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5582,7 +5582,7 @@ registan_square = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5613,7 +5613,7 @@ registan_square = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5644,7 +5644,7 @@ registan_square = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5767,7 +5767,7 @@ golden_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5797,7 +5797,7 @@ golden_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5828,7 +5828,7 @@ golden_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5946,7 +5946,7 @@ jokhang_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -5977,7 +5977,7 @@ jokhang_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6009,7 +6009,7 @@ jokhang_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6145,7 +6145,7 @@ borobudur_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6175,7 +6175,7 @@ borobudur_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6206,7 +6206,7 @@ borobudur_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6339,7 +6339,7 @@ temple_of_confucius = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6375,7 +6375,7 @@ temple_of_confucius = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6412,7 +6412,7 @@ temple_of_confucius = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6535,7 +6535,7 @@ murud_janjira = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6565,7 +6565,7 @@ murud_janjira = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6596,7 +6596,7 @@ murud_janjira = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6720,7 +6720,7 @@ pura_besakih = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6750,7 +6750,7 @@ pura_besakih = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6781,7 +6781,7 @@ pura_besakih = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6899,7 +6899,7 @@ kanbawzathadi_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6929,7 +6929,7 @@ kanbawzathadi_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -6960,7 +6960,7 @@ kanbawzathadi_palace = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7101,7 +7101,7 @@ pyramid_of_cheops = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7131,7 +7131,7 @@ pyramid_of_cheops = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7162,7 +7162,7 @@ pyramid_of_cheops = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7276,7 +7276,7 @@ khami_ruins = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7306,7 +7306,7 @@ khami_ruins = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7337,7 +7337,7 @@ khami_ruins = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7460,7 +7460,7 @@ prambanan_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7490,7 +7490,7 @@ prambanan_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7520,7 +7520,7 @@ prambanan_temple = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7634,7 +7634,7 @@ inukshuk = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7663,7 +7663,7 @@ inukshuk = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7693,7 +7693,7 @@ inukshuk = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7816,7 +7816,7 @@ fire_temple_of_ateshgah = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7845,7 +7845,7 @@ fire_temple_of_ateshgah = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7876,7 +7876,7 @@ fire_temple_of_ateshgah = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8000,7 +8000,7 @@ kiev_pechersk_lavra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8029,7 +8029,7 @@ kiev_pechersk_lavra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8059,7 +8059,7 @@ kiev_pechersk_lavra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8183,7 +8183,7 @@ kiev_pechersk_lavra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		# cost_to_upgrade = {
-		# 	factor = 1000
+		# 	factor = 500
 		# }
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8218,7 +8218,7 @@ kiev_pechersk_lavra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		# cost_to_upgrade = {
-		# 	factor = 2500
+		# 	factor = 1000
 		# }
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8253,7 +8253,7 @@ kiev_pechersk_lavra = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		# cost_to_upgrade = {
-		# 	factor = 5000
+		# 	factor = 2500
 		# }
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8377,7 +8377,7 @@ belem_tower = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8408,7 +8408,7 @@ belem_tower = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8440,7 +8440,7 @@ belem_tower = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8562,7 +8562,7 @@ sankin_kotai_palaces = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8592,7 +8592,7 @@ sankin_kotai_palaces = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8623,7 +8623,7 @@ sankin_kotai_palaces = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8742,7 +8742,7 @@ mausoleum_at_halicarnassus = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8772,7 +8772,7 @@ mausoleum_at_halicarnassus = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8803,7 +8803,7 @@ mausoleum_at_halicarnassus = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8927,7 +8927,7 @@ heddal_stave_church = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8957,7 +8957,7 @@ heddal_stave_church = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -8989,7 +8989,7 @@ heddal_stave_church = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9111,7 +9111,7 @@ versailles = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9143,7 +9143,7 @@ versailles = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9176,7 +9176,7 @@ versailles = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9310,7 +9310,7 @@ el_escorial = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9341,7 +9341,7 @@ el_escorial = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9373,7 +9373,7 @@ el_escorial = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9492,7 +9492,7 @@ potosi = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9543,7 +9543,7 @@ potosi = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9595,7 +9595,7 @@ potosi = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9740,7 +9740,7 @@ kaaba = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9770,7 +9770,7 @@ kaaba = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9801,7 +9801,7 @@ kaaba = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9949,7 +9949,7 @@ holy_city_jerusalem = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -9983,7 +9983,7 @@ holy_city_jerusalem = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -10017,7 +10017,7 @@ holy_city_jerusalem = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -10145,7 +10145,7 @@ great_mosque_djenne = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -10175,7 +10175,7 @@ great_mosque_djenne = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -10206,7 +10206,7 @@ great_mosque_djenne = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -10324,7 +10324,7 @@ imperial_city_hue = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -10355,7 +10355,7 @@ imperial_city_hue = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -10388,7 +10388,7 @@ imperial_city_hue = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -10474,7 +10474,7 @@ baiturrahman_grand_mosque = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_unrest = -1
@@ -10494,7 +10494,7 @@ baiturrahman_grand_mosque = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -10515,7 +10515,7 @@ baiturrahman_grand_mosque = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -10582,7 +10582,7 @@ bam_citadel = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -10601,7 +10601,7 @@ bam_citadel = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -10621,7 +10621,7 @@ bam_citadel = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -10702,7 +10702,7 @@ bara_katra = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -10723,7 +10723,7 @@ bara_katra = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -10744,7 +10744,7 @@ bara_katra = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -10839,7 +10839,7 @@ bran_castle = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -10859,7 +10859,7 @@ bran_castle = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -10879,7 +10879,7 @@ bran_castle = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -10945,7 +10945,7 @@ brandenburg_gate = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -10967,7 +10967,7 @@ brandenburg_gate = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -10990,7 +10990,7 @@ brandenburg_gate = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -11066,7 +11066,7 @@ buda_castle = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -11084,7 +11084,7 @@ buda_castle = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -11103,7 +11103,7 @@ buda_castle = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -11178,7 +11178,7 @@ cahokia = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_monthly_devastation = -0.25
@@ -11197,7 +11197,7 @@ cahokia = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_monthly_devastation = -0.5
@@ -11217,7 +11217,7 @@ cahokia = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -11283,7 +11283,7 @@ cartagena_de_indias = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -11303,7 +11303,7 @@ cartagena_de_indias = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_hostile_attrition = 0.5
@@ -11326,7 +11326,7 @@ cartagena_de_indias = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_hostile_attrition = 1
@@ -11395,7 +11395,7 @@ chan_chan_citadel = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -11416,7 +11416,7 @@ chan_chan_citadel = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_development_cost = -0.1
@@ -11439,7 +11439,7 @@ chan_chan_citadel = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			garrison_growth = 1
@@ -11508,7 +11508,7 @@ doges_palace = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -11527,7 +11527,7 @@ doges_palace = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -11547,7 +11547,7 @@ doges_palace = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -11622,7 +11622,7 @@ duomo_milano = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_tax_modifier = 0.25
@@ -11646,7 +11646,7 @@ duomo_milano = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_tax_modifier = 0.5
@@ -11670,7 +11670,7 @@ duomo_milano = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_tax_modifier = 0.75
@@ -11758,7 +11758,7 @@ dutch_polders = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -11779,7 +11779,7 @@ dutch_polders = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -11800,7 +11800,7 @@ dutch_polders = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -11888,7 +11888,7 @@ ellora_caves = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -11909,7 +11909,7 @@ ellora_caves = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -11930,7 +11930,7 @@ ellora_caves = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -12018,7 +12018,7 @@ erdene_zuu = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_development_cost = -0.05
@@ -12039,7 +12039,7 @@ erdene_zuu = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_development_cost = -0.1
@@ -12061,7 +12061,7 @@ erdene_zuu = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_development_cost = -0.15
@@ -12138,7 +12138,7 @@ etchimiadzin_cathedral = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -12159,7 +12159,7 @@ etchimiadzin_cathedral = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -12180,7 +12180,7 @@ etchimiadzin_cathedral = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -12247,7 +12247,7 @@ fuerte_del_morro = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -12267,7 +12267,7 @@ fuerte_del_morro = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			blockade_force_required = 0.5
@@ -12288,7 +12288,7 @@ fuerte_del_morro = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			blockade_force_required = 1
@@ -12364,7 +12364,7 @@ gomateshwara_statue = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_unrest = -1
@@ -12388,7 +12388,7 @@ gomateshwara_statue = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -12412,7 +12412,7 @@ gomateshwara_statue = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -12491,7 +12491,7 @@ chola_temples = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -12510,7 +12510,7 @@ chola_temples = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -12530,7 +12530,7 @@ chola_temples = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -12659,7 +12659,7 @@ gyeongbok_palace = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_development_cost = -0.05
@@ -12679,7 +12679,7 @@ gyeongbok_palace = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_development_cost = -0.1
@@ -12701,7 +12701,7 @@ gyeongbok_palace = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_development_cost = -0.15
@@ -12790,7 +12790,7 @@ hampi = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -12811,7 +12811,7 @@ hampi = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -12832,7 +12832,7 @@ hampi = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -12908,7 +12908,7 @@ prague = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -12928,7 +12928,7 @@ prague = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -12951,7 +12951,7 @@ prague = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -13029,7 +13029,7 @@ holy_city_kairouan = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -13048,7 +13048,7 @@ holy_city_kairouan = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -13068,7 +13068,7 @@ holy_city_kairouan = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -13153,7 +13153,7 @@ imam_hussein_al-abbas = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -13173,7 +13173,7 @@ imam_hussein_al-abbas = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -13193,7 +13193,7 @@ imam_hussein_al-abbas = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -13268,7 +13268,7 @@ kashi_vishwanath = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -13287,7 +13287,7 @@ kashi_vishwanath = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -13307,7 +13307,7 @@ kashi_vishwanath = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -13382,7 +13382,7 @@ khajuraho = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_development_cost = -0.1
@@ -13401,7 +13401,7 @@ khajuraho = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -13421,7 +13421,7 @@ khajuraho = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -13496,7 +13496,7 @@ kilwa_city = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -13515,7 +13515,7 @@ kilwa_city = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -13535,7 +13535,7 @@ kilwa_city = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -13601,7 +13601,7 @@ krakow_cloth_hall = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			trade_goods_size_modifier = 0.1
@@ -13620,7 +13620,7 @@ krakow_cloth_hall = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -13640,7 +13640,7 @@ krakow_cloth_hall = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -13715,7 +13715,7 @@ maidan-e_naqsh-e_jahan = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -13735,7 +13735,7 @@ maidan-e_naqsh-e_jahan = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -13755,7 +13755,7 @@ maidan-e_naqsh-e_jahan = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -13821,7 +13821,7 @@ malbork_castle = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.5
@@ -13844,7 +13844,7 @@ malbork_castle = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_defensiveness = 1
@@ -13867,7 +13867,7 @@ malbork_castle = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_defensiveness = 1
@@ -13936,7 +13936,7 @@ malta_forts = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -13956,7 +13956,7 @@ malta_forts = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_defensiveness = 0.25
@@ -13977,7 +13977,7 @@ malta_forts = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.5
@@ -14044,7 +14044,7 @@ mehrangarh_fort = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -14064,7 +14064,7 @@ mehrangarh_fort = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -14085,7 +14085,7 @@ mehrangarh_fort = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -14153,7 +14153,7 @@ nan_madoll = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -14171,7 +14171,7 @@ nan_madoll = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -14190,7 +14190,7 @@ nan_madoll = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -14262,7 +14262,7 @@ porcelain_tower_nanjing = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_unrest = -1
@@ -14282,7 +14282,7 @@ porcelain_tower_nanjing = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -14303,7 +14303,7 @@ porcelain_tower_nanjing = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -14388,7 +14388,7 @@ qhapaq_nam = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -14410,7 +14410,7 @@ qhapaq_nam = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -14432,7 +14432,7 @@ qhapaq_nam = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -14509,7 +14509,7 @@ rila_monasteries = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -14529,7 +14529,7 @@ rila_monasteries = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -14549,7 +14549,7 @@ rila_monasteries = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -14624,7 +14624,7 @@ churches_lalibela = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -14643,7 +14643,7 @@ churches_lalibela = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -14663,7 +14663,7 @@ churches_lalibela = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -14729,7 +14729,7 @@ royal_palace_caserta = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -14748,7 +14748,7 @@ royal_palace_caserta = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -14768,7 +14768,7 @@ royal_palace_caserta = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -14843,7 +14843,7 @@ san_antonio_missions = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_unrest = -1
@@ -14864,7 +14864,7 @@ san_antonio_missions = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_tax_modifier = 0.1
@@ -14886,7 +14886,7 @@ san_antonio_missions = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_tax_modifier = 0.15
@@ -14955,7 +14955,7 @@ sankore_madrasah = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -14974,7 +14974,7 @@ sankore_madrasah = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -14994,7 +14994,7 @@ sankore_madrasah = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -15069,7 +15069,7 @@ santa_maria_del_fiore = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -15088,7 +15088,7 @@ santa_maria_del_fiore = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -15108,7 +15108,7 @@ santa_maria_del_fiore = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -15183,7 +15183,7 @@ spiral_minaret_samarra = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -15203,7 +15203,7 @@ spiral_minaret_samarra = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -15223,7 +15223,7 @@ spiral_minaret_samarra = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -15298,7 +15298,7 @@ sultan_ahmed_mosque = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_tax_modifier = 0.1
@@ -15318,7 +15318,7 @@ sultan_ahmed_mosque = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_tax_modifier = 0.15
@@ -15338,7 +15338,7 @@ sultan_ahmed_mosque = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -15413,7 +15413,7 @@ sun_temple_konarak = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -15432,7 +15432,7 @@ sun_temple_konarak = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -15452,7 +15452,7 @@ sun_temple_konarak = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -15521,7 +15521,7 @@ swayambhunath = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_tax_modifier = 0.25
@@ -15541,7 +15541,7 @@ swayambhunath = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_tax_modifier = 0.5
@@ -15563,7 +15563,7 @@ swayambhunath = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -15634,7 +15634,7 @@ white_house = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -15654,7 +15654,7 @@ white_house = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -15674,7 +15674,7 @@ white_house = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -15746,7 +15746,7 @@ tikal = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_development_cost = -0.15
@@ -15766,7 +15766,7 @@ tikal = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_development_cost = -0.2
@@ -15786,7 +15786,7 @@ tikal = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -15861,7 +15861,7 @@ tiwanaku = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -15880,7 +15880,7 @@ tiwanaku = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -15900,7 +15900,7 @@ tiwanaku = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -15966,7 +15966,7 @@ tortuga_island = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -15987,7 +15987,7 @@ tortuga_island = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_defensiveness = 0.25
@@ -16009,7 +16009,7 @@ tortuga_island = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.5
@@ -16083,7 +16083,7 @@ ulm_minster_great_project = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -16102,7 +16102,7 @@ ulm_minster_great_project = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -16123,7 +16123,7 @@ ulm_minster_great_project = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -16199,7 +16199,7 @@ walls_benin = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -16219,7 +16219,7 @@ walls_benin = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -16240,7 +16240,7 @@ walls_benin = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -16322,7 +16322,7 @@ winter_palace = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			institution_growth = 3
@@ -16342,7 +16342,7 @@ winter_palace = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			institution_growth = 6
@@ -16363,7 +16363,7 @@ winter_palace = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			institution_growth = 12
@@ -16430,7 +16430,7 @@ zacatecas_mine_city = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			trade_goods_size = 1.0
@@ -16456,7 +16456,7 @@ zacatecas_mine_city = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 2.0
@@ -16483,7 +16483,7 @@ zacatecas_mine_city = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			trade_goods_size = 3.0
@@ -16556,7 +16556,7 @@ falun_copper_mine = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			trade_goods_size = 3.0
@@ -16576,7 +16576,7 @@ falun_copper_mine = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 4.5
@@ -16597,7 +16597,7 @@ falun_copper_mine = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			trade_goods_size = 6.0
@@ -16664,7 +16664,7 @@ kronborg = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
@@ -16686,7 +16686,7 @@ kronborg = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_defensiveness = 0.25
@@ -16709,7 +16709,7 @@ kronborg = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_defensiveness = 0.33
@@ -16778,7 +16778,7 @@ visby_city = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			ship_recruit_speed = -0.25
@@ -16798,7 +16798,7 @@ visby_city = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			ship_recruit_speed = -0.33
@@ -16819,7 +16819,7 @@ visby_city = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			ship_recruit_speed = -0.5
@@ -16886,7 +16886,7 @@ trakai_castle = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_manpower_modifier = 0.15
@@ -16907,7 +16907,7 @@ trakai_castle = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = { local_manpower_modifier = 0.25 }
 		area_modifier = { }
@@ -16926,7 +16926,7 @@ trakai_castle = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = { local_manpower_modifier = 0.5 }
 		area_modifier = {  }
@@ -16991,7 +16991,7 @@ salvador_da_bahia = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			province_trade_power_value = 10
@@ -17011,7 +17011,7 @@ salvador_da_bahia = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			province_trade_power_value = 15
@@ -17034,7 +17034,7 @@ salvador_da_bahia = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			province_trade_power_value = 25
@@ -17109,7 +17109,7 @@ mbanza_kongo = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 		}
@@ -17128,7 +17128,7 @@ mbanza_kongo = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -17148,7 +17148,7 @@ mbanza_kongo = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -17224,7 +17224,7 @@ harar_jugol = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			institution_growth = 3
@@ -17243,7 +17243,7 @@ harar_jugol = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -17263,7 +17263,7 @@ harar_jugol = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -17330,7 +17330,7 @@ dujiangyan = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_development_cost_modifier = -0.05
@@ -17348,7 +17348,7 @@ dujiangyan = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_development_cost_modifier = -0.1
@@ -17369,7 +17369,7 @@ dujiangyan = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -17445,7 +17445,7 @@ palace_of_the_popes = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			
@@ -17477,7 +17477,7 @@ palace_of_the_popes = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			
@@ -17517,7 +17517,7 @@ palace_of_the_popes = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -17665,7 +17665,7 @@ edinburgh_castle = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			local_defender_dice_roll_bonus = 1 
@@ -17682,7 +17682,7 @@ edinburgh_castle = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			local_garrison_size = 0.5
@@ -17705,7 +17705,7 @@ edinburgh_castle = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			local_garrison_size = 1
@@ -17775,7 +17775,7 @@ aljaferia_palace = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			
@@ -17805,7 +17805,7 @@ aljaferia_palace = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			
@@ -17839,7 +17839,7 @@ aljaferia_palace = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -17925,7 +17925,7 @@ divrigi_hospital_mosque = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			
@@ -17945,7 +17945,7 @@ divrigi_hospital_mosque = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			
@@ -17970,7 +17970,7 @@ divrigi_hospital_mosque = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -18048,7 +18048,7 @@ st_basil_cathedral = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			
@@ -18068,7 +18068,7 @@ st_basil_cathedral = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 		}
@@ -18092,7 +18092,7 @@ st_basil_cathedral = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
@@ -18170,7 +18170,7 @@ grand_canal_1 = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			trade_goods_size = 0.5
@@ -18187,7 +18187,7 @@ grand_canal_1 = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -18208,7 +18208,7 @@ grand_canal_1 = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -18280,7 +18280,7 @@ grand_canal_2 = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			trade_goods_size = 0.5
@@ -18297,7 +18297,7 @@ grand_canal_2 = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -18318,7 +18318,7 @@ grand_canal_2 = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -18390,7 +18390,7 @@ grand_canal_3 = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			trade_goods_size = 0.5
@@ -18407,7 +18407,7 @@ grand_canal_3 = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -18428,7 +18428,7 @@ grand_canal_3 = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -18500,7 +18500,7 @@ grand_canal_4 = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			trade_goods_size = 0.5
@@ -18517,7 +18517,7 @@ grand_canal_4 = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -18538,7 +18538,7 @@ grand_canal_4 = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -18616,7 +18616,7 @@ imperial_city_kyoto = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 		province_modifiers = {
 			
@@ -18637,7 +18637,7 @@ imperial_city_kyoto = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 		province_modifiers = {
 			
@@ -18662,7 +18662,7 @@ imperial_city_kyoto = {
 			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 		province_modifiers = {
 		}
