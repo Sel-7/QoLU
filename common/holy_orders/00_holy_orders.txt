@@ -558,9 +558,14 @@ santiago_order = {
 shadhili_order = {
     icon = GFX_holy_order_shadhili
     trigger = {
-        has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
-        primary_culture = andalucian
-        religion_group = muslim
+        
+        OR = {
+            has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
+            AND = {
+                primary_culture = andalucian
+                religion_group = muslim 
+            }
+        }
     }
     color = { 80 255 120 }
     cost = 50
@@ -596,8 +601,13 @@ shadhili_order = {
 qadiri_order = {
     icon = GFX_holy_order_qadiri
     trigger = {
-        primary_culture = andalucian
-        religion_group = muslim
+        OR = {
+            has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
+            AND = {
+                primary_culture = andalucian
+                religion_group = muslim 
+            }
+        }
     }
     color = { 170 230 30 }
     cost = 50
@@ -633,9 +643,13 @@ qadiri_order = {
 aissawa_order = {
     icon = GFX_holy_order_aissawa
     trigger = {
-        has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
-        primary_culture = andalucian
-        religion_group = muslim
+        OR = {
+            has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
+            AND = {
+                primary_culture = andalucian
+                religion_group = muslim 
+            }
+        }
     }
     color = { 255 170 30 }
     cost = 50
