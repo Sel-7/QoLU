@@ -203,9 +203,9 @@ NDefines.NReligion.CALL_ECUMENICAL_COUNCIL_COST = 100
 NDefines.NReligion.CALL_ECUMENICAL_COUNCIL_TREASURY_CONTRIBUTION = 1
 NDefines.NReligion.BUY_INDULGENCE_COST_EXCOMMUNICATE_MULTIPLIER = 1
 NDefines.NReligion.BUY_INDULGENCE_TREASURY_CONTRIBUTION = 1
-NDefines.NReligion.APPOINT_CARDINAL_INFLUENCE = 0					-- Invested Influence given by appointing a cardinal
+NDefines.NReligion.APPOINT_CARDINAL_INFLUENCE = 10					-- Invested Influence given by appointing a cardinal
 NDefines.NReligion.APPOINT_CARDINAL_CORRUPTION = 0.1						-- Corruption gained by the Papal State when appointing cardinals in its own land
-NDefines.NReligion.APPOINT_CARDINAL_INFLUENCE_PAPAL_STATE = 0
+NDefines.NReligion.APPOINT_CARDINAL_INFLUENCE_PAPAL_STATE = 10
 
 NDefines.NGovernment.SELECT_HEIR_FROM_HAREM_AT_MONARCH_AGE = 20
 NDefines.NGovernment.GOVERNMENT_REFORM_CHANGE_PROGRESS_COST = 25
