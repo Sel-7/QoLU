@@ -11,8 +11,9 @@ historical_friend = HSA #Lübeck
 historical_friend = BRE #Bremen
 historical_friend = RIG #Riga
 
-1399.1.1 = {
+1443.1.1 = {
 	monarch = {
+		birth_date = 1423.1.1
 		name = "Viktor"
 		dynasty = "Burg"
 		adm = 5
