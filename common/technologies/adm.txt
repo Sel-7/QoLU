@@ -2,7 +2,7 @@ monarch_power = ADM
 
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
-	yearly_innovativeness = 0.5
+	yearly_innovativeness = 1
 	production_efficiency = 0.2
 	yearly_corruption = -0.05
 	monthly_russian_modernization = 0.05
