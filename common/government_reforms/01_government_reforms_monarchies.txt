@@ -1732,6 +1732,7 @@ stadthalter_monarchy_reform = {
 	nation_designer_cost = 40
 
 	modifiers = {
+		land_morale = 0.1
 		heavy_ship_power = 0.1
 		trade_efficiency = 0.1
 		reduced_liberty_desire_on_other_continent = 10
