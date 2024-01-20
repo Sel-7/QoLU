@@ -87,7 +87,8 @@ interaction = {
 						has_estate_privilege = estate_burghers_land_of_commerce
 						has_estate_privilege = estate_jains_diplomacy
 					}
-				}
+					is_year = 1446
+				}	
 			}
 		}
 	}
